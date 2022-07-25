@@ -1,14 +1,10 @@
 spriteTypes = {
 	spriteType = {
-		name = "GFX_category_image_template"
-		texturefile = "gfx/interface/decisions/category_image_template.dds"
+		name = "ENG_category_gun_smuggling"
+		texturefile = "gfx/interface/decisions/ENG_category_gun_smuggling.dds"
 	}
 	spriteType = {
-		name = "GFX_category_icon"
-		texturefile = "gfx/interface/decisions/category_icon_template.dds"
-	}
-	spriteType = {
-		name = "GFX_decision_icon_default"
-		texturefile = "gfx/interface/decisions/decision_icon_default.dds"
+		name = "decision_category_generic_economy"
+		texturefile = "gfx/interface/decisions/decision_category_generic_economy.dds"
 	}
 }

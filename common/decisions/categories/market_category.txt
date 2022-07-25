@@ -1,9 +1,10 @@
 market_category = {
-	icon = GFX_decision_category_generic_political_actions
-
+	icon = decision_category_generic_economy
+	picture = ENG_category_gun_smuggling		
+	priority = 9	
 
 	visible = {
-		num_of_military_factories > 0
+		always = yes
 	}
 }
 

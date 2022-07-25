@@ -1,5 +1,7 @@
 market_category = {
 
+
+
 	improved_worker_conditions = {
 
 
