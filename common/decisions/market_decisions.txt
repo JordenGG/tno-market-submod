@@ -1,39 +1,807 @@
 market_category = {
 
+####Basic show/hide decisions
 
+#show the market decisions
 
-	improved_worker_conditions = {
+	open_market = {
+
+	priority = 9999 
 
 
 		available = {
-			has_equipment = {
-    infantry_equipment_1 > 10
+			always = yes
 }
 			
-		}
+		
 
 		visible = {
-			always = yes
+
+			NOT = {
+    has_country_flag = open_sesame
+}
 		}
 
 		fire_only_once = no
 
-		modifier = {
-			stability_weekly = 0.005
-			consumer_goods_factor = 0.05
-			industrial_capacity_factory = -0.1
-		}
 
-		days_remove = 180
-		days_re_enable = 540
+		days_remove = 0
+		days_re_enable = 0
 
-		cost = 100
+		cost = 0
 
 		complete_effect = {
 
+		set_country_flag = open_sesame
+
 		}
 
-		
-	}
+		}
+
+
+#explanation decison 
+
+		explanation = {
+
+		priority = 998
+
+
+		available = {
+			always = no
+}
+			
+
+		visible = {
+			 has_country_flag = open_sesame
+		}
+
+		fire_only_once = no
+
+	
+
+
+		days_remove = 0
+		days_re_enable = 0
+
+		cost = 0
+
+		complete_effect = {
+
+		custom_effect_tooltip = market_explanation
+
+		}
+
+
+	
 
 	}
+
+
+
+#hide the market decisions
+
+		close_market = {
+
+		priority = 999
+
+
+		available = {
+			always = yes
+}
+			
+
+		visible = {
+			 has_country_flag = open_sesame
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 0
+		days_re_enable = 0
+
+		cost = 0
+
+		complete_effect = {
+
+		clr_country_flag  = open_sesame
+
+		}
+
+	}
+
+
+
+#### infantry equipment sale
+
+
+sell_inf_category = {
+
+priority = 996
+
+
+		available = {
+			always = yes
+}
+			
+
+		visible = {
+			 has_country_flag = open_sesame
+
+			 NOT = { has_country_flag = inf_sale }
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 0
+		days_re_enable = 0
+
+		cost = 0
+
+		complete_effect = {
+
+		set_country_flag  = inf_sale
+
+		}
+
+	}
+
+
+	hide_sell_inf_category = {
+
+	priority = 996
+
+
+		available = {
+			always = yes
+}
+			
+
+		visible = {
+			 has_country_flag = open_sesame
+			  has_country_flag = inf_sale
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 0
+		days_re_enable = 0
+
+		cost = 0
+
+		complete_effect = {
+
+		clr_country_flag  = inf_sale
+
+		}
+
+	}
+
+
+	# infantry explanation decison 
+
+		inf_explanation = {
+
+		priority = 995
+
+		
+
+
+		available = {
+			always = no
+}
+			
+
+		visible = {
+			 has_country_flag = open_sesame
+			 has_country_flag = inf_sale
+		}
+
+		fire_only_once = no
+
+	
+
+
+		days_remove = 0
+		days_re_enable = 0
+
+		cost = 0
+
+		complete_effect = {
+
+		custom_effect_tooltip = inf_market_explanation
+
+		}
+
+
+	
+
+	}
+
+
+	#Infantry 1
+
+
+	sell_inf_1_rank_1 = {
+
+		available = {
+			has_equipment = {
+    infantry_equipment_1 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+     has_country_flag = inf_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+	sell_inf_1_rank_2 = {
+
+		available = {
+			has_equipment = {
+    infantry_equipment_1 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = inf_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_inf_1_rank_3 = {
+
+		available = {
+			has_equipment = {
+    infantry_equipment_1 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = inf_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+sell_inf_1_rank_4 = {
+
+		available = {
+			has_equipment = {
+    infantry_equipment_1 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = inf_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+#Infantry 2 
+
+
+	sell_inf_2_rank_1 = {
+
+		available = {
+			has_equipment = {
+    infantry_equipment_2 > 1999 
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = inf_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+	sell_inf_2_rank_2 = {
+
+		available = {
+			has_equipment = {
+    infantry_equipment_2 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = inf_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_inf_2_rank_3 = {
+
+		available = {
+			has_equipment = {
+    infantry_equipment_2 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = inf_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+sell_inf_2_rank_4 = {
+
+		available = {
+			has_equipment = {
+    infantry_equipment_2 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = inf_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	#Infantry 3
+
+
+	sell_inf_3_rank_1 = {
+
+		available = {
+			has_equipment = {
+    infantry_equipment_3 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = inf_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_inf_3_rank_2 = {
+
+		available = {
+			has_equipment = {
+    infantry_equipment_3 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = inf_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_inf_3_rank_3 = {
+
+		available = {
+			has_equipment = {
+    infantry_equipment_3 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = inf_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_inf_3_rank_4 = {
+
+		available = {
+			has_equipment = {
+    infantry_equipment_3 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = inf_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+	#Anti tank
+
+	
+
+
+
+
+
