@@ -4,9 +4,16 @@ market_category = {
 	priority = 9	
 
 	visible = {
-		always = yes
-	}
+
+AND = {
+		check_variable = {
+    GDP > 5
 }
 
+num_of_military_factories > 0
+
+	}
+}
+}
 
 
