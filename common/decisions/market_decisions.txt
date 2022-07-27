@@ -244,7 +244,7 @@ priority = 996
 	}
 
 
-	#Infantry 1
+	
 
 
 	sell_inf_1_rank_1 = {
@@ -444,7 +444,7 @@ remove_effect = {
 	}
 
 
-#Infantry 2 
+ 
 
 
 	sell_inf_2_rank_1 = {
@@ -641,7 +641,7 @@ remove_effect = {
 
 	}
 
-	#Infantry 3
+	
 
 
 	sell_inf_3_rank_1 = {
@@ -989,7 +989,7 @@ priority = 981
 	}
 
 
-	#Anti Tank 1
+	
 
 
 	sell_AT_1_rank_1 = {
@@ -1189,7 +1189,7 @@ remove_effect = {
 	}
 
 
-#Anti Tank 2 
+ 
 
 
 	sell_AT_2_rank_1 = {
@@ -1386,7 +1386,7 @@ remove_effect = {
 
 	}
 
-	#Anti Tank 3
+	
 
 
 	sell_AT_3_rank_1 = {
@@ -3049,6 +3049,176 @@ remove_effect = {
 
 
 
+	sell_sup_rank_2 = {
+
+	priority = 965
+
+		available = {
+			has_equipment = {
+    support_equipment_1 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+     has_country_flag = sup_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = support_equipment_1
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+	sell_sup_rank_3 = {
+
+	priority = 965
+
+		available = {
+			has_equipment = {
+    support_equipment_1 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+     has_country_flag = sup_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = support_equipment_1
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+	sell_sup_rank_4 = {
+
+	priority = 965
+
+		available = {
+			has_equipment = {
+    support_equipment_1 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+     has_country_flag = sup_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = support_equipment_1
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3185,7 +3355,7 @@ priority = 963
 
 	sell_apc_1_rank_1 = {
 
-
+priority = 952
 
 		available = {
 			has_equipment = {
@@ -3380,7 +3550,7 @@ remove_effect = {
 	}
 
 
-#Infantry 2 
+ 
 
 
 	sell_apc_2_rank_1 = {
@@ -3577,7 +3747,7 @@ remove_effect = {
 
 	}
 
-	#Infantry 3
+	
 
 
 	sell_apc_3_rank_1 = {
@@ -4127,6 +4297,8 @@ priority = 930
 
 	sell_MBT_1_rank_1 = {
 
+	priority = 924
+
 
 
 		available = {
@@ -4178,7 +4350,7 @@ remove_effect = {
 
 	sell_MBT_1_rank_2 = {
 
-	priority = 952
+	priority = 924
 
 		available = {
 			has_equipment = {
@@ -4226,7 +4398,7 @@ remove_effect = {
 
 	sell_MBT_1_rank_3 = {
 
-	priority = 951
+	priority = 924
 
 		available = {
 			has_equipment = {
@@ -4275,7 +4447,7 @@ remove_effect = {
 
 sell_MBT_1_rank_4 = {
 
-priority = 950
+priority = 924
 
 		available = {
 			has_equipment = {
@@ -4322,12 +4494,12 @@ remove_effect = {
 	}
 
 
-#Infantry 2 
+ 
 
 
 	sell_MBT_2_rank_1 = {
 
-	priority = 949
+	priority = 924
 
 		available = {
 			has_equipment = {
@@ -4376,7 +4548,7 @@ remove_effect = {
 
 	sell_MBT_2_rank_2 = {
 
-	priority = 948
+	priority = 924
 
 		available = {
 			has_equipment = {
@@ -4424,7 +4596,7 @@ remove_effect = {
 
 	sell_MBT_2_rank_3 = {
 
-	priority = 947
+	priority = 924
 
 		available = {
 			has_equipment = {
@@ -4473,7 +4645,7 @@ remove_effect = {
 
 sell_MBT_2_rank_4 = {
 
-priority = 946
+priority = 924
 
 		available = {
 			has_equipment = {
@@ -4519,12 +4691,12 @@ remove_effect = {
 
 	}
 
-	#Infantry 3
+	
 
 
 	sell_MBT_3_rank_1 = {
 
-	priority = 945
+	priority = 924
 
 
 		available = {
@@ -4573,7 +4745,7 @@ remove_effect = {
 
 	sell_MBT_3_rank_2 = {
 
-	priority = 944
+	priority = 924
 
 		available = {
 			has_equipment = {
@@ -4621,7 +4793,7 @@ remove_effect = {
 
 	sell_MBT_3_rank_3 = {
 
-	priority = 943
+	priority = 924
 
 		available = {
 			has_equipment = {
@@ -4669,7 +4841,7 @@ remove_effect = {
 
 	sell_MBT_3_rank_4 = {
 
-	priority = 942
+	priority = 924
 
 		available = {
 			has_equipment = {
@@ -4726,8 +4898,7 @@ remove_effect = {
 
 	sell_MBT_4_rank_1 = {
 
-	priority = 939
-
+priority = 924
 
 		available = {
 			has_equipment = {
@@ -4775,7 +4946,7 @@ remove_effect = {
 
 	sell_MBT_4_rank_2 = {
 
-	priority = 938
+priority = 924
 
 		available = {
 			has_equipment = {
@@ -4823,7 +4994,7 @@ remove_effect = {
 
 	sell_MBT_4_rank_3 = {
 
-	priority = 937
+priority = 924
 
 		available = {
 			has_equipment = {
@@ -4871,7 +5042,7 @@ remove_effect = {
 
 	sell_MBT_4_rank_4 = {
 
-	priority = 936
+	priority = 924
 
 		available = {
 			has_equipment = {
@@ -4960,7 +5131,7 @@ remove_effect = {
 
 sell_IFV_category = {
 
-priority = 963
+priority = 922
 
 
 		available = {
@@ -4994,7 +5165,7 @@ priority = 963
 
 	hide_sell_IFV_category = {
 
-	priority = 963
+	priority = 922
 
 
 		available = {
@@ -5029,7 +5200,7 @@ priority = 963
 
 		IFV_explanation = {
 
-		priority = 962
+		priority = 921
 
 		
 
@@ -5070,6 +5241,8 @@ priority = 963
 
 
 	sell_IFV_1_rank_1 = {
+
+	priority = 919
 
 
 
@@ -5122,7 +5295,7 @@ remove_effect = {
 
 	sell_IFV_1_rank_2 = {
 
-	priority = 952
+ priority = 919
 
 		available = {
 			has_equipment = {
@@ -5170,7 +5343,7 @@ remove_effect = {
 
 	sell_IFV_1_rank_3 = {
 
-	priority = 951
+	priority = 919
 
 		available = {
 			has_equipment = {
@@ -5219,7 +5392,7 @@ remove_effect = {
 
 sell_IFV_1_rank_4 = {
 
-priority = 950
+priority = 919
 
 		available = {
 			has_equipment = {
@@ -5266,12 +5439,12 @@ remove_effect = {
 	}
 
 
-#Infantry 2 
+ 
 
 
 	sell_IFV_2_rank_1 = {
 
-	priority = 949
+priority = 919
 
 		available = {
 			has_equipment = {
@@ -5320,7 +5493,7 @@ remove_effect = {
 
 	sell_IFV_2_rank_2 = {
 
-	priority = 948
+priority = 919
 
 		available = {
 			has_equipment = {
@@ -5368,7 +5541,7 @@ remove_effect = {
 
 	sell_IFV_2_rank_3 = {
 
-	priority = 947
+	priority = 919
 
 		available = {
 			has_equipment = {
@@ -5417,7 +5590,7 @@ remove_effect = {
 
 sell_IFV_2_rank_4 = {
 
-priority = 946
+priority = 919
 
 		available = {
 			has_equipment = {
@@ -5463,12 +5636,12 @@ remove_effect = {
 
 	}
 
-	#Infantry 3
+	
 
 
 	sell_IFV_3_rank_1 = {
 
-	priority = 945
+	priority = 919
 
 
 		available = {
@@ -5517,7 +5690,7 @@ remove_effect = {
 
 	sell_IFV_3_rank_2 = {
 
-	priority = 944
+	priority = 919
 
 		available = {
 			has_equipment = {
@@ -5565,7 +5738,7 @@ remove_effect = {
 
 	sell_IFV_3_rank_3 = {
 
-	priority = 943
+	priority = 919
 
 		available = {
 			has_equipment = {
@@ -5613,7 +5786,7 @@ remove_effect = {
 
 	sell_IFV_3_rank_4 = {
 
-	priority = 942
+	priority = 919
 
 		available = {
 			has_equipment = {
@@ -5670,7 +5843,7 @@ remove_effect = {
 
 	sell_IFV_4_rank_1 = {
 
-	priority = 939
+priority = 919 
 
 
 		available = {
@@ -5719,7 +5892,7 @@ remove_effect = {
 
 	sell_IFV_4_rank_2 = {
 
-	priority = 938
+	priority = 919
 
 		available = {
 			has_equipment = {
@@ -5767,7 +5940,7 @@ remove_effect = {
 
 	sell_IFV_4_rank_3 = {
 
-	priority = 937
+	priority = 919
 
 		available = {
 			has_equipment = {
@@ -5815,7 +5988,7 @@ remove_effect = {
 
 	sell_IFV_4_rank_4 = {
 
-	priority = 936
+	priority = 919
 
 		available = {
 			has_equipment = {
@@ -5884,6 +6057,8773 @@ remove_effect = {
 
 
 
+
+
+
+
+
+
+
+#### Helicopters equipment sale
+
+
+sell_heli_category = {
+
+priority = 917
+
+
+		available = {
+			always = yes
+}
+			
+
+		visible = {
+			 has_country_flag = open_sesame
+
+			 NOT = { has_country_flag = heli_sale }
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 0
+		days_re_enable = 0
+
+		cost = 0
+
+		complete_effect = {
+
+		set_country_flag  = heli_sale
+
+		}
+
+	}
+
+
+	hide_sell_heli_category = {
+
+	priority = 917
+
+
+		available = {
+			always = yes
+}
+			
+
+		visible = {
+			 has_country_flag = open_sesame
+			  has_country_flag = heli_sale
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 0
+		days_re_enable = 0
+
+		cost = 0
+
+		complete_effect = {
+
+		clr_country_flag  = heli_sale
+
+		}
+
+	}
+
+
+	# heli explanation decison 
+
+		heli_explanation = {
+
+		priority = 915
+
+		
+
+
+		available = {
+			always = no
+}
+			
+
+		visible = {
+			 has_country_flag = open_sesame
+			 has_country_flag = heli_sale
+		}
+
+		fire_only_once = no
+
+	
+
+
+		days_remove = 0
+		days_re_enable = 0
+
+		cost = 0
+
+		complete_effect = {
+
+		custom_effect_tooltip = heli_market_explanation
+
+		}
+
+
+	
+
+	}
+
+
+	#transport heli
+
+
+	sell_transport_heli_1_rank_1 = {
+
+	priority = 912
+
+
+
+		available = {
+			has_equipment = {
+    helicopter_equipment_0 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+     has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+	sell_transport_heli_1_rank_2 = {
+
+ priority = 912
+
+		available = {
+			has_equipment = {
+    helicopter_equipment_0 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_transport_heli_1_rank_3 = {
+
+	priority = 912
+
+		available = {
+			has_equipment = {
+    helicopter_equipment_0 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+sell_transport_heli_1_rank_4 = {
+
+priority = 912
+
+		available = {
+			has_equipment = {
+    helicopter_equipment_0 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+ 
+
+
+	sell_transport_heli_2_rank_1 = {
+
+priority = 912
+
+		available = {
+			has_equipment = {
+    helicopter_equipment_1 > 1999 
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+	sell_transport_heli_2_rank_2 = {
+
+priority = 912
+
+		available = {
+			has_equipment = {
+    helicopter_equipment_1 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_transport_heli_2_rank_3 = {
+
+	priority = 912
+
+		available = {
+			has_equipment = {
+    helicopter_equipment_1 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+sell_transport_heli_2_rank_4 = {
+
+priority = 912
+
+		available = {
+			has_equipment = {
+    helicopter_equipment_1 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+	sell_transport_heli_3_rank_1 = {
+
+	priority = 912
+
+
+		available = {
+			has_equipment = {
+    transport_helicopter_equipment_1 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = transport_helicopter_equipment
+_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_transport_heli_3_rank_2 = {
+
+	priority = 912
+
+		available = {
+			has_equipment = {
+    transport_helicopter_equipment_1 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = transport_helicopter_equipment
+_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_transport_heli_3_rank_3 = {
+
+	priority = 912
+
+		available = {
+			has_equipment = {
+    transport_helicopter_equipment_1 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = transport_helicopter_equipment
+_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_transport_heli_3_rank_4 = {
+
+	priority = 912
+
+		available = {
+			has_equipment = {
+    transport_helicopter_equipment_1 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = heli_sale 
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = transport_helicopter_equipment
+_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	} 
+
+	
+
+
+
+
+
+	sell_transport_heli_4_rank_1 = {
+
+	priority = 912
+
+
+		available = {
+			has_equipment = {
+    transport_helicopter_equipment_2 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = transport_helicopter_equipment
+_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_transport_heli_4_rank_2 = {
+
+	priority = 912
+
+		available = {
+			has_equipment = {
+    transport_helicopter_equipment_2 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = transport_helicopter_equipment
+_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_transport_heli_4_rank_3 = {
+
+	priority = 912
+
+		available = {
+			has_equipment = {
+    transport_helicopter_equipment_2 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = transport_helicopter_equipment
+_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_transport_heli_4_rank_4 = {
+
+	priority = 912
+
+		available = {
+			has_equipment = {
+    transport_helicopter_equipment_2 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = heli_sale 
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = transport_helicopter_equipment
+_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	} 
+
+
+
+#attack heli
+
+
+	sell_attack_heli_1_rank_1 = {
+
+	priority = 912
+
+
+
+		available = {
+			has_equipment = {
+    attack_helicopter_equipment_1 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+     has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = attack_helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+	sell_attack_heli_1_rank_2 = {
+
+ priority = 912
+
+		available = {
+			has_equipment = {
+    attack_helicopter_equipment_1 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = attack_helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_attack_heli_1_rank_3 = {
+
+	priority = 912
+
+		available = {
+			has_equipment = {
+    attack_helicopter_equipment_1 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = attack_helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+sell_attack_heli_1_rank_4 = {
+
+priority = 912
+
+		available = {
+			has_equipment = {
+    attack_helicopter_equipment_1 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = attack_helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+ 
+
+
+	sell_attack_heli_2_rank_1 = {
+
+priority = 912
+
+		available = {
+			has_equipment = {
+    attack_helicopter_equipment_2 > 1999 
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = attack_helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+	sell_attack_heli_2_rank_2 = {
+
+priority = 912
+
+		available = {
+			has_equipment = {
+    attack_helicopter_equipment_2 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = attack_helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_attack_heli_2_rank_3 = {
+
+	priority = 912
+
+		available = {
+			has_equipment = {
+    attack_helicopter_equipment_2 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = attack_helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+sell_attack_heli_2_rank_4 = {
+
+priority = 912
+
+		available = {
+			has_equipment = {
+    attack_helicopter_equipment_2 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = attack_helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	
+
+
+#scout heli
+
+
+	sell_scout_heli_1_rank_1 = {
+
+	priority = 912
+
+
+
+		available = {
+			has_equipment = {
+    scout_helicopter_equipment_1 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+     has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = scout_helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+	sell_scout_heli_1_rank_2 = {
+
+ priority = 912
+
+		available = {
+			has_equipment = {
+    scout_helicopter_equipment_1 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = scout_helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_scout_heli_1_rank_3 = {
+
+	priority = 912
+
+		available = {
+			has_equipment = {
+    scout_helicopter_equipment_1 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = scout_helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+sell_scout_heli_1_rank_4 = {
+
+priority = 912
+
+		available = {
+			has_equipment = {
+    scout_helicopter_equipment_1 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = scout_helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+ 
+
+
+	sell_scout_heli_2_rank_1 = {
+
+priority = 912
+
+		available = {
+			has_equipment = {
+    scout_helicopter_equipment_2 > 1999 
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = scout_helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+	sell_scout_heli_2_rank_2 = {
+
+priority = 912
+
+		available = {
+			has_equipment = {
+    scout_helicopter_equipment_2 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = scout_helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_scout_heli_2_rank_3 = {
+
+	priority = 912
+
+		available = {
+			has_equipment = {
+    scout_helicopter_equipment_2 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = scout_helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+sell_scout_heli_2_rank_4 = {
+
+priority = 912
+
+		available = {
+			has_equipment = {
+    scout_helicopter_equipment_2 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = scout_helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+#asw heli
+
+
+	sell_asw_heli_1_rank_1 = {
+
+	priority = 912
+
+
+
+		available = {
+			has_equipment = {
+    asw_helicopter_equipment_1 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+     has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = asw_helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+	sell_asw_heli_1_rank_2 = {
+
+ priority = 912
+
+		available = {
+			has_equipment = {
+    asw_helicopter_equipment_1 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = asw_helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_asw_heli_1_rank_3 = {
+
+	priority = 912
+
+		available = {
+			has_equipment = {
+    asw_helicopter_equipment_1 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = asw_helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+sell_asw_heli_1_rank_4 = {
+
+priority = 912
+
+		available = {
+			has_equipment = {
+    asw_helicopter_equipment_1 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = asw_helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+ 
+
+
+	sell_asw_heli_2_rank_1 = {
+
+priority = 912
+
+		available = {
+			has_equipment = {
+    asw_helicopter_equipment_2 > 1999 
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = asw_helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+	sell_asw_heli_2_rank_2 = {
+
+priority = 912
+
+		available = {
+			has_equipment = {
+    asw_helicopter_equipment_2 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = asw_helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_asw_heli_2_rank_3 = {
+
+	priority = 912
+
+		available = {
+			has_equipment = {
+    asw_helicopter_equipment_2 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = asw_helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+sell_asw_heli_2_rank_4 = {
+
+priority = 912
+
+		available = {
+			has_equipment = {
+    asw_helicopter_equipment_2 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = heli_sale 
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = asw_helicopter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### Aircraft equipment sale
+
+
+sell_aircraft_category = {
+
+priority = 899
+
+
+		available = {
+			always = yes
+}
+			
+
+		visible = {
+			 has_country_flag = open_sesame
+
+			 NOT = { has_country_flag = aircraft_sale }
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 0
+		days_re_enable = 0
+
+		cost = 0
+
+		complete_effect = {
+
+		set_country_flag  = aircraft_sale
+
+		}
+
+	}
+
+
+	hide_sell_aircraft_category = {
+
+	priority = 899
+
+
+		available = {
+			always = yes
+}
+			
+
+		visible = {
+			 has_country_flag = open_sesame
+			  has_country_flag = aircraft_sale
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 0
+		days_re_enable = 0
+
+		cost = 0
+
+		complete_effect = {
+
+		clr_country_flag  = aircraft_sale
+
+		}
+
+	}
+
+
+	#planes explanation decison 
+
+		aircraft_explanation = {
+
+		priority = 888
+
+		
+
+
+		available = {
+			always = no
+}
+			
+
+		visible = {
+			 has_country_flag = open_sesame
+			 has_country_flag = aircraft_sale
+		}
+
+		fire_only_once = no
+
+	
+
+
+		days_remove = 0
+		days_re_enable = 0
+
+		cost = 0
+
+		complete_effect = {
+
+		custom_effect_tooltip = aircraft_market_explanation
+
+		}
+
+
+	
+
+	}
+
+
+	#Aircraft Fighters 
+
+
+	sell_aircraft_1_rank_1 = {
+
+	priority = 885
+
+		available = {
+			has_equipment = {
+    fighter_equipment_0 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+     has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = fighter_equipment_1
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+	sell_aircraft_1_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    fighter_equipment_0 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = Anti Tank_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_aircraft_1_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    fighter_equipment_0 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+sell_aircraft_1_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    fighter_equipment_0 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+ 
+
+
+	sell_jet_aircraft_2_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    fighter_equipment_1  > 1999 
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+	sell_jet_aircraft_2_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    fighter_equipment_1  > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_aircraft_2_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    fighter_equipment_1  > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+sell_jet_aircraft_2_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    fighter_equipment_1  > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	
+
+
+	sell_jet_aircraft_3_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_fighter_equipment_1 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_jet_aircraft_3_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_fighter_equipment_1 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_jet_aircraft_3_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   jet_fighter_equipment_1 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_jet_aircraft_3_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_fighter_equipment_1 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = aircraft_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+
+	sell_jet_aircraft_4_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_fighter_equipment_2 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_jet_aircraft_4_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_fighter_equipment_2 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_jet_aircraft_4_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   jet_fighter_equipment_2 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_jet_aircraft_4_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_fighter_equipment_2 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = aircraft_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+	sell_jet_aircraft_5_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_fighter_equipment_3 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_jet_aircraft_5_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_fighter_equipment_3 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_jet_aircraft_5_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   jet_fighter_equipment_3 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_jet_aircraft_5_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_fighter_equipment_3 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = aircraft_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+
+#CAS airplanes
+
+
+
+	sell_cas_aircraft_2_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    cas_equipment_1  > 1999 
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = cas_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+	sell_cas_aircraft_2_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    cas_equipment_1  > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = cas_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_aircraft_2_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    cas_equipment_1  > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = cas_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+sell_cas_aircraft_2_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    cas_equipment_1  > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = cas_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	
+
+
+	sell_cas_aircraft_3_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_cas_equipment_1 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = cas_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_cas_aircraft_3_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_cas_equipment_1 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = cas_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_cas_aircraft_3_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   jet_cas_equipment_1 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = cas_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_cas_aircraft_3_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_cas_equipment_1 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = aircraft_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = cas_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+
+	sell_cas_aircraft_4_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_cas_equipment_2 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = cas_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_cas_aircraft_4_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_cas_equipment_2 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = cas_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_cas_aircraft_4_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   jet_cas_equipment_2 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = cas_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_cas_aircraft_4_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_cas_equipment_2 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = aircraft_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = cas_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+	sell_cas_aircraft_5_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_cas_equipment_3 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = cas_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_cas_aircraft_5_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_cas_equipment_3 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = cas_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_cas_aircraft_5_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   jet_cas_equipment_3 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = cas_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_cas_aircraft_5_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_cas_equipment_3 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = aircraft_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = cas_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Interceptors
+		
+
+
+	sell_interceptor_aircraft_2_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    interceptor_equipment_1  > 1999 
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = interceptor_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+	sell_interceptor_aircraft_2_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    interceptor_equipment_1  > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = interceptor_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_aircraft_2_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    interceptor_equipment_1  > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = interceptor_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+sell_interceptor_aircraft_2_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    interceptor_equipment_1  > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = interceptor_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	
+
+
+	sell_interceptor_aircraft_3_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_interceptor_equipment_1 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = interceptor_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_interceptor_aircraft_3_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_interceptor_equipment_1 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = interceptor_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_interceptor_aircraft_3_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   jet_interceptor_equipment_1 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = interceptor_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_interceptor_aircraft_3_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_interceptor_equipment_1 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = aircraft_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = interceptor_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+
+	sell_interceptor_aircraft_4_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_interceptor_equipment_2 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = interceptor_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_interceptor_aircraft_4_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_interceptor_equipment_2 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = interceptor_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_interceptor_aircraft_4_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   jet_interceptor_equipment_2 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = interceptor_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_interceptor_aircraft_4_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_interceptor_equipment_2 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = aircraft_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = interceptor_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+	sell_interceptor_aircraft_5_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_interceptor_equipment_3 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = interceptor_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_interceptor_aircraft_5_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_interceptor_equipment_3 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = interceptor_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_interceptor_aircraft_5_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   jet_interceptor_equipment_3 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = interceptor_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_interceptor_aircraft_5_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_interceptor_equipment_3 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = aircraft_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = interceptor_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+#Spy  planes
+
+
+
+	sell_scout_plane_aircraft_2_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    scout_plane_equipment_1  > 1999 
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = scout_plane_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+	sell_scout_plane_aircraft_2_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    scout_plane_equipment_1  > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = scout_plane_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_aircraft_2_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    scout_plane_equipment_1  > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = scout_plane_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+sell_scout_plane_aircraft_2_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    scout_plane_equipment_1  > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = scout_plane_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	
+
+
+	sell_scout_plane_aircraft_3_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    scout_plane_equipment_2 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = scout_plane_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_scout_plane_aircraft_3_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    scout_plane_equipment_2 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = scout_plane_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_scout_plane_aircraft_3_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   scout_plane_equipment_2 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = scout_plane_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_scout_plane_aircraft_3_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    scout_plane_equipment_2 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = aircraft_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = scout_plane_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+
+	sell_scout_plane_aircraft_4_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    scout_plane_equipment_2 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = scout_plane_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_scout_plane_aircraft_4_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    scout_plane_equipment_2 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = scout_plane_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_scout_plane_aircraft_4_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   scout_plane_equipment_2 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = scout_plane_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_scout_plane_aircraft_4_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    scout_plane_equipment_2 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = aircraft_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = scout_plane_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+	sell_scout_plane_aircraft_5_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    scout_plane_equipment_4 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = scout_plane_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_scout_plane_aircraft_5_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    scout_plane_equipment_4 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = scout_plane_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_scout_plane_aircraft_5_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   scout_plane_equipment_4 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = scout_plane_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_scout_plane_aircraft_5_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    scout_plane_equipment_4 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = aircraft_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = scout_plane_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+#Tac Bombers 
+
+
+
+
+
+
+	sell_tac_bomber_aircraft_1_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   tac_bomber_equipment_0  > 1999 
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type =tac_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+	sell_tac_bomber_aircraft_1_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   tac_bomber_equipment_0  > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type =tac_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_tac_bomber_aircraft_1_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   tac_bomber_equipment_0 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type =tac_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+sell_tac_bomber_aircraft_1_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   tac_bomber_equipment_0  > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type =tac_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+
+	sell_tac_bomber_aircraft_2_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   tac_bomber_equipment_1  > 1999 
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type =tac_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+	sell_tac_bomber_aircraft_2_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   tac_bomber_equipment_1  > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type =tac_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_aircraft_2_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   tac_bomber_equipment_1  > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type =tac_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+sell_tac_bomber_aircraft_2_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   tac_bomber_equipment_1  > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type =tac_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	
+
+
+	sell_tac_bomber_aircraft_3_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_tac_bomber_equipment_1 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_tac_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_tac_bomber_aircraft_3_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_tac_bomber_equipment_1 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_tac_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_tac_bomber_aircraft_3_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   jet_tac_bomber_equipment_1 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_tac_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_tac_bomber_aircraft_3_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_tac_bomber_equipment_1 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = aircraft_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_tac_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+
+	sell_tac_bomber_aircraft_4_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_tac_bomber_equipment_2 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_tac_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_tac_bomber_aircraft_4_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_tac_bomber_equipment_2 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_tac_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_tac_bomber_aircraft_4_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   jet_tac_bomber_equipment_2 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_tac_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_tac_bomber_aircraft_4_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_tac_bomber_equipment_2 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = aircraft_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_tac_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+	sell_tac_bomber_aircraft_5_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_tac_bomber_equipment_3 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_tac_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_tac_bomber_aircraft_5_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_tac_bomber_equipment_3 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_tac_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_tac_bomber_aircraft_5_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   jet_tac_bomber_equipment_3 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_tac_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_tac_bomber_aircraft_5_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_tac_bomber_equipment_3 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = aircraft_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_tac_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+		
+
+
+#strat Bombers 
+
+
+
+
+
+
+	sell_strat_bomber_aircraft_1_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   strat_bomber_equipment_0  > 1999 
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type =strat_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+	sell_strat_bomber_aircraft_1_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   strat_bomber_equipment_0  > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type =strat_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_strat_bomber_aircraft_1_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   strat_bomber_equipment_0 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type =strat_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+sell_strat_bomber_aircraft_1_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   strat_bomber_equipment_0  > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type =strat_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+
+	sell_strat_bomber_aircraft_2_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   strat_bomber_equipment_1  > 1999 
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type =strat_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+	sell_strat_bomber_aircraft_2_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   strat_bomber_equipment_1  > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type =strat_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_aircraft_2_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   strat_bomber_equipment_1  > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type =strat_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+sell_strat_bomber_aircraft_2_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   strat_bomber_equipment_1  > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type =strat_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	
+
+
+	sell_strat_bomber_aircraft_3_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_strat_bomber_equipment_1 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_strat_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_strat_bomber_aircraft_3_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_strat_bomber_equipment_1 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_strat_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_strat_bomber_aircraft_3_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   jet_strat_bomber_equipment_1 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_strat_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_strat_bomber_aircraft_3_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_strat_bomber_equipment_1 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = aircraft_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_strat_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+
+	sell_strat_bomber_aircraft_4_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_strat_bomber_equipment_2 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_strat_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_strat_bomber_aircraft_4_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_strat_bomber_equipment_2 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_strat_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_strat_bomber_aircraft_4_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   jet_strat_bomber_equipment_2 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_strat_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_strat_bomber_aircraft_4_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_strat_bomber_equipment_2 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = aircraft_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_strat_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+	sell_strat_bomber_aircraft_5_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_strat_bomber_equipment_3 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_strat_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_strat_bomber_aircraft_5_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_strat_bomber_equipment_3 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_strat_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_strat_bomber_aircraft_5_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   jet_strat_bomber_equipment_3 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_strat_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_strat_bomber_aircraft_5_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    jet_strat_bomber_equipment_3 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = aircraft_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_strat_bomber_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+#transport
+
+
+
+
+
+
+
+	sell_transport_plane_aircraft_1_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   transport_plane_equipment_1  > 1999 
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type =transport_plane_equipment_1
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+	sell_transport_plane_aircraft_1_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   transport_plane_equipment_1  > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type =transport_plane_equipment_1
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_transport_plane_aircraft_1_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   transport_plane_equipment_1 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type =transport_plane_equipment_1
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+sell_transport_plane_aircraft_1_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   transport_plane_equipment_1  > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type =transport_plane_equipment_1
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+
+	sell_transport_plane_aircraft_2_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   transport_plane_equipment_2  > 1999 
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type =transport_plane_equipment_2
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+	sell_transport_plane_aircraft_2_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   transport_plane_equipment_2  > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type =transport_plane_equipment_2
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_aircraft_2_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   transport_plane_equipment_2  > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type =transport_plane_equipment_2
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+sell_transport_plane_aircraft_2_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   transport_plane_equipment_2  > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type =transport_plane_equipment_2
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	
+
+
+	sell_transport_plane_aircraft_3_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    transport_plane_equipment_3 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = transport_plane_equipment_3
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_transport_plane_aircraft_3_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    transport_plane_equipment_3 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = transport_plane_equipment_3
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_transport_plane_aircraft_3_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   transport_plane_equipment_3 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = transport_plane_equipment_3
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_transport_plane_aircraft_3_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    transport_plane_equipment_3 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = aircraft_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = transport_plane_equipment_3
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+
+	sell_transport_plane_aircraft_4_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    transport_plane_equipment_4 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_transport_plane_equipment_1
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_transport_plane_aircraft_4_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    transport_plane_equipment_4 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_transport_plane_equipment_1
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_transport_plane_aircraft_4_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   transport_plane_equipment_4 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_transport_plane_equipment_1
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_transport_plane_aircraft_4_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    transport_plane_equipment_4 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = aircraft_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_transport_plane_equipment_1
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+	sell_transport_plane_aircraft_5_rank_1 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    transport_plane_equipment_5 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_transport_plane_equipment_1
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_transport_plane_aircraft_5_rank_2 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    transport_plane_equipment_5 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_transport_plane_equipment_1
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_transport_plane_aircraft_5_rank_3 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+   transport_plane_equipment_5 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = aircraft_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_transport_plane_equipment_1
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_transport_plane_aircraft_5_rank_4 = {
+
+		priority = 885
+
+		available = {
+			has_equipment = {
+    transport_plane_equipment_5 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = aircraft_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = jet_transport_plane_equipment_1
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+		
 
 
 
