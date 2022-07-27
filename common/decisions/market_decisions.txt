@@ -4011,6 +4011,1889 @@ remove_effect = {
 
 
 
+#### MBT equipment sale
+
+
+sell_MBT_category = {
+
+priority = 930
+
+
+		available = {
+			always = yes
+}
+			
+
+		visible = {
+			 has_country_flag = open_sesame
+
+			 NOT = { has_country_flag = MBT_sale }
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 0
+		days_re_enable = 0
+
+		cost = 0
+
+		complete_effect = {
+
+		set_country_flag  = MBT_sale
+
+		}
+
+	}
+
+
+	hide_sell_MBT_category = {
+
+	priority = 930
+
+
+		available = {
+			always = yes
+}
+			
+
+		visible = {
+			 has_country_flag = open_sesame
+			  has_country_flag = MBT_sale
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 0
+		days_re_enable = 0
+
+		cost = 0
+
+		complete_effect = {
+
+		clr_country_flag  = MBT_sale
+
+		}
+
+	}
+
+
+	# MBT explanation decison 
+
+		MBT_explanation = {
+
+		priority = 929
+
+		
+
+
+		available = {
+			always = no
+}
+			
+
+		visible = {
+			 has_country_flag = open_sesame
+			 has_country_flag = MBT_sale
+		}
+
+		fire_only_once = no
+
+	
+
+
+		days_remove = 0
+		days_re_enable = 0
+
+		cost = 0
+
+		complete_effect = {
+
+		custom_effect_tooltip = MBT_market_explanation
+
+		}
+
+
+	
+
+	}
+
+
+	#MBT 1
+
+
+	sell_MBT_1_rank_1 = {
+
+
+
+		available = {
+			has_equipment = {
+    MBT_equipment_0 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+     has_country_flag = MBT_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = MBT_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+	sell_MBT_1_rank_2 = {
+
+	priority = 952
+
+		available = {
+			has_equipment = {
+    MBT_equipment_0 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = MBT_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = MBT_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_MBT_1_rank_3 = {
+
+	priority = 951
+
+		available = {
+			has_equipment = {
+    MBT_equipment_0 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = MBT_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = MBT_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+sell_MBT_1_rank_4 = {
+
+priority = 950
+
+		available = {
+			has_equipment = {
+    MBT_equipment_0 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = MBT_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = MBT_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+#Infantry 2 
+
+
+	sell_MBT_2_rank_1 = {
+
+	priority = 949
+
+		available = {
+			has_equipment = {
+    MBT_equipment_1 > 1999 
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = MBT_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = MBT_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+	sell_MBT_2_rank_2 = {
+
+	priority = 948
+
+		available = {
+			has_equipment = {
+    MBT_equipment_1 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = MBT_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = MBT_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_MBT_2_rank_3 = {
+
+	priority = 947
+
+		available = {
+			has_equipment = {
+    MBT_equipment_1 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = MBT_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = MBT_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+sell_MBT_2_rank_4 = {
+
+priority = 946
+
+		available = {
+			has_equipment = {
+    MBT_equipment_1 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = MBT_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = MBT_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	#Infantry 3
+
+
+	sell_MBT_3_rank_1 = {
+
+	priority = 945
+
+
+		available = {
+			has_equipment = {
+    MBT_equipment_2 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = MBT_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = MBT_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_MBT_3_rank_2 = {
+
+	priority = 944
+
+		available = {
+			has_equipment = {
+    MBT_equipment_2 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = MBT_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = MBT_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_MBT_3_rank_3 = {
+
+	priority = 943
+
+		available = {
+			has_equipment = {
+    MBT_equipment_2 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = MBT_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = MBT_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_MBT_3_rank_4 = {
+
+	priority = 942
+
+		available = {
+			has_equipment = {
+    MBT_equipment_2 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = MBT_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = MBT_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	} 
+
+
+
+
+#MBT 3
+
+
+	sell_MBT_4_rank_1 = {
+
+	priority = 939
+
+
+		available = {
+			has_equipment = {
+    MBT_equipment_3 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = MBT_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = MBT_equipment_3
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_MBT_4_rank_2 = {
+
+	priority = 938
+
+		available = {
+			has_equipment = {
+    MBT_equipment_3 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = MBT_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = MBT_equipment_3
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_MBT_4_rank_3 = {
+
+	priority = 937
+
+		available = {
+			has_equipment = {
+    MBT_equipment_3 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = MBT_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = MBT_equipment_3
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_MBT_4_rank_4 = {
+
+	priority = 936
+
+		available = {
+			has_equipment = {
+    MBT_equipment_3 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = MBT_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = MBT_equipment_3
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### IFV equipment sale
+
+
+sell_IFV_category = {
+
+priority = 963
+
+
+		available = {
+			always = yes
+}
+			
+
+		visible = {
+			 has_country_flag = open_sesame
+
+			 NOT = { has_country_flag = IFV_sale }
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 0
+		days_re_enable = 0
+
+		cost = 0
+
+		complete_effect = {
+
+		set_country_flag  = IFV_sale
+
+		}
+
+	}
+
+
+	hide_sell_IFV_category = {
+
+	priority = 963
+
+
+		available = {
+			always = yes
+}
+			
+
+		visible = {
+			 has_country_flag = open_sesame
+			  has_country_flag = IFV_sale
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 0
+		days_re_enable = 0
+
+		cost = 0
+
+		complete_effect = {
+
+		clr_country_flag  = IFV_sale
+
+		}
+
+	}
+
+
+	# IFV explanation decison 
+
+		IFV_explanation = {
+
+		priority = 962
+
+		
+
+
+		available = {
+			always = no
+}
+			
+
+		visible = {
+			 has_country_flag = open_sesame
+			 has_country_flag = IFV_sale
+		}
+
+		fire_only_once = no
+
+	
+
+
+		days_remove = 0
+		days_re_enable = 0
+
+		cost = 0
+
+		complete_effect = {
+
+		custom_effect_tooltip = IFV_market_explanation
+
+		}
+
+
+	
+
+	}
+
+
+	#IFV 1
+
+
+	sell_IFV_1_rank_1 = {
+
+
+
+		available = {
+			has_equipment = {
+    IFV_equipment_0 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+     has_country_flag = IFV_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = IFV_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+	sell_IFV_1_rank_2 = {
+
+	priority = 952
+
+		available = {
+			has_equipment = {
+    IFV_equipment_0 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = IFV_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = IFV_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_IFV_1_rank_3 = {
+
+	priority = 951
+
+		available = {
+			has_equipment = {
+    IFV_equipment_0 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = IFV_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = IFV_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+sell_IFV_1_rank_4 = {
+
+priority = 950
+
+		available = {
+			has_equipment = {
+    IFV_equipment_0 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = IFV_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = IFV_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+#Infantry 2 
+
+
+	sell_IFV_2_rank_1 = {
+
+	priority = 949
+
+		available = {
+			has_equipment = {
+    IFV_equipment_1 > 1999 
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = IFV_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = IFV_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+	sell_IFV_2_rank_2 = {
+
+	priority = 948
+
+		available = {
+			has_equipment = {
+    IFV_equipment_1 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = IFV_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = IFV_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_IFV_2_rank_3 = {
+
+	priority = 947
+
+		available = {
+			has_equipment = {
+    IFV_equipment_1 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = IFV_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = IFV_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+sell_IFV_2_rank_4 = {
+
+priority = 946
+
+		available = {
+			has_equipment = {
+    IFV_equipment_1 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = IFV_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = IFV_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	#Infantry 3
+
+
+	sell_IFV_3_rank_1 = {
+
+	priority = 945
+
+
+		available = {
+			has_equipment = {
+    IFV_equipment_2 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = IFV_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = IFV_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_IFV_3_rank_2 = {
+
+	priority = 944
+
+		available = {
+			has_equipment = {
+    IFV_equipment_2 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = IFV_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = IFV_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_IFV_3_rank_3 = {
+
+	priority = 943
+
+		available = {
+			has_equipment = {
+    IFV_equipment_2 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = IFV_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = IFV_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_IFV_3_rank_4 = {
+
+	priority = 942
+
+		available = {
+			has_equipment = {
+    IFV_equipment_2 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = IFV_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = IFV_equipment_0
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	} 
+
+
+
+
+#IFV 3
+
+
+	sell_IFV_4_rank_1 = {
+
+	priority = 939
+
+
+		available = {
+			has_equipment = {
+    IFV_equipment_3 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = IFV_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = IFV_equipment_3
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_IFV_4_rank_2 = {
+
+	priority = 938
+
+		available = {
+			has_equipment = {
+    IFV_equipment_3 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = IFV_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = IFV_equipment_3
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_IFV_4_rank_3 = {
+
+	priority = 937
+
+		available = {
+			has_equipment = {
+    IFV_equipment_3 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = IFV_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = IFV_equipment_3
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_IFV_4_rank_4 = {
+
+	priority = 936
+
+		available = {
+			has_equipment = {
+    IFV_equipment_3 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = IFV_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = IFV_equipment_3
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
