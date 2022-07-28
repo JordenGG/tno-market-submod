@@ -14839,7 +14839,328 @@ remove_effect = {
 
 
 
+
+#### convoys sale
+
+
+sell_convoy_category = {
+
+priority = 884
+
+
+		available = {
+			always = yes
+}
+			
+
+		visible = {
+			 has_country_flag = open_sesame
+
+			 NOT = { has_country_flag = convoy_sale }
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 0
+		days_re_enable = 0
+
+		cost = 0
+
+		complete_effect = {
+
+		set_country_flag  = convoy_sale
+
+		}
+
+	}
+
+
+	hide_sell_convoy_category = {
+
+	priority = 884
+
+
+		available = {
+			always = yes
+}
+			
+
+		visible = {
+			 has_country_flag = open_sesame
+			  has_country_flag = convoy_sale
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 0
+		days_re_enable = 0
+
+		cost = 0
+
+		complete_effect = {
+
+		clr_country_flag  = convoy_sale
+
+		}
+
+	}
+
+
+	# support explanation decison 
+
+		convoy_explanation = {
+
+		priority = 883
+
 		
+
+
+		available = {
+			always = no
+}
+			
+
+		visible = {
+			 has_country_flag = open_sesame
+			 has_country_flag = convoy_sale
+		}
+
+		fire_only_once = no
+
+	
+
+
+		days_remove = 0
+		days_re_enable = 0
+
+		cost = 0
+
+		complete_effect = {
+
+		custom_effect_tooltip = convoy_market_explanation
+
+		}
+
+
+	
+
+	}
+
+
+
+
+	sell_convoy_rank_1 = {
+
+	priority = 881
+
+		available = {
+			has_equipment = {
+    convoy_1 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+     has_country_flag = convoy_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+	sell_convoy_rank_2 = {
+
+	priority = 881
+
+		available = {
+			has_equipment = {
+    convoy_1 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+     has_country_flag = convoy_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+	sell_convoy_rank_3 = {
+
+	priority = 881
+
+		available = {
+			has_equipment = {
+    convoy_1 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+     has_country_flag = convoy_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+	sell_convoy_rank_4 = {
+
+	priority = 881
+
+		available = {
+			has_equipment = {
+    convoy_1 > 1999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+     has_country_flag = convoy_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = -35
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.075 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+
 
 
 
