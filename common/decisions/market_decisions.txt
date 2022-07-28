@@ -253,7 +253,7 @@ priority = 996
 
 		available = {
 			has_equipment = {
-    infantry_equipment_1 > 1999
+    infantry_equipment_0 > 1999
 }
 
 }
@@ -283,13 +283,13 @@ priority = 996
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -35
+				amount = -2000
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.034 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -301,6 +301,204 @@ remove_effect = {
 	sell_inf_1_rank_2 = {
 
 	priority = 992
+
+		available = {
+			has_equipment = {
+    infantry_equipment_0 > 4999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = inf_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = -5000
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.093 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_inf_1_rank_3 = {
+
+	priority = 991
+
+		available = {
+			has_equipment = {
+    infantry_equipment_0 > 9999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = inf_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = -10000
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.186 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+sell_inf_1_rank_4 = {
+
+priority = 990
+
+		available = {
+			has_equipment = {
+    infantry_equipment_0 > 14999
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = inf_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = -15000
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.28 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+ 
+
+
+	sell_inf_2_rank_1 = {
+
+	priority = 989
+
+		available = {
+			has_equipment = {
+    infantry_equipment_1 > 1999 
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = inf_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = -2000
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.042 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+	sell_inf_2_rank_2 = {
+
+	priority = 988
 
 		available = {
 			has_equipment = {
@@ -333,22 +531,22 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -35
+				amount = -5000
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.116 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
 
 	}
 
-	sell_inf_1_rank_3 = {
+	sell_inf_2_rank_3 = {
 
-	priority = 991
+	priority = 987
 
 		available = {
 			has_equipment = {
@@ -381,13 +579,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -35
+				amount = -10000
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.233 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -395,9 +593,9 @@ remove_effect = {
 	}
 
 
-sell_inf_1_rank_4 = {
+sell_inf_2_rank_4 = {
 
-priority = 990
+priority = 986
 
 		available = {
 			has_equipment = {
@@ -430,30 +628,30 @@ priority = 990
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -35
+				amount = -15000
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.349 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
 
 	}
 
+	
 
- 
 
+	sell_inf_3_rank_1 = {
 
-	sell_inf_2_rank_1 = {
+	priority = 984
 
-	priority = 989
 
 		available = {
 			has_equipment = {
-    infantry_equipment_2 > 1999 
+    infantry_equipment_2 > 1999
 }
 
 }
@@ -482,23 +680,22 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -35
+				amount = -2000
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.05 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
 
 	}
 
+	sell_inf_3_rank_2 = {
 
-	sell_inf_2_rank_2 = {
-
-	priority = 988
+	priority = 984
 
 		available = {
 			has_equipment = {
@@ -531,22 +728,22 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -35
+				amount = -5000
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.139 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
 
 	}
 
-	sell_inf_2_rank_3 = {
+	sell_inf_3_rank_3 = {
 
-	priority = 987
+	priority = 984
 
 		available = {
 			has_equipment = {
@@ -579,23 +776,22 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -35
+				amount = -10000
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.279}
 			econ_money_reserves_change_raw_money = yes
 
 		}
 
 	}
 
+	sell_inf_3_rank_4 = {
 
-sell_inf_2_rank_4 = {
-
-priority = 986
+	priority = 984
 
 		available = {
 			has_equipment = {
@@ -609,7 +805,10 @@ priority = 986
 
 				AND = {
     has_country_flag = open_sesame
+
     	 has_country_flag = inf_sale
+
+    	
 }
 
 
@@ -628,25 +827,26 @@ priority = 986
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -35
+				amount = -15000
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.419 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
 
 	}
 
-	
 
 
-	sell_inf_3_rank_1 = {
 
-	priority = 985
+
+	sell_inf_4_rank_1 = {
+
+	priority = 984
 
 
 		available = {
@@ -680,20 +880,20 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -35
+				amount = -2000
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.059 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
 
 	}
 
-	sell_inf_3_rank_2 = {
+	sell_inf_4_rank_2 = {
 
 	priority = 984
 
@@ -728,22 +928,22 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -35
+				amount = -5000
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.163 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
 
 	}
 
-	sell_inf_3_rank_3 = {
+	sell_inf_4_rank_3 = {
 
-	priority = 983
+	priority = 984
 
 		available = {
 			has_equipment = {
@@ -776,22 +976,22 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -35
+				amount = -10000
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.326}
 			econ_money_reserves_change_raw_money = yes
 
 		}
 
 	}
 
-	sell_inf_3_rank_4 = {
+	sell_inf_4_rank_4 = {
 
-	priority = 982
+	priority = 984
 
 		available = {
 			has_equipment = {
@@ -827,19 +1027,18 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -35
+				amount = -15000
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.489 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
 
 	}
-
 
 
 

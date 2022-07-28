@@ -1,5 +1,11 @@
 ﻿l_english:
 
+
+
 market_category_desc:0 "Money Makes the World Go Round."
 
-market_explanation:0 "Market Explanation "
+
+#Explanations
+market_explanation:0 "Market Explanation"
+
+
