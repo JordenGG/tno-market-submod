@@ -5,15 +5,43 @@ market_category = {
 
 	visible = {
 
+	OR = {
+
 AND = {
 		check_variable = {
-    GDP > 5
+    GDP > 6
 }
 
-# num_of_military_factories > 0
+ num_of_military_factories > 0
 
 	}
+
+
+	AND = {
+
+	OR = {
+
+ original_tag = Ire
+
+    original_tag = ZLT
+
+     original_tag = ins
+
+      original_tag = Nor
+
+      }
+
+
+ num_of_military_factories > 0
+
+	}
+
+    
+
+	
 }
+
+
 }
 
 
