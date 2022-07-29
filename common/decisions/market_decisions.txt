@@ -2104,9 +2104,7 @@ sell_aa_1_rank_4 = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-
-				type = anti_air_shoulder_equipment_1
-
+				type = anti_air_shoulder_equipment_0
 				amount = -10000
 			}
 
@@ -2304,8 +2302,8 @@ sell_aa_2_rank_4 = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = anti_air_shoulder_equipment_0
-				amount = -35
+				type = anti_air_shoulder_equipment_1
+				amount = -10000
 			}
 
 		}
@@ -2317,7 +2315,6 @@ remove_effect = {
 		}
 
 	}
-
 	
 
 
