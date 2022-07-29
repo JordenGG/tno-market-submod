@@ -1958,13 +1958,13 @@ priority = 977
 
 				type = anti_air_shoulder_equipment_0
 				
-				amount = -35
+				amount = -1400
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.118 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -2008,13 +2008,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = anti_air_shoulder_equipment_0
-				amount = -35
+				amount = -3500
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.326 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -2056,13 +2056,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = anti_air_shoulder_equipment_0
-				amount = -35
+				amount = -8000
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.745 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -2111,7 +2111,7 @@ sell_aa_1_rank_4 = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.932 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -2163,7 +2163,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.133 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -2212,7 +2212,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.367 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -2260,7 +2260,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.838 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -2309,7 +2309,7 @@ sell_aa_2_rank_4 = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 1.048 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
