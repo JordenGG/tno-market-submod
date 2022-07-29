@@ -1226,14 +1226,14 @@ priority = 981
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = Anti Tank_equipment_0
-				amount = -35
+				type = Anti_tank_equipment_0
+				amount = -1500
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.079 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -1276,14 +1276,14 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = Anti Tank_equipment_0
-				amount = -35
+				type = Anti_tank_equipment_0
+				amount = -3900
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.227 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -1325,13 +1325,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = anti_tank_equipment_0
-				amount = -35
+				amount = -8000
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.466 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -1374,13 +1374,13 @@ sell_AT_1_rank_4 = {
 
 		add_equipment_to_stockpile = {
 				type = anti_tank_equipment_0
-				amount = -35
+				amount = -14000
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.815 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -1426,13 +1426,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = anti_tank_equipment_0
-				amount = -35
+				amount = -1500
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.111 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -1475,13 +1475,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = anti_tank_equipment_0
-				amount = -35
+				amount = -3900
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.318 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -1523,13 +1523,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = anti_tank_equipment_0
-				amount = -35
+				amount = -8000
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.652 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -1572,13 +1572,13 @@ sell_AT_2_rank_4 = {
 
 		add_equipment_to_stockpile = {
 				type = anti_tank_equipment_0
-				amount = -35
+				amount = -14000
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 1.141 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -1623,13 +1623,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = anti_tank_equipment_0
-				amount = -35
+				amount = -1500
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.158 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -1671,13 +1671,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = anti_tank_equipment_0
-				amount = -35
+				amount = -3900
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.454 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -1719,13 +1719,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = anti_tank_equipment_0
-				amount = -35
+				amount = -8000
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.932 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -1770,13 +1770,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = anti_tank_equipment_0
-				amount = -35
+				amount = -14000
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 1.631 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -1955,7 +1955,7 @@ priority = 977
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = Anti Air_equipment_0
+				type = Anti_air_equipment_0
 				amount = -35
 			}
 
@@ -2005,7 +2005,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = Anti Air_equipment_0
+				type = Anti_air_equipment_0
 				amount = -35
 			}
 
@@ -6766,7 +6766,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = Anti Tank_equipment_0
+				type = Anti_tank_equipment_0
 				amount = -35
 			}
 
