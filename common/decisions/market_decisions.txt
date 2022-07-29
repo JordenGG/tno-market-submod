@@ -333,7 +333,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -5000
+				amount = -11000
 			}
 
 		}
@@ -430,7 +430,7 @@ priority = 990
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -15000
+				amount = -111000
 			}
 
 		}
@@ -531,7 +531,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -5000
+				amount = -11000
 			}
 
 		}
@@ -628,7 +628,7 @@ priority = 986
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -15000
+				amount = -111000
 			}
 
 		}
@@ -728,7 +728,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -5000
+				amount = -11000
 			}
 
 		}
@@ -827,7 +827,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -15000
+				amount = -111000
 			}
 
 		}
@@ -928,7 +928,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -5000
+				amount = -11000
 			}
 
 		}
@@ -1027,7 +1027,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -15000
+				amount = -111000
 			}
 
 		}
@@ -1227,7 +1227,7 @@ priority = 981
 
 		add_equipment_to_stockpile = {
 				type = Anti_tank_equipment_0
-				amount = -1500
+				amount = -11100
 			}
 
 		}
@@ -1426,7 +1426,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = anti_tank_equipment_0
-				amount = -1500
+				amount = -11100
 			}
 
 		}
@@ -1623,7 +1623,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = anti_tank_equipment_0
-				amount = -1500
+				amount = -11100
 			}
 
 		}
@@ -2008,7 +2008,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = anti_air_shoulder_equipment_0
-				amount = -3500
+				amount = -31100
 			}
 
 		}
@@ -2206,7 +2206,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = anti_air_shoulder_equipment_1
-				amount = -3500
+				amount = -31100
 			}
 
 		}
@@ -2468,7 +2468,7 @@ priority = 971
 
 		available = {
 			has_equipment = {
-     motorized_equipment_0 > 249
+     motorized_equipment_0 > 599
 }
 
 }
@@ -2498,13 +2498,13 @@ priority = 971
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -250
+				amount = -600
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.063 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -2519,7 +2519,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-     motorized_equipment_0 > 499
+     motorized_equipment_0 > 1099
 }
 
 }
@@ -2548,13 +2548,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = motorized_equipment_0
-				amount = -500
+				amount = -1100
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.128 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -2567,7 +2567,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-     motorized_equipment_0 > 749
+     motorized_equipment_0 > 1599
 }
 
 }
@@ -2596,13 +2596,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = motorized_equipment_0
-				amount = -750
+				amount = -1600
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.186 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -2616,7 +2616,7 @@ sell_mot_1_rank_4 = {
 
 		available = {
 			has_equipment = {
-      motorized_equipment_0 > 999
+      motorized_equipment_0 > 2099
 }
 
 }
@@ -2645,13 +2645,13 @@ sell_mot_1_rank_4 = {
 
 		add_equipment_to_stockpile = {
 				type = motorized_equipment_0
-				amount = -1000
+				amount = -2100
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.244 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -2668,7 +2668,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-     motorized_equipment_1 > 249 
+     motorized_equipment_1 > 599 
 }
 
 }
@@ -2696,14 +2696,14 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = motorized_equipment_0
-				amount = -250
+				type = motorized_equipment_1
+				amount = -600
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.071 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -2717,7 +2717,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-     motorized_equipment_1 > 499
+     motorized_equipment_1 > 1099
 }
 
 }
@@ -2745,14 +2745,14 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = motorized_equipment_0
-				amount = -500
+				type = motorized_equipment_1
+				amount = -1100
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.143 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -2765,7 +2765,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-     motorized_equipment_1 > 749
+     motorized_equipment_1 > 1599
 }
 
 }
@@ -2793,14 +2793,14 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = motorized_equipment_0
-				amount = -750
+				type = motorized_equipment_1
+				amount = -1600
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.208 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -2814,7 +2814,7 @@ sell_mot_2_rank_4 = {
 
 		available = {
 			has_equipment = {
-     motorized_equipment_1 > 999
+     motorized_equipment_1 > 2099
 }
 
 }
@@ -2842,14 +2842,14 @@ sell_mot_2_rank_4 = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = motorized_equipment_0
-				amount = -1000
+				type = motorized_equipment_1
+				amount = -2100
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.274 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -2865,7 +2865,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    motorized_equipment_2 > 249
+    motorized_equipment_2 > 599
 }
 
 }
@@ -2893,14 +2893,14 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = motorized_equipment_0
-				amount = -250
+				type = motorized_equipment_2
+				amount = -600
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.078 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -2913,7 +2913,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-     motorized_equipment_2 > 499
+     motorized_equipment_2 > 1099
 }
 
 }
@@ -2941,15 +2941,15 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = motorized_equipment_0
-				amount = -500
+				type = motorized_equipment_2
+				amount = -1100
 
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.158 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -2962,7 +2962,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-     motorized_equipment_2 > 749
+     motorized_equipment_2 > 1599
 }
 
 }
@@ -2990,14 +2990,14 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = motorized_equipment_0
-				amount = -750
+				type = motorized_equipment_2
+				amount = -1600
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.231 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -3010,7 +3010,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-     motorized_equipment_2 > 999
+     motorized_equipment_2 > 2099
 }
 
 }
@@ -3041,14 +3041,214 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = motorized_equipment_1
-				amount = -1000
+				type = motorized_equipment_2
+				amount = -2100
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.303 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+
+	sell_mot_4_rank_1 = {
+
+		priority = 970
+
+		available = {
+			has_equipment = {
+    motorized_equipment_3 > 599
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = mot_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = motorized_equipment_3
+				amount = -600
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.086 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_mot_4_rank_2 = {
+
+		priority = 970
+
+		available = {
+			has_equipment = {
+     motorized_equipment_3 > 1099
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = mot_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = motorized_equipment_3
+				amount = -1100
+
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.174 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_mot_4_rank_3 = {
+
+		priority = 970
+
+		available = {
+			has_equipment = {
+     motorized_equipment_3 > 1599
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = mot_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = motorized_equipment_3
+				amount = -1600
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.253 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_mot_4_rank_4 = {
+
+		priority = 970
+
+		available = {
+			has_equipment = {
+     motorized_equipment_3 > 2099
+}
+
+}
+			
+
+		visible = {
+
+				AND = {
+    has_country_flag = open_sesame
+
+    	 has_country_flag = mot_sale
+
+    	
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 5
+		days_re_enable = 10
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = motorized_equipment_3
+				amount = -2100
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.332 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -3204,7 +3404,7 @@ priority = 968
 
 		available = {
 			has_equipment = {
-    support_equipment_1 > 1999
+    support_equipment_1 > 999
 }
 
 }
@@ -3234,13 +3434,13 @@ priority = 968
 
 		add_equipment_to_stockpile = {
 				type = support_equipment_1
-				amount = -35
+				amount = -1000
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.169 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -3286,13 +3486,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = support_equipment_1
-				amount = -35
+				amount = -2000	
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.372 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -3307,7 +3507,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    support_equipment_1 > 1999
+    support_equipment_1 > 3999
 }
 
 }
@@ -3337,13 +3537,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = support_equipment_1
-				amount = -35
+				amount = -4000
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.745 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -3358,7 +3558,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    support_equipment_1 > 1999
+    support_equipment_1 > 6499
 }
 
 }
@@ -3388,13 +3588,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = support_equipment_1
-				amount = -35
+				amount = -6500
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 1.211 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
