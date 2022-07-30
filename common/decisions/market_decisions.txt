@@ -3760,7 +3760,7 @@ priority = 952
 
 		available = {
 			has_equipment = {
-    APC_equipment_0 > 1999
+    APC_equipment_0 > 149
 }
 
 }
@@ -3790,13 +3790,13 @@ priority = 952
 
 		add_equipment_to_stockpile = {
 				type = APC_equipment_0
-				amount = -35
+				amount = -150
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.031 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -3811,7 +3811,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    APC_equipment_0 > 4999
+    APC_equipment_0 > 349
 }
 
 }
@@ -3840,13 +3840,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = APC_equipment_0
-				amount = -35
+				amount = -350
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.081 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -3859,7 +3859,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    APC_equipment_0 > 9999
+    APC_equipment_0 > 599
 }
 
 }
@@ -3888,13 +3888,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = APC_equipment_0
-				amount = -35
+				amount = -600
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.139 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -3908,7 +3908,7 @@ priority = 950
 
 		available = {
 			has_equipment = {
-    APC_equipment_0 > 14999
+    APC_equipment_0 > 899
 }
 
 }
@@ -3937,13 +3937,13 @@ priority = 950
 
 		add_equipment_to_stockpile = {
 				type = APC_equipment_0
-				amount = -35
+				amount = -900
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.209 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -3960,7 +3960,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    APC_equipment_1 > 1999 
+    APC_equipment_1 > 149 
 }
 
 }
@@ -3989,13 +3989,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = APC_equipment_0
-				amount = -35
+				amount = -150
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.041 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -4009,7 +4009,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    APC_equipment_1 > 4999
+    APC_equipment_1 > 349
 }
 
 }
@@ -4038,13 +4038,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = APC_equipment_0
-				amount = -35
+				amount = -350
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.107 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -4057,7 +4057,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    APC_equipment_1 > 9999
+    APC_equipment_1 > 599
 }
 
 }
@@ -4086,13 +4086,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = APC_equipment_0
-				amount = -35
+				amount = -600
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.184 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -4106,7 +4106,7 @@ priority = 946
 
 		available = {
 			has_equipment = {
-    APC_equipment_1 > 14999
+    APC_equipment_1 > 899
 }
 
 }
@@ -4135,13 +4135,13 @@ priority = 946
 
 		add_equipment_to_stockpile = {
 				type = APC_equipment_0
-				amount = -35
+				amount = -900
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.276 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -4158,7 +4158,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    APC_equipment_2 > 1999
+    APC_equipment_2 > 149
 }
 
 }
@@ -4187,13 +4187,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = APC_equipment_0
-				amount = -35
+				amount = -150
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.045 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -4206,7 +4206,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    APC_equipment_2 > 4999
+    APC_equipment_2 > 349
 }
 
 }
@@ -4235,13 +4235,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = APC_equipment_0
-				amount = -35
+				amount = -350
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.117 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -4254,7 +4254,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    APC_equipment_2 > 9999
+    APC_equipment_2 > 599
 }
 
 }
@@ -4283,13 +4283,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = APC_equipment_0
-				amount = -35
+				amount = -600
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.201 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -4302,7 +4302,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    APC_equipment_2 > 14999
+    APC_equipment_2 > 899
 }
 
 }
@@ -4334,13 +4334,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = APC_equipment_0
-				amount = -35
+				amount = -900
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.302 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -4360,7 +4360,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    APC_equipment_3 > 1999
+    APC_equipment_3 > 149
 }
 
 }
@@ -4389,13 +4389,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = APC_equipment_3
-				amount = -35
+				amount = -150
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.049 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -4408,7 +4408,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    APC_equipment_3 > 4999
+    APC_equipment_3 > 349
 }
 
 }
@@ -4437,13 +4437,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = APC_equipment_3
-				amount = -35
+				amount = -350
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.127 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -4456,7 +4456,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    APC_equipment_3 > 9999
+    APC_equipment_3 > 599
 }
 
 }
@@ -4485,13 +4485,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = APC_equipment_3
-				amount = -35
+				amount = -600
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.218 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -4504,7 +4504,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    APC_equipment_3 > 14999
+    APC_equipment_3 > 899
 }
 
 }
@@ -4536,13 +4536,13 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = APC_equipment_3
-				amount = -35
+				amount = -900
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.327 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -4680,18 +4680,18 @@ priority = 927
 	}
 
 
-	#transport art
+	
 
 
-	sell_transport_art_1_rank_1 = {
+	sell_artillary_1_rank_1 = {
 
-	priority = 912
+	priority = 924
 
 
 
 		available = {
 			has_equipment = {
-    artcopter_equipment_0 > 1999
+    artillery_equipment_2 > 349
 }
 
 }
@@ -4720,8 +4720,8 @@ priority = 927
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = artcopter_equipment_0
-				amount = -35
+				type = artillery_equipment_2
+				amount = -350
 			}
 
 		}
@@ -4736,13 +4736,13 @@ remove_effect = {
 
 
 
-	sell_transport_art_1_rank_2 = {
+	sell_artillary_1_rank_2 = {
 
- priority = 912
+ priority = 924
 
 		available = {
 			has_equipment = {
-    artcopter_equipment_0 > 4999
+    artillery_equipment_2 > 799
 }
 
 }
@@ -4770,8 +4770,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = artcopter_equipment_0
-				amount = -35
+				type = artillery_equipment_2
+				amount = -800
 			}
 
 		}
@@ -4784,13 +4784,13 @@ remove_effect = {
 
 	}
 
-	sell_transport_art_1_rank_3 = {
+	sell_artillary_1_rank_3 = {
 
-	priority = 912
+	priority = 924
 
 		available = {
 			has_equipment = {
-    artcopter_equipment_0 > 9999
+    artillery_equipment_2 > 1499
 }
 
 }
@@ -4818,8 +4818,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = artcopter_equipment_0
-				amount = -35
+				type = artillery_equipment_2
+				amount = -1500
 			}
 
 		}
@@ -4833,13 +4833,13 @@ remove_effect = {
 	}
 
 
-sell_transport_art_1_rank_4 = {
+sell_artillary_1_rank_4 = {
 
-priority = 912
+priority = 924
 
 		available = {
 			has_equipment = {
-    artcopter_equipment_0 > 14999
+    artillery_equipment_2 > 1999
 }
 
 }
@@ -4867,8 +4867,8 @@ priority = 912
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = artcopter_equipment_0
-				amount = -35
+				type = artillery_equipment_2
+				amount = -2000
 			}
 
 		}
@@ -4885,13 +4885,13 @@ remove_effect = {
  
 
 
-	sell_transport_art_2_rank_1 = {
+	sell_artillary_2_rank_1 = {
 
-priority = 912
+priority = 924
 
 		available = {
 			has_equipment = {
-    artcopter_equipment_1 > 1999 
+    artillery_equipment_3 > 349 
 }
 
 }
@@ -4919,8 +4919,8 @@ priority = 912
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = artcopter_equipment_0
-				amount = -35
+				type = artillery_equipment_3
+				amount = -350
 			}
 
 		}
@@ -4934,13 +4934,13 @@ remove_effect = {
 	}
 
 
-	sell_transport_art_2_rank_2 = {
+	sell_artillary_2_rank_2 = {
 
-priority = 912
+priority = 924
 
 		available = {
 			has_equipment = {
-    artcopter_equipment_1 > 4999
+    artillery_equipment_3 > 799
 }
 
 }
@@ -4968,8 +4968,8 @@ priority = 912
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = artcopter_equipment_0
-				amount = -35
+				type = artillery_equipment_3
+				amount = -800
 			}
 
 		}
@@ -4982,13 +4982,13 @@ remove_effect = {
 
 	}
 
-	sell_transport_art_2_rank_3 = {
+	sell_artillary_2_rank_3 = {
 
-	priority = 912
+	priority = 924
 
 		available = {
 			has_equipment = {
-    artcopter_equipment_1 > 9999
+    artillery_equipment_3 > 1499
 }
 
 }
@@ -5016,8 +5016,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = artcopter_equipment_0
-				amount = -35
+				type = artillery_equipment_3
+				amount = -1500
 			}
 
 		}
@@ -5031,13 +5031,13 @@ remove_effect = {
 	}
 
 
-sell_transport_art_2_rank_4 = {
+sell_artillary_2_rank_4 = {
 
-priority = 912
+priority = 924
 
 		available = {
 			has_equipment = {
-    artcopter_equipment_1 > 14999
+    artillery_equipment_3 > 1999
 }
 
 }
@@ -5065,8 +5065,8 @@ priority = 912
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = artcopter_equipment_0
-				amount = -35
+				type = artillery_equipment_3
+				amount = -2000
 			}
 
 		}
@@ -5082,14 +5082,14 @@ remove_effect = {
 
 
 
-	sell_transport_art_3_rank_1 = {
+	sell_artillary_3_rank_1 = {
 
-	priority = 912
+	priority = 924
 
 
 		available = {
 			has_equipment = {
-    transport_artcopter_equipment_1 > 1999
+    artillery_equipment_4 > 349
 }
 
 }
@@ -5117,9 +5117,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = transport_artcopter_equipment
-_0
-				amount = -35
+				type = artillery_equipment_3
+				amount = -350
 			}
 
 		}
@@ -5132,13 +5131,13 @@ remove_effect = {
 
 	}
 
-	sell_transport_art_3_rank_2 = {
+	sell_artillary_3_rank_2 = {
 
-	priority = 912
+	priority = 924
 
 		available = {
 			has_equipment = {
-    transport_artcopter_equipment_1 > 4999
+    artillery_equipment_3 > 799
 }
 
 }
@@ -5166,9 +5165,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = transport_artcopter_equipment
-_0
-				amount = -35
+				type = artillery_equipment_3
+				amount = -800
 			}
 
 		}
@@ -5181,13 +5179,13 @@ remove_effect = {
 
 	}
 
-	sell_transport_art_3_rank_3 = {
+	sell_artillary_3_rank_3 = {
 
-	priority = 912
+	priority = 924
 
 		available = {
 			has_equipment = {
-    transport_artcopter_equipment_1 > 9999
+    artillery_equipment_3 > 1499
 }
 
 }
@@ -5215,9 +5213,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = transport_artcopter_equipment
-_0
-				amount = -35
+				type = artillery_equipment_3
+				amount = -1500
 			}
 
 		}
@@ -5230,13 +5227,13 @@ remove_effect = {
 
 	}
 
-	sell_transport_art_3_rank_4 = {
+	sell_artillary_3_rank_4 = {
 
-	priority = 912
+	priority = 924
 
 		available = {
 			has_equipment = {
-    transport_artcopter_equipment_1 > 14999
+    artillery_equipment_3 > 1999
 }
 
 }
@@ -5267,9 +5264,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = transport_artcopter_equipment
-_0
-				amount = -35
+				type = artillery_equipment_3
+				amount = -2000
 			}
 
 		}
@@ -5317,7 +5313,7 @@ remove_effect = {
 
 sell_antiair_category = {
 
-priority = 925
+priority = 922
 
 
 		available = {
@@ -5351,7 +5347,7 @@ priority = 925
 
 	hide_sell_antiair_category = {
 
-	priority = 925
+	priority = 922
 
 
 		available = {
@@ -5386,7 +5382,7 @@ priority = 925
 
 		antiair_explanation = {
 
-		priority = 924
+		priority = 921
 
 		
 
@@ -5428,7 +5424,7 @@ priority = 925
 
 	sell_transport_antiair_1_rank_1 = {
 
-	priority = 924
+	priority = 920
 
 
 
@@ -5481,7 +5477,7 @@ remove_effect = {
 
 	sell_transport_antiair_1_rank_2 = {
 
- priority = 912
+ priority = 920
 
 		available = {
 			has_equipment = {
@@ -5529,7 +5525,7 @@ remove_effect = {
 
 	sell_transport_antiair_1_rank_3 = {
 
-	priority = 912
+	priority = 920
 
 		available = {
 			has_equipment = {
@@ -5578,7 +5574,7 @@ remove_effect = {
 
 sell_transport_antiair_1_rank_4 = {
 
-priority = 912
+priority = 920
 
 		available = {
 			has_equipment = {
@@ -5630,7 +5626,7 @@ remove_effect = {
 
 	sell_transport_antiair_2_rank_1 = {
 
-priority = 912
+priority = 920
 
 		available = {
 			has_equipment = {
@@ -5679,7 +5675,7 @@ remove_effect = {
 
 	sell_transport_antiair_2_rank_2 = {
 
-priority = 912
+priority = 920
 
 		available = {
 			has_equipment = {
@@ -5727,7 +5723,7 @@ remove_effect = {
 
 	sell_transport_antiair_2_rank_3 = {
 
-	priority = 912
+	priority = 920
 
 		available = {
 			has_equipment = {
@@ -5776,7 +5772,7 @@ remove_effect = {
 
 sell_transport_antiair_2_rank_4 = {
 
-priority = 912
+priority = 920
 
 		available = {
 			has_equipment = {
@@ -5827,7 +5823,7 @@ remove_effect = {
 
 	sell_transport_antiair_3_rank_1 = {
 
-	priority = 912
+	priority = 920
 
 
 		available = {
@@ -5877,7 +5873,7 @@ remove_effect = {
 
 	sell_transport_antiair_3_rank_2 = {
 
-	priority = 912
+	priority = 920
 
 		available = {
 			has_equipment = {
@@ -5926,7 +5922,7 @@ remove_effect = {
 
 	sell_transport_antiair_3_rank_3 = {
 
-	priority = 912
+	priority = 920
 
 		available = {
 			has_equipment = {
@@ -5975,7 +5971,7 @@ remove_effect = {
 
 	sell_transport_antiair_3_rank_4 = {
 
-	priority = 912
+	priority = 920
 
 		available = {
 			has_equipment = {
