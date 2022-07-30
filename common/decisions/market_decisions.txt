@@ -4727,7 +4727,7 @@ priority = 927
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.059 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -4777,7 +4777,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.149 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -4825,7 +4825,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.279 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -4874,7 +4874,7 @@ priority = 924
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.372 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -4926,7 +4926,7 @@ priority = 924
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.066 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -4975,7 +4975,7 @@ priority = 924
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.167 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -5023,7 +5023,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.314 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -5072,7 +5072,7 @@ priority = 924
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.419 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -5124,7 +5124,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.089 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -5172,7 +5172,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.223 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -5220,7 +5220,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.419 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -5271,7 +5271,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.559 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -5430,7 +5430,7 @@ priority = 922
 
 		available = {
 			has_equipment = {
-    antiaircopter_equipment_0 > 1999
+    anti_air_equipment_1 > 349
 }
 
 }
@@ -5459,14 +5459,14 @@ priority = 922
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = antiaircopter_equipment_0
-				amount = -35
+				type = anti_air_equipment_1
+				amount = -350
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.065 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -5481,7 +5481,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    antiaircopter_equipment_0 > 4999
+    anti_air_equipment_1 > 799
 }
 
 }
@@ -5509,14 +5509,14 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = antiaircopter_equipment_0
-				amount = -35
+				type = anti_air_equipment_1
+				amount = -800
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.149 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -5529,7 +5529,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    antiaircopter_equipment_0 > 9999
+    anti_air_equipment_1 > 1499
 }
 
 }
@@ -5557,14 +5557,14 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = antiaircopter_equipment_0
-				amount = -35
+				type = anti_air_equipment_1
+				amount = -1500
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.279 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -5578,7 +5578,7 @@ priority = 920
 
 		available = {
 			has_equipment = {
-    antiaircopter_equipment_0 > 14999
+    anti_air_equipment_1 > 1999
 }
 
 }
@@ -5606,14 +5606,14 @@ priority = 920
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = antiaircopter_equipment_0
-				amount = -35
+				type = anti_air_equipment_1
+				amount = -2000
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.372 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -5630,7 +5630,7 @@ priority = 920
 
 		available = {
 			has_equipment = {
-    antiaircopter_equipment_1 > 1999 
+    anti_air_equipment_2 > 349 
 }
 
 }
@@ -5658,14 +5658,14 @@ priority = 920
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = antiaircopter_equipment_0
-				amount = -35
+				type = anti_air_equipment_2
+				amount = -350
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.074 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -5679,7 +5679,7 @@ priority = 920
 
 		available = {
 			has_equipment = {
-    antiaircopter_equipment_1 > 4999
+    anti_air_equipment_2 > 799
 }
 
 }
@@ -5707,14 +5707,14 @@ priority = 920
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = antiaircopter_equipment_0
-				amount = -35
+				type = anti_air_equipment_2
+				amount = -800
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.186 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -5727,7 +5727,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    antiaircopter_equipment_1 > 9999
+    anti_air_equipment_2 > 1499
 }
 
 }
@@ -5755,14 +5755,14 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = antiaircopter_equipment_0
-				amount = -35
+				type = anti_air_equipment_2
+				amount = -1500
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.349 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -5776,7 +5776,7 @@ priority = 920
 
 		available = {
 			has_equipment = {
-    antiaircopter_equipment_1 > 14999
+    anti_air_equipment_2 > 1999
 }
 
 }
@@ -5804,14 +5804,14 @@ priority = 920
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = antiaircopter_equipment_0
-				amount = -35
+				type = anti_air_equipment_2
+				amount = -2000
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.559 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -5828,7 +5828,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    transport_antiaircopter_equipment_1 > 1999
+    anti_air_equipment_3 > 349
 }
 
 }
@@ -5856,15 +5856,14 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = transport_antiaircopter_equipment
-_0
-				amount = -35
+				type = anti_air_equipment_3
+				amount = -350
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.88 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -5877,7 +5876,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    transport_antiaircopter_equipment_1 > 4999
+    anti_air_equipment_3 > 799
 }
 
 }
@@ -5905,15 +5904,14 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = transport_antiaircopter_equipment
-_0
-				amount = -35
+				type = anti_air_equipment_3
+				amount = -800
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.186 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -5926,7 +5924,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    transport_antiaircopter_equipment_1 > 9999
+    anti_air_equipment_3 > 1499
 }
 
 }
@@ -5954,15 +5952,14 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = transport_antiaircopter_equipment
-_0
-				amount = -35
+				type = anti_air_equipment_3
+				amount = -1500
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.349 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -5975,7 +5972,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    transport_antiaircopter_equipment_1 > 14999
+    anti_air_equipment_3 > 1999
 }
 
 }
@@ -6006,15 +6003,14 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = transport_antiaircopter_equipment
-_0
-				amount = -35
+				type = anti_air_equipment_3
+				amount = -2000
 			}
 
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.466 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
