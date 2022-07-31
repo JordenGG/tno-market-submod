@@ -453,7 +453,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    infantry_equipment_1  > 49 
+    infantry_equipment_1  > 1999 
 }
 
 }
@@ -8398,7 +8398,7 @@ priority = 899
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = fighter_equipment_1
+				type = fighter_equipment_0
 				amount = -50
 			}
 
@@ -8448,7 +8448,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = Anti_tank_equipment_0
+				type = fighter_equipment_0
 				amount = -100
 			}
 
@@ -8597,8 +8597,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = fighter_equipment_0
-				amount = -35
+				type = fighter_equipment_1
+				amount = -50
 			}
 
 		}
@@ -8646,7 +8646,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = fighter_equipment_0
+				type = fighter_equipment_1
 				amount = -100
 			}
 
@@ -8694,7 +8694,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = fighter_equipment_0
+				type = fighter_equipment_1
 				amount = -300
 			}
 
@@ -8743,7 +8743,7 @@ sell_jet_aircraft_2_rank_4 = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = fighter_equipment_0
+				type = fighter_equipment_1
 				amount = -800
 			}
 
@@ -8794,7 +8794,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = fighter_equipment_0
+				type = jet_fighter_equipment_1
 				amount = -50
 			}
 
@@ -8842,7 +8842,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = fighter_equipment_0
+				type = jet_fighter_equipment_1
 				amount = -100
 			}
 
@@ -8890,7 +8890,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = fighter_equipment_0
+				type = jet_fighter_equipment_1
 				amount = -300
 			}
 
@@ -8941,7 +8941,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = fighter_equipment_0
+				type = jet_fighter_equipment_1
 				amount = -800
 			}
 
@@ -8994,7 +8994,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = fighter_equipment_0
+				type = jet_fighter_equipment_2
 				amount = -50
 			}
 
@@ -9042,7 +9042,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = fighter_equipment_0
+				type = jet_fighter_equipment_2
 				amount = -100
 			}
 
@@ -9090,7 +9090,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = fighter_equipment_0
+				type = jet_fighter_equipment_2
 				amount = -300
 			}
 
@@ -9141,7 +9141,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = fighter_equipment_0
+				type = jet_fighter_equipment_2
 				amount = -800
 			}
 
@@ -9193,7 +9193,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = fighter_equipment_0
+				type = jet_fighter_equipment_3
 				amount = -50
 			}
 
@@ -9241,7 +9241,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = fighter_equipment_0
+				type = jet_fighter_equipment_3
 				amount = -100
 			}
 
@@ -9289,7 +9289,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = fighter_equipment_0
+				type = jet_fighter_equipment_3
 				amount = -300
 			}
 
@@ -9340,7 +9340,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = fighter_equipment_0
+				type = jet_fighter_equipment_3
 				amount = -800
 			}
 
@@ -9397,7 +9397,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = cas_equipment_0
+				type = cas_equipment_1
 				amount = -50
 			}
 
@@ -9446,7 +9446,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = cas_equipment_0
+				type = cas_equipment_1
 				amount = -100
 			}
 
@@ -9460,7 +9460,7 @@ remove_effect = {
 
 	}
 
-	sell_aircraft_2_rank_3 = {
+	sell_cas_aircraft_2_rank_3 = {
 
 		priority = 885
 
@@ -9494,7 +9494,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = cas_equipment_0
+				type = cas_equipment_1
 				amount = -300
 			}
 
@@ -9543,7 +9543,7 @@ sell_cas_aircraft_2_rank_4 = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = cas_equipment_0
+				type = cas_equipment_1
 				amount = -800
 			}
 
@@ -9566,7 +9566,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    jet_cas_equipment_1  > 49
+    jet_CAS_equipment_1  > 49
 }
 
 }
@@ -9594,7 +9594,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = cas_equipment_0
+				type = jet_CAS_equipment_1
 				amount = -50
 			}
 
@@ -9642,7 +9642,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = cas_equipment_0
+				type = jet_CAS_equipment_1
 				amount = -100
 			}
 
@@ -9690,7 +9690,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = cas_equipment_0
+				type = jet_CAS_equipment_1
 				amount = -300
 			}
 
@@ -9741,7 +9741,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = cas_equipment_0
+				type = jet_CAS_equipment_1
 				amount = -800
 			}
 
@@ -9794,7 +9794,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = cas_equipment_0
+				type = jet_CAS_equipment_2
 				amount = -50
 			}
 
@@ -9842,7 +9842,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = cas_equipment_0
+				type = jet_CAS_equipment_3
 				amount = 100
 			}
 
@@ -9890,7 +9890,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = cas_equipment_0
+				type = jet_CAS_equipment_3
 				amount = -300
 			}
 
@@ -9941,7 +9941,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = cas_equipment_0
+				type = jet_CAS_equipment_2
 				amount = -800
 			}
 
@@ -9993,7 +9993,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = cas_equipment_0
+				type = jet_cas_equipment_3
 				amount = -50
 			}
 
@@ -10041,7 +10041,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = cas_equipment_0
+				type = jet_cas_equipment_3
 				amount = -100
 			}
 
@@ -10089,7 +10089,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = cas_equipment_0
+				type = jet_cas_equipment_3
 				amount = -300
 			}
 
@@ -10140,7 +10140,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = cas_equipment_0
+				type = jet_cas_equipment_3
 				amount = -800
 			}
 
@@ -10210,7 +10210,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = interceptor_equipment_0
+				type = interceptor_equipment_1
 				amount = -50
 			}
 
@@ -10259,7 +10259,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = interceptor_equipment_0
+				type = interceptor_equipment_1
 				amount = -100
 			}
 
@@ -10307,7 +10307,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = interceptor_equipment_0
+				type = interceptor_equipment_1
 				amount = -300
 			}
 
@@ -10356,7 +10356,7 @@ sell_interceptor_aircraft_2_rank_4 = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = interceptor_equipment_0
+				type = interceptor_equipment_1
 				amount = -800
 			}
 
@@ -10407,7 +10407,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = interceptor_equipment_0
+				type = jet_interceptor_equipment_1
 				amount = -50
 			}
 
@@ -10455,7 +10455,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = interceptor_equipment_0
+				type = jet_interceptor_equipment_1
 				amount = -100
 			}
 
@@ -10503,7 +10503,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = interceptor_equipment_0
+				type = jet_interceptor_equipment_1
 				amount = -300
 			}
 
@@ -10554,7 +10554,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = interceptor_equipment_0
+				type = jet_interceptor_equipment_1
 				amount = -800
 			}
 
@@ -10607,7 +10607,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = interceptor_equipment_0
+				type = jet_interceptor_equipment_2
 				amount = -50
 			}
 
@@ -10655,7 +10655,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = interceptor_equipment_0
+				type = jet_interceptor_equipment_2
 				amount = -100
 			}
 
@@ -10703,7 +10703,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = interceptor_equipment_0
+				type = jet_interceptor_equipment_2
 				amount = -300
 			}
 
@@ -10754,7 +10754,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = interceptor_equipment_0
+				type = jet_interceptor_equipment_2
 				amount = -800
 			}
 
@@ -10806,7 +10806,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = interceptor_equipment_0
+				type = jet_interceptor_equipment_3
 				amount = -50
 			}
 
@@ -10854,7 +10854,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = interceptor_equipment_0
+				type = jet_interceptor_equipment_3
 				amount = -100
 			}
 
@@ -10902,7 +10902,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = interceptor_equipment_0
+				type = jet_interceptor_equipment_3
 				amount = -300
 			}
 
@@ -10953,7 +10953,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = interceptor_equipment_0
+				type = jet_interceptor_equipment_3
 				amount = -800
 			}
 
@@ -10985,7 +10985,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    scout_plane_equipment_1   > 49 
+    scout_plane_equipment_1   > 19 
 }
 
 }
@@ -11013,8 +11013,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = scout_plane_equipment_0
-				amount = -50
+				type = scout_plane_equipment_1
+				amount = -20
 			}
 
 		}
@@ -11062,8 +11062,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = scout_plane_equipment_0
-				amount = -35
+				type = scout_plane_equipment_1
+				amount = -100
 			}
 
 		}
@@ -11110,8 +11110,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = scout_plane_equipment_0
-				amount = -35
+				type = scout_plane_equipment_1
+				amount = -300
 			}
 
 		}
@@ -11131,7 +11131,7 @@ sell_scout_plane_aircraft_2_rank_4 = {
 
 		available = {
 			has_equipment = {
-    scout_plane_equipment_1  > 14999
+    scout_plane_equipment_1  > 499
 }
 
 }
@@ -11159,8 +11159,8 @@ sell_scout_plane_aircraft_2_rank_4 = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = scout_plane_equipment_0
-				amount = -35
+				type = scout_plane_equipment_1
+				amount = -500
 			}
 
 		}
@@ -11210,8 +11210,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = scout_plane_equipment_0
-				amount = -35
+				type = scout_plane_equipment_2
+				amount = -50
 			}
 
 		}
@@ -11258,8 +11258,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = scout_plane_equipment_0
-				amount = -35
+				type = scout_plane_equipment_2
+				amount = -100
 			}
 
 		}
@@ -11306,8 +11306,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = scout_plane_equipment_0
-				amount = -35
+				type = scout_plane_equipment_2
+				amount = -300
 			}
 
 		}
@@ -11326,7 +11326,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    scout_plane_equipment_2 > 14999
+    scout_plane_equipment_2 > 499
 }
 
 }
@@ -11357,8 +11357,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = scout_plane_equipment_0
-				amount = -35
+				type = scout_plane_equipment_2
+				amount = -500
 			}
 
 		}
@@ -11382,7 +11382,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    scout_plane_equipment_2  > 49
+    scout_plane_equipment_3  > 49
 }
 
 }
@@ -11410,8 +11410,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = scout_plane_equipment_0
-				amount = -35
+				type = scout_plane_equipment_3
+				amount = 50
 			}
 
 		}
@@ -11430,7 +11430,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    scout_plane_equipment_2  > 99
+    scout_plane_equipment_3  > 99
 }
 
 }
@@ -11458,8 +11458,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = scout_plane_equipment_0
-				amount = -35
+				type = scout_plane_equipment_3
+				amount = -100
 			}
 
 		}
@@ -11478,7 +11478,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-   scout_plane_equipment_2  > 299
+   scout_plane_equipment_3  > 299
 }
 
 }
@@ -11506,8 +11506,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = scout_plane_equipment_0
-				amount = -35
+				type = scout_plane_equipment_3
+				amount = -300
 			}
 
 		}
@@ -11526,7 +11526,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    scout_plane_equipment_2 > 14999
+    scout_plane_equipment_3 > 499
 }
 
 }
@@ -11557,8 +11557,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = scout_plane_equipment_0
-				amount = -35
+				type = scout_plane_equipment_3
+				amount = -500
 			}
 
 		}
@@ -11609,8 +11609,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = scout_plane_equipment_0
-				amount = -35
+				type = scout_plane_equipment_4
+				amount = -50
 			}
 
 		}
@@ -11657,8 +11657,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = scout_plane_equipment_0
-				amount = -35
+				type = scout_plane_equipment_4
+				amount = -100
 			}
 
 		}
@@ -11705,8 +11705,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = scout_plane_equipment_0
-				amount = -35
+				type = scout_plane_equipment_4
+				amount = -300
 			}
 
 		}
@@ -11725,7 +11725,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    scout_plane_equipment_4 > 14999
+    scout_plane_equipment_4 > 499
 }
 
 }
@@ -11756,8 +11756,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = scout_plane_equipment_0
-				amount = -35
+				type = scout_plane_equipment_4
+				amount = -500
 			}
 
 		}
@@ -11821,7 +11821,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type =tac_bomber_equipment_0
-				amount = -35
+				amount = -50
 			}
 
 		}
@@ -11870,7 +11870,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type =tac_bomber_equipment_0
-				amount = -35
+				amount = -100
 			}
 
 		}
@@ -11918,7 +11918,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type =tac_bomber_equipment_0
-				amount = -35
+				amount = -300
 			}
 
 		}
@@ -11939,7 +11939,7 @@ sell_tac_bomber_aircraft_1_rank_4 = {
 
 		available = {
 			has_equipment = {
-   tac_bomber_equipment_0  > 14999
+   tac_bomber_equipment_0  > 499
 }
 
 }
@@ -11968,7 +11968,7 @@ sell_tac_bomber_aircraft_1_rank_4 = {
 
 		add_equipment_to_stockpile = {
 				type =tac_bomber_equipment_0
-				amount = -35
+				amount = -500
 			}
 
 		}
@@ -12020,8 +12020,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type =tac_bomber_equipment_0
-				amount = -35
+				type =tac_bomber_equipment_1
+				amount = -50
 			}
 
 		}
@@ -12069,8 +12069,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type =tac_bomber_equipment_0
-				amount = -35
+				type =tac_bomber_equipment_1
+				amount = -100
 			}
 
 		}
@@ -12117,8 +12117,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type =tac_bomber_equipment_0
-				amount = -35
+				type =tac_bomber_equipment_1
+				amount = -300
 			}
 
 		}
@@ -12138,7 +12138,7 @@ sell_tac_bomber_aircraft_2_rank_4 = {
 
 		available = {
 			has_equipment = {
-   tac_bomber_equipment_1  > 14999
+   tac_bomber_equipment_1  > 499
 }
 
 }
@@ -12166,8 +12166,8 @@ sell_tac_bomber_aircraft_2_rank_4 = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type =tac_bomber_equipment_0
-				amount = -35
+				type =tac_bomber_equipment_1
+				amount = -500
 			}
 
 		}
@@ -12217,8 +12217,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_tac_bomber_equipment_0
-				amount = -35
+				type = jet_tac_bomber_equipment_1
+				amount = -50
 			}
 
 		}
@@ -12265,8 +12265,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_tac_bomber_equipment_0
-				amount = -35
+				type = jet_tac_bomber_equipment_1
+				amount = -100
 			}
 
 		}
@@ -12313,8 +12313,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_tac_bomber_equipment_0
-				amount = -35
+				type = jet_tac_bomber_equipment_1
+				amount = -300
 			}
 
 		}
@@ -12333,7 +12333,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    jet_tac_bomber_equipment_1 > 14999
+    jet_tac_bomber_equipment_1 > 499
 }
 
 }
@@ -12364,8 +12364,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_tac_bomber_equipment_0
-				amount = -35
+				type = jet_tac_bomber_equipment_1
+				amount = -500
 			}
 
 		}
@@ -12417,8 +12417,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_tac_bomber_equipment_0
-				amount = -35
+				type = jet_tac_bomber_equipment_2
+				amount = -50
 			}
 
 		}
@@ -12465,8 +12465,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_tac_bomber_equipment_0
-				amount = -35
+				type = jet_tac_bomber_equipment_2
+				amount = -100
 			}
 
 		}
@@ -12513,8 +12513,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_tac_bomber_equipment_0
-				amount = -35
+				type = jet_tac_bomber_equipment_2
+				amount = -300
 			}
 
 		}
@@ -12533,7 +12533,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    jet_tac_bomber_equipment_2 > 14999
+    jet_tac_bomber_equipment_2 > 499
 }
 
 }
@@ -12564,8 +12564,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_tac_bomber_equipment_0
-				amount = -35
+				type = jet_tac_bomber_equipment_2
+				amount = -500
 			}
 
 		}
@@ -12616,8 +12616,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_tac_bomber_equipment_0
-				amount = -35
+				type = jet_tac_bomber_equipment_3
+				amount = -50
 			}
 
 		}
@@ -12664,8 +12664,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_tac_bomber_equipment_0
-				amount = -35
+				type = jet_tac_bomber_equipment_3
+				amount = -100
 			}
 
 		}
@@ -12712,8 +12712,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_tac_bomber_equipment_0
-				amount = -35
+				type = jet_tac_bomber_equipment_3
+				amount = -300
 			}
 
 		}
@@ -12732,7 +12732,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    jet_tac_bomber_equipment_3 > 14999
+    jet_tac_bomber_equipment_3 > 499
 }
 
 }
@@ -12763,8 +12763,8 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_tac_bomber_equipment_0
-				amount = -35
+				type = jet_tac_bomber_equipment_3
+				amount = -500
 			}
 
 		}
@@ -12961,7 +12961,7 @@ sell_strat_bomber_aircraft_1_rank_4 = {
 
 		available = {
 			has_equipment = {
-   strat_bomber_equipment_0  > 14999
+   strat_bomber_equipment_0  > 499
 }
 
 }
@@ -13042,7 +13042,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type =strat_bomber_equipment_0
+				type =strat_bomber_equipment_1
 				amount = -35
 			}
 
@@ -13091,7 +13091,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type =strat_bomber_equipment_0
+				type =strat_bomber_equipment_1
 				amount = -35
 			}
 
@@ -13139,7 +13139,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type =strat_bomber_equipment_0
+				type =strat_bomber_equipment_1
 				amount = -35
 			}
 
@@ -13160,7 +13160,7 @@ sell_strat_bomber_aircraft_2_rank_4 = {
 
 		available = {
 			has_equipment = {
-   strat_bomber_equipment_1  > 14999
+   strat_bomber_equipment_1  > 499
 }
 
 }
@@ -13188,7 +13188,7 @@ sell_strat_bomber_aircraft_2_rank_4 = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type =strat_bomber_equipment_0
+				type =strat_bomber_equipment_1
 				amount = -35
 			}
 
@@ -13239,7 +13239,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_strat_bomber_equipment_0
+				type = jet_strat_bomber_equipment_1
 				amount = -35
 			}
 
@@ -13287,7 +13287,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_strat_bomber_equipment_0
+				type = jet_strat_bomber_equipment_1
 				amount = -35
 			}
 
@@ -13335,7 +13335,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_strat_bomber_equipment_0
+				type = jet_strat_bomber_equipment_1
 				amount = -35
 			}
 
@@ -13355,7 +13355,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    jet_strat_bomber_equipment_1 > 14999
+    jet_strat_bomber_equipment_1 > 499
 }
 
 }
@@ -13386,7 +13386,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_strat_bomber_equipment_0
+				type = jet_strat_bomber_equipment_1
 				amount = -35
 			}
 
@@ -13439,7 +13439,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_strat_bomber_equipment_0
+				type = jet_strat_bomber_equipment_2
 				amount = -35
 			}
 
@@ -13487,7 +13487,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_strat_bomber_equipment_0
+				type = jet_strat_bomber_equipment_2
 				amount = -35
 			}
 
@@ -13535,7 +13535,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_strat_bomber_equipment_0
+				type = jet_strat_bomber_equipment_2
 				amount = -35
 			}
 
@@ -13555,7 +13555,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    jet_strat_bomber_equipment_2 > 14999
+    jet_strat_bomber_equipment_2 > 499
 }
 
 }
@@ -13586,7 +13586,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_strat_bomber_equipment_0
+				type = jet_strat_bomber_equipment_2
 				amount = -35
 			}
 
@@ -13638,7 +13638,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_strat_bomber_equipment_0
+				type = jet_strat_bomber_equipment_3
 				amount = -35
 			}
 
@@ -13686,7 +13686,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_strat_bomber_equipment_0
+				type = jet_strat_bomber_equipment_3
 				amount = -35
 			}
 
@@ -13734,7 +13734,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_strat_bomber_equipment_0
+				type = jet_strat_bomber_equipment_3
 				amount = -35
 			}
 
@@ -13754,7 +13754,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    jet_strat_bomber_equipment_3 > 14999
+    jet_strat_bomber_equipment_3 > 499
 }
 
 }
@@ -13785,7 +13785,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_strat_bomber_equipment_0
+				type = jet_strat_bomber_equipment_3
 				amount = -35
 			}
 
@@ -13988,7 +13988,7 @@ sell_transport_plane_aircraft_1_rank_4 = {
 
 		available = {
 			has_equipment = {
-   transport_plane_equipment_1  > 14999
+   transport_plane_equipment_1  > 499
 }
 
 }
@@ -14069,7 +14069,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type =transport_plane_equipment_2
+				type = transport_plane_equipment_2
 				amount = -35
 			}
 
@@ -14166,7 +14166,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type =transport_plane_equipment_2
+				type = transport_plane_equipment_2
 				amount = -35
 			}
 
@@ -14187,7 +14187,7 @@ sell_transport_plane_aircraft_2_rank_4 = {
 
 		available = {
 			has_equipment = {
-   transport_plane_equipment_2  > 14999
+   transport_plane_equipment_2  > 499
 }
 
 }
@@ -14382,7 +14382,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    transport_plane_equipment_3 > 14999
+    transport_plane_equipment_3 > 499
 }
 
 }
@@ -14466,7 +14466,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_transport_plane_equipment_1
+				type = transport_plane_equipment_4
 				amount = -35
 			}
 
@@ -14514,7 +14514,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_transport_plane_equipment_1
+				type = transport_plane_equipment_4
 				amount = -35
 			}
 
@@ -14562,7 +14562,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_transport_plane_equipment_1
+				type = transport_plane_equipment_4
 				amount = -35
 			}
 
@@ -14582,7 +14582,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    transport_plane_equipment_4 > 14999
+    transport_plane_equipment_4 > 499
 }
 
 }
@@ -14613,7 +14613,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_transport_plane_equipment_1
+				type = transport_plane_equipment_4
 				amount = -35
 			}
 
@@ -14665,7 +14665,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_transport_plane_equipment_1
+				type = transport_plane_equipment_5
 				amount = -35
 			}
 
@@ -14713,7 +14713,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_transport_plane_equipment_1
+				type = transport_plane_equipment_5
 				amount = -35
 			}
 
@@ -14761,7 +14761,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_transport_plane_equipment_1
+				type = transport_plane_equipment_5
 				amount = -35
 			}
 
@@ -14781,7 +14781,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    transport_plane_equipment_5 > 14999
+    transport_plane_equipment_5 > 499
 }
 
 }
@@ -14812,7 +14812,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = jet_transport_plane_equipment_1
+				type = transport_plane_equipment_5
 				amount = -35
 			}
 
