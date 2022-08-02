@@ -6234,7 +6234,7 @@ priority = 917
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.031 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -6284,7 +6284,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.069 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -6332,7 +6332,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.2 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -6381,7 +6381,7 @@ priority = 912
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.559 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -6433,7 +6433,7 @@ priority = 912
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.038 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -6482,7 +6482,7 @@ priority = 912
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.083 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -6530,7 +6530,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.251 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -6579,7 +6579,7 @@ priority = 912
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.671 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -6631,7 +6631,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.043 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -6679,7 +6679,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.095 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -6727,7 +6727,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.286 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -6778,7 +6778,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.764 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -6833,7 +6833,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.048 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -6881,7 +6881,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.1 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -6929,7 +6929,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.321 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -6980,7 +6980,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.857 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -7036,7 +7036,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.05 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -7086,7 +7086,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.111 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -7134,7 +7134,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.335 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -7183,7 +7183,7 @@ priority = 912
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.894 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -7235,7 +7235,7 @@ priority = 912
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.057 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -7284,7 +7284,7 @@ priority = 912
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.125 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -7332,7 +7332,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.377 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -7381,7 +7381,7 @@ priority = 912
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 1.000 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -7438,7 +7438,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.04 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -7488,7 +7488,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.088 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -7536,7 +7536,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.265 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -7585,7 +7585,7 @@ priority = 912
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.708 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -7637,7 +7637,7 @@ priority = 912
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.044 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -7686,7 +7686,7 @@ priority = 912
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.097 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -7734,7 +7734,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.293 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -7783,7 +7783,7 @@ priority = 912
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.783 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -7859,7 +7859,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.033 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -7909,7 +7909,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.074 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -7957,7 +7957,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.223 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -8006,7 +8006,7 @@ priority = 912
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.596 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -8058,7 +8058,7 @@ priority = 912
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.038 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -8107,7 +8107,7 @@ priority = 912
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.083 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -8155,7 +8155,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.251 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -8204,7 +8204,7 @@ priority = 912
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.075 }
+		set_temp_variable = { money_reserves_temp = 0.671 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -12843,7 +12843,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type =strat_bomber_equipment_0
-				amount = -35
+				amount = -50
 			}
 
 		}
@@ -12892,7 +12892,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type =strat_bomber_equipment_0
-				amount = -35
+				amount = -100
 			}
 
 		}
@@ -12940,7 +12940,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type =strat_bomber_equipment_0
-				amount = -35
+				amount = -300
 			}
 
 		}
@@ -12990,7 +12990,7 @@ sell_strat_bomber_aircraft_1_rank_4 = {
 
 		add_equipment_to_stockpile = {
 				type =strat_bomber_equipment_0
-				amount = -35
+				amount = -500
 			}
 
 		}
@@ -13043,7 +13043,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type =strat_bomber_equipment_1
-				amount = -35
+				amount = -50
 			}
 
 		}
@@ -13092,7 +13092,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type =strat_bomber_equipment_1
-				amount = -35
+				amount = -100
 			}
 
 		}
@@ -13140,7 +13140,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type =strat_bomber_equipment_1
-				amount = -35
+				amount = -300
 			}
 
 		}
@@ -13189,7 +13189,7 @@ sell_strat_bomber_aircraft_2_rank_4 = {
 
 		add_equipment_to_stockpile = {
 				type =strat_bomber_equipment_1
-				amount = -35
+				amount = -500
 			}
 
 		}
@@ -13240,7 +13240,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = jet_strat_bomber_equipment_1
-				amount = -35
+				amount = -50
 			}
 
 		}
@@ -13288,7 +13288,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = jet_strat_bomber_equipment_1
-				amount = -35
+				amount = -100
 			}
 
 		}
@@ -13336,7 +13336,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = jet_strat_bomber_equipment_1
-				amount = -35
+				amount = -300
 			}
 
 		}
@@ -13387,7 +13387,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = jet_strat_bomber_equipment_1
-				amount = -35
+				amount = -500
 			}
 
 		}
@@ -13440,7 +13440,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = jet_strat_bomber_equipment_2
-				amount = -35
+				amount = -50
 			}
 
 		}
@@ -13488,7 +13488,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = jet_strat_bomber_equipment_2
-				amount = -35
+				amount = -100
 			}
 
 		}
@@ -13536,7 +13536,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = jet_strat_bomber_equipment_2
-				amount = -35
+				amount = -300
 			}
 
 		}
@@ -13587,7 +13587,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = jet_strat_bomber_equipment_2
-				amount = -35
+				amount = -500
 			}
 
 		}
@@ -13639,7 +13639,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = jet_strat_bomber_equipment_3
-				amount = -35
+				amount = -50
 			}
 
 		}
@@ -13687,7 +13687,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = jet_strat_bomber_equipment_3
-				amount = -35
+				amount = -100
 			}
 
 		}
@@ -13735,7 +13735,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = jet_strat_bomber_equipment_3
-				amount = -35
+				amount = -300
 			}
 
 		}
@@ -13786,7 +13786,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = jet_strat_bomber_equipment_3
-				amount = -35
+				amount = -500
 			}
 
 		}
@@ -13870,7 +13870,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type =transport_plane_equipment_1
-				amount = -35
+				amount = -50
 			}
 
 		}
@@ -13919,7 +13919,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type =transport_plane_equipment_1
-				amount = -35
+				amount = -100
 			}
 
 		}
@@ -13967,7 +13967,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type =transport_plane_equipment_1
-				amount = -35
+				amount = -300
 			}
 
 		}
@@ -14017,7 +14017,7 @@ sell_transport_plane_aircraft_1_rank_4 = {
 
 		add_equipment_to_stockpile = {
 				type =transport_plane_equipment_1
-				amount = -35
+				amount = -500
 			}
 
 		}
@@ -14070,7 +14070,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = transport_plane_equipment_2
-				amount = -35
+				amount = -50
 			}
 
 		}
@@ -14119,7 +14119,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type =transport_plane_equipment_2
-				amount = -35
+				amount = -100
 			}
 
 		}
@@ -14167,7 +14167,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = transport_plane_equipment_2
-				amount = -35
+				amount = -300
 			}
 
 		}
@@ -14216,7 +14216,7 @@ sell_transport_plane_aircraft_2_rank_4 = {
 
 		add_equipment_to_stockpile = {
 				type =transport_plane_equipment_2
-				amount = -35
+				amount = -500
 			}
 
 		}
@@ -14267,7 +14267,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = transport_plane_equipment_3
-				amount = -35
+				amount = -50
 			}
 
 		}
@@ -14315,7 +14315,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = transport_plane_equipment_3
-				amount = -35
+				amount = -100
 			}
 
 		}
@@ -14363,7 +14363,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = transport_plane_equipment_3
-				amount = -35
+				amount = -300
 			}
 
 		}
@@ -14414,7 +14414,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = transport_plane_equipment_3
-				amount = -35
+				amount = -500
 			}
 
 		}
@@ -14467,7 +14467,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = transport_plane_equipment_4
-				amount = -35
+				amount = -50
 			}
 
 		}
@@ -14515,7 +14515,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = transport_plane_equipment_4
-				amount = -35
+				amount = -100
 			}
 
 		}
@@ -14563,7 +14563,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = transport_plane_equipment_4
-				amount = -35
+				amount = -300
 			}
 
 		}
@@ -14614,7 +14614,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = transport_plane_equipment_4
-				amount = -35
+				amount = -500
 			}
 
 		}
@@ -14666,7 +14666,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = transport_plane_equipment_5
-				amount = -35
+				amount = -50
 			}
 
 		}
@@ -14714,7 +14714,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = transport_plane_equipment_5
-				amount = -35
+				amount = -100
 			}
 
 		}
@@ -14762,7 +14762,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = transport_plane_equipment_5
-				amount = -35
+				amount = -300
 			}
 
 		}
@@ -14813,7 +14813,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = transport_plane_equipment_5
-				amount = -35
+				amount = -500
 			}
 
 		}
