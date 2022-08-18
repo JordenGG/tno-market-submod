@@ -14,6 +14,7 @@ AND = {
 
  #num_of_military_factories > 0
 
+
 	}
 
 

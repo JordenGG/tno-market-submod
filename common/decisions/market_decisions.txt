@@ -13924,7 +13924,7 @@ priority = 879
 
 		available = {
 			has_equipment = {
-    infantry_equipment_1  > 49
+    	
 }
 
 }
@@ -14079,9 +14079,8 @@ remove_effect = {
 	priority = 877
 
 		available = {
-			has_equipment = {
-    infantry_equipment_1  > 49
-}
+		
+			country_resource_power
 
 }
 			
@@ -14375,6 +14374,9 @@ remove_effect = {
 		}
 
 	}
+
+
+
 
 
 
