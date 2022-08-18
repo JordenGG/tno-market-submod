@@ -253,7 +253,7 @@ priority = 996
 
 		available = {
 			has_equipment = {
-    infantry_equipment_0  > 49
+    infantry_equipment_0  > 1999
 }
 
 }
@@ -265,6 +265,10 @@ priority = 996
     has_country_flag = open_sesame
 
      has_country_flag = inf_sale
+
+    # has_equipment = {
+    #infantry_equipment_0 > 1999
+#}
 }
 
 
@@ -304,7 +308,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    infantry_equipment_0  > 99
+    infantry_equipment_0  > 4999
 }
 
 }
@@ -333,7 +337,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -11000
+				amount = -5000
 			}
 
 		}
@@ -352,7 +356,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    infantry_equipment_0  > 299
+    infantry_equipment_0  > 9999
 }
 
 }
@@ -430,7 +434,7 @@ priority = 990
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -111000
+				amount = -15000
 			}
 
 		}
@@ -502,7 +506,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    infantry_equipment_1  > 99
+    infantry_equipment_1  > 4999
 }
 
 }
@@ -531,7 +535,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -11000
+				amount = -5000
 			}
 
 		}
@@ -550,7 +554,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    infantry_equipment_1  > 299
+    infantry_equipment_1  > 9999
 }
 
 }
@@ -628,7 +632,7 @@ priority = 986
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -111000
+				amount = -15000
 			}
 
 		}
@@ -651,7 +655,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    infantry_equipment_2  > 49
+    infantry_equipment_2  > 1999
 }
 
 }
@@ -699,7 +703,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    infantry_equipment_2  > 99
+    infantry_equipment_2  > 4999
 }
 
 }
@@ -728,7 +732,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -11000
+				amount = -5000
 			}
 
 		}
@@ -747,7 +751,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    infantry_equipment_2  > 299
+    infantry_equipment_2  > 9999
 }
 
 }
@@ -827,7 +831,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -111000
+				amount = -15000
 			}
 
 		}
@@ -851,7 +855,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    infantry_equipment_3  > 49
+    infantry_equipment_3  > 1999
 }
 
 }
@@ -899,7 +903,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    infantry_equipment_3  > 99
+    infantry_equipment_3  > 4999
 }
 
 }
@@ -928,7 +932,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -11000
+				amount = -5000
 			}
 
 		}
@@ -947,7 +951,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    infantry_equipment_3  > 299
+    infantry_equipment_3  > 9999
 }
 
 }
@@ -1027,7 +1031,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = infantry_equipment_0
-				amount = -111000
+				amount = -15000
 			}
 
 		}
@@ -1227,7 +1231,7 @@ priority = 981
 
 		add_equipment_to_stockpile = {
 				type = Anti_tank_equipment_0
-				amount = -11100
+				amount = -1500
 			}
 
 		}
@@ -1426,7 +1430,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = anti_tank_equipment_0
-				amount = -11100
+				amount = -1500
 			}
 
 		}
@@ -1623,7 +1627,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = anti_tank_equipment_0
-				amount = -11100
+				amount = -1500
 			}
 
 		}
@@ -2008,7 +2012,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = anti_air_shoulder_equipment_0
-				amount = -31100
+				amount = -3500
 			}
 
 		}
@@ -2076,7 +2080,7 @@ sell_aa_1_rank_4 = {
 
 		available = {
 			has_equipment = {
-    anti_air_shoulder_equipment_0  > 299
+    anti_air_shoulder_equipment_0  > 9999
 }
 
 }
@@ -2206,7 +2210,7 @@ remove_effect = {
 
 		add_equipment_to_stockpile = {
 				type = anti_air_shoulder_equipment_1
-				amount = -31100
+				amount = -3500
 			}
 
 		}
@@ -2274,7 +2278,7 @@ sell_aa_2_rank_4 = {
 
 		available = {
 			has_equipment = {
-    anti_air_shoulder_equipment_1   > 299
+    anti_air_shoulder_equipment_1   > 9999
 }
 
 }
@@ -3456,7 +3460,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    support_equipment_1  > 49
+    support_equipment_1  > 1999
 }
 
 }
@@ -4839,7 +4843,7 @@ priority = 924
 
 		available = {
 			has_equipment = {
-    artillery_equipment_2  > 49
+    artillery_equipment_2  > 1999
 }
 
 }
@@ -5037,7 +5041,7 @@ priority = 924
 
 		available = {
 			has_equipment = {
-    artillery_equipment_3  > 49
+    artillery_equipment_3  > 1999
 }
 
 }
@@ -5233,7 +5237,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    artillery_equipment_3  > 49
+    artillery_equipment_3  > 1999
 }
 
 }
@@ -5578,7 +5582,7 @@ priority = 920
 
 		available = {
 			has_equipment = {
-    anti_air_equipment_1  > 49
+    anti_air_equipment_1  > 1999
 }
 
 }
@@ -5776,7 +5780,7 @@ priority = 920
 
 		available = {
 			has_equipment = {
-    anti_air_equipment_2  > 49
+    anti_air_equipment_2  > 1999
 }
 
 }
@@ -5972,7 +5976,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    anti_air_equipment_3  > 49
+    anti_air_equipment_3  > 1999
 }
 
 }
@@ -13818,9 +13822,9 @@ priority = 879
 			
 
 		visible = {
-			 has_country_flag = open_sesame
+			always = no
 
-			 NOT = { has_country_flag = lease_sale }
+			#always = yes
 		}
 
 		fire_only_once = no
@@ -14079,8 +14083,17 @@ remove_effect = {
 	priority = 877
 
 		available = {
+
+		OR = {
+    	has_resources_amount = {
+    resource = oil
+    amount > 10
+    delivered = yes
+}
+
+    original_tag = ZZZ
+}
 		
-			country_resource_power
 
 }
 			
