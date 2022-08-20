@@ -266,9 +266,9 @@ priority = 996
 
      has_country_flag = inf_sale
 
-    # has_equipment = {
-    #infantry_equipment_0 > 1999
-#}
+     has_equipment = {
+    infantry_equipment_0 > 1999
+}
 }
 
 
