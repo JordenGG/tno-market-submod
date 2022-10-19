@@ -5,6 +5,8 @@ market_category = {
 
 	visible = {
 
+	is_ai = no
+
 	OR = {
 
 AND = {
@@ -25,8 +27,7 @@ AND = {
  original_tag = Ire
 
     original_tag = ZLT
-
-     original_tag = ins
+    
 
       original_tag = Nor
 
