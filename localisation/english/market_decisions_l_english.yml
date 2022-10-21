@@ -1,0 +1,543 @@
+﻿l_english:
+
+
+market_category: "The Arms market"
+
+market_category_desc:0 "Money Makes the World Go Round."
+
+
+#Opening
+market_explanation:0 "§RThese decisions are invisible unless the following conditions are met: is not an AI, has at least 1 military factory, and with the exception of Ireland, Zlatoust, and Norway, has at least 5B$ Of GDP§! \n\n§YHello there dear player, and welcome to the TNO: Market submod!§! \n\n§YThat's it, that's the whole submod, a single decision category, hey it ain't much but it's honest work.§! \n\n§YAnyway, this submod gives you the option to sell equipment, and lease stuff like Gird power, Production units, dockyards, etc for monthly revenue.§! \n\n§YNow, there is a very high chance that if you open the equipment decisions under this, they will be empty. Don’t freak out ! This is not a bug, it is a feature. there are more then 50 decisions of equipment sale, but to avoid making you unnecessarily scroll through all of them, instead I decided to make them invisible until you have the amount of equipment needed to make the transaction, the amounts of equipment you will need are displayed in the "Numbers" decisions that are present in each category.§! \n\n§YYou can sell all types of equipment except Trains, tanks, planes, and ships. There are 4 decisons of "Batches" of equipment that you can sell in a single decision, and the number of liquid reserves it gives you was calculated as such:§! \n\n§Y42372 (roughly the prise  of 1 Production cost) X (production cost of the item) X (Amount)§! \n\n§YHowever, for every batch that is not the lowest amount, there will also be a 10% increase to the original price to give an incentive to save up equipment instead of selling it right away.§! \n\n§BAnd finally, a little note from the dev.\n\nThis mod is what i was able to come up with my current coding abilities, i have plans for much greater changes, and an entirely different system of Arms trade, but this is what i could come up with using my current knowlage of coding. If any person with good knowlage of TNO coding and/or art is interested in working with me, contact me through either Discord or reddit.§!\n\n§PAll rights reserved to JordenGG (u/JordenGG, JordenGG#6917) §!"
+
+open_market: "Open the Market"
+
+close_market: "Close the Market"
+
+
+explanation: "Summery of the Mod and it's mechanics"
+
+
+
+
+#Infantry equipment
+
+sell_inf_category: "Sell Infantry equipment"
+
+
+hide_sell_inf_category: "Hide the Infantry category"
+
+inf_explanation: "Infantry equipment Numbers"
+
+inf_market_explanation: "\n-----------------------\n§YAmounts:\n2K\n5K\n10K\n15K"
+
+
+sell_inf_1_rank_1: "Sell 2k units of Early Infantry Rifles"
+
+sell_inf_1_rank_2: "Sell 5K units of Early Infantry Rifles"
+
+sell_inf_1_rank_3: "Sell 10K units of Early Infantry Rifles"
+
+sell_inf_1_rank_4: "Sell 15K units of Early Infantry Rifles"
+
+
+
+sell_inf_2_rank_1: "Sell 2k units of Basic Infantry Rifles"
+
+sell_inf_2_rank_2: "Sell 5K units of Basic Infantry Rifles"
+
+sell_inf_2_rank_3: "Sell 10K units of Basic Infantry Rifles"
+
+sell_inf_2_rank_4: "Sell 15K units of Basic Infantry Rifles"
+
+
+
+sell_inf_3_rank_1: "Sell 2k units of improved Infantry Rifles"
+
+sell_inf_3_rank_2: "Sell 5K units of improved Infantry Rifles"
+
+sell_inf_3_rank_3: "Sell 10K units of improved Infantry Rifles"
+
+sell_inf_3_rank_4: "Sell 15K units of improved Infantry Rifles"
+
+
+
+sell_inf_4_rank_1: "Sell 2k units of Advanced Infantry Rifles"
+
+sell_inf_4_rank_2: "Sell 5K units of Advanced Infantry Rifles"
+
+sell_inf_4_rank_3: "Sell 10K units of Advanced Infantry Rifles"
+
+sell_inf_4_rank_4: "Sell 15K units of Advanced Infantry Rifles"
+
+
+
+
+
+
+
+#Anti tank equipment
+
+
+sell_AT_category: "Sell Anti Tank equipment"
+
+hide_sell_AT_category: "Hide the Anti tank category"
+
+AT_market_explanation: "-----------------------\n§YAmounts:\n1.5K\n3.9K\n8K\n14K"
+
+AT_explanation: "Anti Tank equipment Numbers"
+
+
+
+
+sell_AT_1_rank_1: "Sell 1.5K units of basic Anti Tank equipment"
+
+sell_AT_1_rank_2: "Sell 3.9K units of basic Anti Tank equipment"
+
+sell_AT_1_rank_3: "Sell 8K units of basic Anti Tank equipment"
+
+sell_AT_1_rank_4: "Sell 14K units of basic Anti Tank equipment"
+
+
+
+sell_AT_2_rank_1: "Sell 1.5K units of improved Anti Tank equipment"
+
+sell_AT_2_rank_2: "Sell 3.9K units of improved Anti Tank equipment"
+
+sell_AT_2_rank_3: "Sell 8K units of improved Anti Tank equipment"
+
+sell_AT_2_rank_4: "Sell 14K units of improved Anti Tank equipment"
+
+
+
+sell_AT_3_rank_1: "Sell 1.5K units of Advanced Anti Tank equipment"
+
+sell_AT_3_rank_2: "Sell 3.9K units of Advanced Anti Tank equipment"
+
+sell_AT_3_rank_3: "Sell 8K units of Advanced Anti Tank equipment"
+
+sell_AT_3_rank_4: "Sell 14K units of Advanced Anti Tank equipment"
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Anti air equipment
+
+
+sell_AA_category: "Sell Anti Air equipment"
+
+hide_sell_AA_category: "Hide the Anti Air category"
+
+aa_market_explananaion: "-----------------------\n§YAmounts:\n1.4K\n3.5K\n8K\n10K"
+
+AA_explanation: "Anti Air equipment Numbers"
+
+
+
+
+sell_aa_1_rank_1: "Sell 1.4K units of basic Anti Air equipment"
+
+sell_aa_1_rank_2: "Sell 3.5K units of basic Anti Air equipment"
+
+sell_aa_1_rank_3: "Sell 8K units of basic Anti Air equipment"
+
+sell_aa_1_rank_4: "Sell 10K units of basic Anti Air equipment"
+
+
+
+sell_aa_2_rank_1: "Sell 1.4K units of improved Anti Air equipment"
+
+sell_aa_2_rank_2: "Sell 3.5K units of improved Anti Air equipment"
+
+sell_aa_2_rank_3: "Sell 8K units of improved Anti Air equipment"
+
+sell_aa_2_rank_4: "Sell 10K units of improved Anti Air equipment"
+
+
+
+sell_aa_3_rank_1: "Sell 1.4K units of Advanced Anti Air equipment"
+
+sell_aa_3_rank_2: "Sell 3.5K units of Advanced Anti Air equipment"
+
+sell_aa_3_rank_3: "Sell 8K units of Advanced Anti Air equipment"
+
+sell_aa_3_rank_4: "Sell 10K units of Advanced Anti Air equipment"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Motorized equipment
+
+sell_mot_category: "Sell Motorized equipment"
+
+
+hide_sell_mot_category: "Hide the Motorized category"
+
+mot_explanation: "Motorized equipment Numbers"
+
+mot_market_explanation: "\n-----------------------\n§YAmounts:\n600\n1.1K\n1.6K\n2.1K"
+
+
+sell_mot_1_rank_1: "Sell 600 units of Early Motorized Equipment "
+
+sell_mot_1_rank_2: "Sell 1.1K units of Early Motorized Equipment "
+
+sell_mot_1_rank_3: "Sell 1.6K units of Early Motorized Equipment "
+
+sell_mot_1_rank_4: "Sell 2.1K units of Early Motorized Equipment "
+
+
+
+sell_mot_2_rank_1: "Sell 600 units of Basic Motorized Equipment "
+
+sell_mot_2_rank_2: "Sell 1.1K units of Basic Motorized Equipment "
+
+sell_mot_2_rank_3: "Sell 1.6K units of Basic Motorized Equipment "
+
+sell_mot_2_rank_4: "Sell 2.1K units of Basic Motorized Equipment "
+
+
+
+sell_mot_3_rank_1: "Sell 600 units of improved Motorized Equipment "
+
+sell_mot_3_rank_2: "Sell 1.1K units of improved Motorized Equipment "
+
+sell_mot_3_rank_3: "Sell 1.6K units of improved Motorized Equipment "
+
+sell_mot_3_rank_4: "Sell 2.1K units of improved Motorized Equipment "
+
+
+
+sell_mot_4_rank_1: "Sell 600 units of Advanced Motorized Equipment "
+
+sell_mot_4_rank_2: "Sell 1.1K units of Advanced Motorized Equipment "
+
+sell_mot_4_rank_3: "Sell 1.6K units of Advanced Motorized Equipment "
+
+sell_mot_4_rank_4: "Sell 2.1K units of Advanced Motorized Equipment "
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Support equipment
+
+sell_support_category: "Sell Support equipment"
+
+
+hide_sell_sup_category: "Hide the Support equipment category"
+
+sup_explanation: "Support equipment Numbers"
+
+sup_market_explanation: "\n-----------------------\n§YAmounts:\n1k\n2K\n4K\n6.5K"
+
+
+sell_sup_rank_1: "Sell 1k units of Support Equipment"
+
+sell_sup_rank_2: "Sell 2K units of Support Equipment"
+
+sell_sup_rank_3: "Sell 4K units of Support Equipment"
+
+sell_sup_rank_4: "Sell 6.5K units of Support Equipment"
+
+
+
+
+
+
+
+
+
+
+#Artillary equipment
+
+
+sell_art_category: "Sell Artillary equipment"
+
+hide_sell_art_category: "Hide the Artillary category"
+
+art_market_explanation: "-----------------------\n§YAmounts:\n350\n800\n1.5K\n2K"
+
+art_explanation: "Artillary equipment Numbers"
+
+
+
+
+sell_artillary_1_rank_1: "Sell 350 units of basic Artillary equipment"
+
+sell_artillary_1_rank_2: "Sell 800 units of basic Artillary equipment"
+
+sell_artillary_1_rank_3: "Sell 1.5K units of basic Artillary equipment"
+
+sell_artillary_1_rank_4: "Sell 2K units of basic Artillary equipment"
+
+
+
+sell_artillary_2_rank_1: "Sell 350 units of improved Artillary equipment"
+
+sell_artillary_2_rank_2: "Sell 800 units of improved Artillary equipment"
+
+sell_artillary_2_rank_3: "Sell 1.5K units of improved Artillary equipment"
+
+sell_artillary_2_rank_4: "Sell 2K units of improved Artillary equipment"
+
+
+
+sell_artillary_3_rank_1: "Sell 350 units of Advanced Artillary equipment"
+
+sell_artillary_3_rank_2: "Sell 800 units of Advanced Artillary equipment"
+
+sell_artillary_3_rank_3: "Sell 1.5K units of Advanced Artillary equipment"
+
+sell_artillary_3_rank_4: "Sell 2K units of Advanced Artillary equipment"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Static Anti Air equipment
+
+
+sell_antiair_category: "Sell Static Anti Air equipment"
+
+hide_sell_antiair_category: "Hide the Static Anti Air category"
+
+antiair_market_explanation: "-----------------------\n§YAmounts:\n350\n800\n1.5K\n2K"
+
+antiair_explanation: "Static Anti Air equipment Numbers"
+
+
+
+
+sell_transport_antiair_1_rank_1: "Sell 350 units of Early Static Anti Air equipment"
+
+sell_transport_antiair_1_rank_2: "Sell 800 units of Early Static Anti Air equipment"
+
+sell_transport_antiair_1_rank_3: "Sell 1.5K units of Early Static Anti Air equipment"
+
+sell_transport_antiair_1_rank_4: "Sell 2K units of Early Static Anti Air equipment"
+
+
+
+sell_transport_antiair_2_rank_1: "Sell 350 units of Basic Static Anti Air equipment"
+
+sell_transport_antiair_2_rank_2: "Sell 800 units of Basic Static Anti Air equipment"
+
+sell_transport_antiair_2_rank_3: "Sell 1.5K units of Basic Static Anti Air equipment"
+
+sell_transport_antiair_2_rank_4: "Sell 2K units of Basic Static Anti Air equipment"
+
+
+
+sell_transport_antiair_3_rank_1: "Sell 350 units of Advanced Static Anti Air equipment"
+
+sell_transport_antiair_3_rank_2: "Sell 800 units of Advanced Static Anti Air equipment"
+
+sell_transport_antiair_3_rank_3: "Sell 1.5K units of Advanced Static Anti Air equipment"
+
+sell_transport_antiair_3_rank_4: "Sell 2K units of Advanced Static Anti Air equipment"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Helicopter equipment
+
+
+sell_heli_category: "Sell Helicopter equipment"
+
+hide_sell_heli_category: "Hide the Helicopter category"
+
+heli_market_explanation: "-----------------------\n§YAmounts:\50\100\n300\n800"
+
+heli_explanation: "Helicopter equipment Numbers"
+
+
+
+#Early helis
+
+sell_transport_heli_1_rank_1: "Sell 50 units of Experimental helicopter equipment"
+
+sell_transport_heli_1_rank_2: "Sell 100 units of Experimental helicopter equipment"
+
+sell_transport_heli_1_rank_3: "Sell 300 units of Experimental helicopter equipment"
+
+sell_transport_heli_1_rank_4: "Sell 800 units of Experimental helicopter equipment"
+
+
+
+sell_transport_heli_2_rank_1: "Sell 50 units of Early helicopter equipment"
+
+sell_transport_heli_2_rank_2: "Sell 100 units of Early helicopter equipment"
+
+sell_transport_heli_2_rank_3: "Sell 300 units of Early helicopter equipment"
+
+sell_transport_heli_2_rank_4: "Sell 800 units of Early helicopter equipment"
+
+
+
+
+
+#Transport helis
+
+sell_transport_heli_3_rank_1: "Sell 50 units of improved transport helicopter equipment"
+
+sell_transport_heli_3_rank_2: "Sell 100 units of improved transport helicopter equipment"
+
+sell_transport_heli_3_rank_3: "Sell 300 units of improved transport helicopter equipment"
+
+sell_transport_heli_3_rank_4: "Sell 800 units of improved transport helicopter equipment"
+
+
+
+
+
+sell_transport_heli_4_rank_1: "Sell 50 units of Advanced transport helicopter equipment"
+
+sell_transport_heli_4_rank_2: "Sell 100 units of Advanced transport helicopter equipment"
+
+sell_transport_heli_4_rank_3: "Sell 300 units of Advanced transport helicopter equipment"
+
+sell_transport_heli_4_rank_4: "Sell 800 units of Advanced transport helicopter equipment"
+
+
+
+
+#Attack helis
+
+
+
+
+sell_attack_heli_1_rank_1: "Sell 50 units of improved Attack helicopter equipment"
+
+sell_attack_heli_1_rank_2: "Sell 100 units of improved Attack helicopter equipment"
+
+sell_attack_heli_1_rank_3: "Sell 300 units of improved Attack helicopter equipment"
+
+sell_attack_heli_1_rank_4: "Sell 800 units of improved Attack helicopter equipment"
+
+
+
+
+
+sell_attack_heli_2_rank_1: "Sell 50 units of Advanced Attack helicopter equipment"
+
+sell_attack_heli_2_rank_2: "Sell 100 units of Advanced Attack helicopter equipment"
+
+sell_attack_heli_2_rank_3: "Sell 300 units of Advanced Attack helicopter equipment"
+
+sell_attack_heli_2_rank_4: "Sell 800 units of Advanced Attack helicopter equipment"
+
+
+
+
+
+
+#Scout helis
+
+
+
+sell_scout_heli_1_rank_1: "Sell 50 units of improved Scout helicopter equipment"
+
+sell_scout_heli_1_rank_2: "Sell 100 units of improved Scout helicopter equipment"
+
+sell_scout_heli_1_rank_3: "Sell 300 units of improved Scout helicopter equipment"
+
+sell_scout_heli_1_rank_4: "Sell 800 units of improved Scout helicopter equipment"
+
+
+
+
+
+sell_scout_heli_2_rank_1: "Sell 50 units of Advanced Scout helicopter equipment"
+
+sell_scout_heli_2_rank_2: "Sell 100 units of Advanced Scout helicopter equipment"
+
+sell_scout_heli_2_rank_3: "Sell 300 units of Advanced Scout helicopter equipment"
+
+sell_scout_heli_2_rank_4: "Sell 800 units of Advanced Scout helicopter equipment"
+
+ 
+
+
+
+
+
+
+
+#Convoys
+
+sell_convoy_category: "Sell convoys"
+
+
+hide_sell_convoy_category: "Hide the convoys category"
+
+convoy_explanation: "convoys Numbers"
+
+convoy_market_explanation: "\n-----------------------\n§YAmounts:\n10\n50\n100\n500"
+
+
+sell_convoy_rank_1: "Sell 10 units of convoys"
+
+sell_convoy_rank_2: "Sell 50 units of convoys"
+
+sell_convoy_rank_3: "Sell 100 units of convoys"
+
+sell_convoy_rank_4: "Sell 500 units of convoys"
+
+
+
+

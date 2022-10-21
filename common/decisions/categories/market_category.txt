@@ -1,7 +1,8 @@
 market_category = {
+
 	icon = decision_category_generic_economy
 	picture = ENG_category_gun_smuggling		
-	priority = 9	
+	priority = 99999
 
 	visible = {
 
@@ -44,6 +45,7 @@ AND = {
 }
 
 
+}
 }
 
 

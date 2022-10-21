@@ -7,4 +7,14 @@ spriteTypes = {
 		name = "decision_category_generic_economy"
 		texturefile = "gfx/interface/decisions/decision_category_generic_economy.dds"
 	}
+
+	spriteType = {
+		name = "decision_black_market_arms_trade_increase_market_submod"
+		texturefile = "gfx/interface/decisions/decision_black_market_arms_trade_increase_market_submod.dds"
+	}
+
+	spriteType = {
+		name = "decision_black_market_arms_trade_decrease_market_submod"
+		texturefile = "gfx/interface/decisions/decision_black_market_arms_trade_decrease_market_submod.dds"
+	}
 }
