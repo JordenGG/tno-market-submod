@@ -259,16 +259,24 @@ priority = 996
 }
 			
 
-		visible = {
+			visible = {
+
+
+		   has_equipment = {
+    infantry_equipment_0 > 1999
+}
+
+
+		   has_equipment = {
+    infantry_equipment_0 > 1999
+}
 
 				AND = {
     has_country_flag = open_sesame
 
      has_country_flag = inf_sale
 
-     has_equipment = {
-    infantry_equipment_0 > 1999
-}
+  
 }
 
 
@@ -314,7 +322,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
+
+
+		   has_equipment = {
+    infantry_equipment_0 > 4999
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -362,7 +375,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
+
+
+		   has_equipment = {
+    infantry_equipment_0 > 9999
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -411,7 +429,12 @@ priority = 990
 }
 			
 
-		visible = {
+			visible = {
+
+
+		   has_equipment = {
+    infantry_equipment_0 > 14999
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -463,7 +486,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
+
+
+		   has_equipment = {
+    infantry_equipment_1 > 1999
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -485,7 +513,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = infantry_equipment_0
+				type = infantry_equipment_1
 				amount = -2000
 			}
 
@@ -512,7 +540,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
+
+
+		   has_equipment = {
+    infantry_equipment_1 > 4999
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -534,7 +567,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = infantry_equipment_0
+				type = infantry_equipment_1
 				amount = -5000
 			}
 
@@ -560,7 +593,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
+
+
+		   has_equipment = {
+    infantry_equipment_1 > 9999
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -582,7 +620,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = infantry_equipment_0
+				type = infantry_equipment_1
 				amount = -10000
 			}
 
@@ -609,7 +647,12 @@ priority = 986
 }
 			
 
-		visible = {
+			visible = {
+
+
+		   has_equipment = {
+    infantry_equipment_1 > 14999
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -631,7 +674,7 @@ priority = 986
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = infantry_equipment_0
+				type = infantry_equipment_1
 				amount = -15000
 			}
 
@@ -661,7 +704,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
+
+
+		   has_equipment = {
+    infantry_equipment_2 > 1999
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -683,7 +731,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = infantry_equipment_0
+				type = infantry_equipment_2
 				amount = -2000
 			}
 
@@ -709,7 +757,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
+
+
+		   has_equipment = {
+    infantry_equipment_2 > 4999
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -731,7 +784,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = infantry_equipment_0
+				type = infantry_equipment_2
 				amount = -5000
 			}
 
@@ -757,7 +810,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
+
+
+		   has_equipment = {
+    infantry_equipment_3 > 9999
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -779,7 +837,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = infantry_equipment_0
+				type = infantry_equipment_2
 				amount = -10000
 			}
 
@@ -805,7 +863,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
+
+
+		   has_equipment = {
+    infantry_equipment_2 > 14999
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -830,7 +893,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = infantry_equipment_0
+				type = infantry_equipment_2
 				amount = -15000
 			}
 
@@ -861,7 +924,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
+
+
+		   has_equipment = {
+    infantry_equipment_3 > 1999
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -883,7 +951,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = infantry_equipment_0
+				type = infantry_equipment_3
 				amount = -2000
 			}
 
@@ -909,7 +977,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
+
+
+		   has_equipment = {
+    infantry_equipment_3 > 4999
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -931,7 +1004,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = infantry_equipment_0
+				type = infantry_equipment_3
 				amount = -5000
 			}
 
@@ -957,7 +1030,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
+
+
+		   has_equipment = {
+    infantry_equipment_3 > 9999
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -979,7 +1057,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = infantry_equipment_0
+				type = infantry_equipment_3
 				amount = -10000
 			}
 
@@ -1005,7 +1083,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
+
+
+		   has_equipment = {
+    infantry_equipment_3 > 14999
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -1030,7 +1113,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = infantry_equipment_0
+				type = infantry_equipment_3
 				amount = -15000
 			}
 
@@ -1207,8 +1290,12 @@ priority = 981
 }
 			
 
-		visible = {
+			visible = {
 
+
+		   has_equipment = {
+    anti_tank_equipment_0> 1499
+}
 				AND = {
     has_country_flag = open_sesame
 
@@ -1258,8 +1345,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
 
+
+		   has_equipment = {
+    anti_tank_equipment_0 > 3899
+}
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = AT_sale
@@ -1306,8 +1397,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
 
+
+		   has_equipment = {
+    anti_tank_equipment_0 > 7999
+}
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = AT_sale
@@ -1355,8 +1450,12 @@ sell_AT_1_rank_4 = {
 }
 			
 
-		visible = {
+			visible = {
 
+
+		   has_equipment = {
+    anti_tank_equipment_0 > 13999
+}
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = AT_sale
@@ -1407,8 +1506,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
 
+
+		   has_equipment = {
+    anti_tank_equipment_1 > 1499
+}
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = AT_sale
@@ -1429,7 +1532,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = anti_tank_equipment_0
+				type = anti_tank_equipment_1
 				amount = -1500
 			}
 
@@ -1456,8 +1559,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
 
+
+		   has_equipment = {
+    anti_tank_equipment_1 > 3899
+}
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = AT_sale
@@ -1478,7 +1585,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = anti_tank_equipment_0
+				type = anti_tank_equipment_1
 				amount = -3900
 			}
 
@@ -1504,8 +1611,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
 
+
+		   has_equipment = {
+    anti_tank_equipment_1 > 7999
+}
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = AT_sale
@@ -1526,7 +1637,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = anti_tank_equipment_0
+				type = anti_tank_equipment_1
 				amount = -8000
 			}
 
@@ -1553,8 +1664,12 @@ sell_AT_2_rank_4 = {
 }
 			
 
-		visible = {
+			visible = {
 
+
+		   has_equipment = {
+    anti_tank_equipment_1 > 13999
+}
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = AT_sale
@@ -1575,7 +1690,7 @@ sell_AT_2_rank_4 = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = anti_tank_equipment_0
+				type = anti_tank_equipment_1
 				amount = -14000
 			}
 
@@ -1604,8 +1719,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
 
+
+		   has_equipment = {
+    anti_tank_equipment_2 > 1499
+}
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = AT_sale
@@ -1626,7 +1745,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = anti_tank_equipment_0
+				type = anti_tank_equipment_2
 				amount = -1500
 			}
 
@@ -1652,8 +1771,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
 
+
+		   has_equipment = {
+    anti_tank_equipment_2 > 3899
+}
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = AT_sale
@@ -1674,7 +1797,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = anti_tank_equipment_0
+				type = anti_tank_equipment_2
 				amount = -3900
 			}
 
@@ -1700,8 +1823,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
 
+
+		   has_equipment = {
+    anti_tank_equipment_2 > 7999
+}
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = AT_sale
@@ -1722,7 +1849,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = anti_tank_equipment_0
+				type = anti_tank_equipment_2
 				amount = -8000
 			}
 
@@ -1748,8 +1875,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
 
+
+		   has_equipment = {
+    anti_tank_equipment_2 > 13999
+}
 				AND = {
     has_country_flag = open_sesame
 
@@ -1773,7 +1904,7 @@ remove_effect = {
 		complete_effect = {
 
 		add_equipment_to_stockpile = {
-				type = anti_tank_equipment_0
+				type = anti_tank_equipment_2
 				amount = -14000
 			}
 
@@ -1937,8 +2068,12 @@ priority = 977
 }
 			
 
-		visible = {
+			visible = {
 
+
+		   has_equipment = {
+     anti_air_shoulder_equipment_0 > 1399
+}
 				AND = {
     has_country_flag = open_sesame
      has_country_flag = AA_sale
@@ -1989,8 +2124,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
 
+
+		   has_equipment = {
+     anti_air_shoulder_equipment_0 > 3499
+}
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = AA_sale
@@ -2037,8 +2176,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
 
+
+		   has_equipment = {
+     anti_air_shoulder_equipment_0 > 7999
+}
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = AA_sale
@@ -2086,8 +2229,12 @@ sell_aa_1_rank_4 = {
 }
 			
 
-		visible = {
+			visible = {
 
+
+		   has_equipment = {
+     anti_air_shoulder_equipment_0 > 9999
+}
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = AA_sale
@@ -2138,8 +2285,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
 
+
+		   has_equipment = {
+     anti_air_shoulder_equipment_1 > 1399
+}
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = AA_sale
@@ -2167,7 +2318,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.133 }
+		set_temp_variable = { money_reserves_temp = 0.09 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -2187,8 +2338,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
 
+
+		   has_equipment = {
+     anti_air_shoulder_equipment_1 > 3499
+}
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = AA_sale
@@ -2216,7 +2371,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.367 }
+		set_temp_variable = { money_reserves_temp = 0.244 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -2235,8 +2390,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
 
+
+		   has_equipment = {
+     anti_air_shoulder_equipment_1 > 7999
+}
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = AA_sale
@@ -2264,7 +2423,7 @@ remove_effect = {
 		}
 
 remove_effect = {
-		set_temp_variable = { money_reserves_temp = 0.838 }
+		set_temp_variable = { money_reserves_temp = 0.559 }
 			econ_money_reserves_change_raw_money = yes
 
 		}
@@ -2284,8 +2443,12 @@ sell_aa_2_rank_4 = {
 }
 			
 
-		visible = {
+			visible = {
 
+
+		   has_equipment = {
+     anti_air_shoulder_equipment_1 > 9999
+}
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = AA_sale
@@ -2307,6 +2470,219 @@ sell_aa_2_rank_4 = {
 
 		add_equipment_to_stockpile = {
 				type = anti_air_shoulder_equipment_1
+				amount = -10000
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.699 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+
+
+	sell_aa_3_rank_1 = {
+
+		priority = 972
+
+		available = {
+			has_equipment = {
+    anti_air_shoulder_equipment_2  > 1399 
+}
+
+}
+			
+
+			visible = {
+
+
+		   has_equipment = {
+     anti_air_shoulder_equipment_2 > 1399
+}
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = AA_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 15
+		days_re_enable = 30
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = anti_air_shoulder_equipment_2
+				amount = -1400
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.133 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+	sell_aa_3_rank_2 = {
+
+		priority = 972
+
+		available = {
+			has_equipment = {
+    anti_air_shoulder_equipment_2  > 3499
+}
+
+}
+			
+
+			visible = {
+
+
+		   has_equipment = {
+     anti_air_shoulder_equipment_2 > 3499
+}
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = AA_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 15
+		days_re_enable = 30
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = anti_air_shoulder_equipment_2
+				amount = -3500
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.367 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+	sell_aa_3_rank_3 = {
+
+		priority = 972
+
+		available = {
+			has_equipment = {
+    anti_air_shoulder_equipment_2  > 7999
+}
+
+}
+			
+
+			visible = {
+
+
+		   has_equipment = {
+     anti_air_shoulder_equipment_2 > 7999
+}
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = AA_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 15
+		days_re_enable = 30
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = anti_air_shoulder_equipment_2
+				amount = -8000
+			}
+
+		}
+
+remove_effect = {
+		set_temp_variable = { money_reserves_temp = 0.838 }
+			econ_money_reserves_change_raw_money = yes
+
+		}
+
+	}
+
+
+sell_aa_3_rank_4 = {
+
+		priority = 972
+
+		available = {
+			has_equipment = {
+    anti_air_shoulder_equipment_2   > 9999
+}
+
+}
+			
+
+			visible = {
+
+
+		   has_equipment = {
+     anti_air_shoulder_equipment_2 > 9999
+}
+				AND = {
+    has_country_flag = open_sesame
+    	 has_country_flag = AA_sale
+}
+
+
+		}
+
+		fire_only_once = no
+
+
+
+		days_remove = 15
+		days_re_enable = 30
+
+		cost = 0
+
+		complete_effect = {
+
+		add_equipment_to_stockpile = {
+				type = anti_air_shoulder_equipment_2
 				amount = -10000
 			}
 
@@ -2480,6 +2856,13 @@ priority = 971
 
 		visible = {
 
+
+		has_equipment = {
+     motorized_equipment_0 > 599
+}
+
+
+
 				AND = {
     has_country_flag = open_sesame
 
@@ -2531,6 +2914,11 @@ remove_effect = {
 
 		visible = {
 
+
+		has_equipment = {
+     motorized_equipment_0 > 1099
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = mot_sale
@@ -2578,6 +2966,11 @@ remove_effect = {
 			
 
 		visible = {
+
+
+		has_equipment = {
+     motorized_equipment_0 > 1599
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -2627,6 +3020,11 @@ sell_mot_1_rank_4 = {
 			
 
 		visible = {
+
+
+		has_equipment = {
+     motorized_equipment_0 > 2099
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -2680,6 +3078,11 @@ remove_effect = {
 
 		visible = {
 
+
+		has_equipment = {
+     motorized_equipment_0 > 599
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = mot_sale
@@ -2729,6 +3132,11 @@ remove_effect = {
 
 		visible = {
 
+
+		has_equipment = {
+     motorized_equipment_1 > 1099
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = mot_sale
@@ -2776,6 +3184,11 @@ remove_effect = {
 			
 
 		visible = {
+
+
+		has_equipment = {
+     motorized_equipment_1 > 1599
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -2825,6 +3238,11 @@ sell_mot_2_rank_4 = {
 			
 
 		visible = {
+
+
+		has_equipment = {
+     motorized_equipment_1 > 2099
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -2877,6 +3295,11 @@ remove_effect = {
 
 		visible = {
 
+
+		has_equipment = {
+     motorized_equipment_2 > 599
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = mot_sale
@@ -2924,6 +3347,11 @@ remove_effect = {
 			
 
 		visible = {
+
+
+		has_equipment = {
+     motorized_equipment_2 > 1099
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -2974,6 +3402,11 @@ remove_effect = {
 
 		visible = {
 
+
+		has_equipment = {
+     motorized_equipment_2 > 1599
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = mot_sale
@@ -3021,6 +3454,11 @@ remove_effect = {
 			
 
 		visible = {
+
+
+		has_equipment = {
+     motorized_equipment_2 > 2099
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -3077,6 +3515,11 @@ remove_effect = {
 
 		visible = {
 
+
+		has_equipment = {
+     motorized_equipment_3 > 599
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = mot_sale
@@ -3124,6 +3567,11 @@ remove_effect = {
 			
 
 		visible = {
+
+
+		has_equipment = {
+     motorized_equipment_3 > 1099
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -3174,6 +3622,11 @@ remove_effect = {
 
 		visible = {
 
+
+		has_equipment = {
+     motorized_equipment_3 > 1599
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = mot_sale
@@ -3221,6 +3674,11 @@ remove_effect = {
 			
 
 		visible = {
+
+
+		has_equipment = {
+     motorized_equipment_3 > 2099
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -3416,6 +3874,10 @@ priority = 968
 
 		visible = {
 
+		has_equipment = {
+    support_equipment_1 > 999
+}
+
 				AND = {
     has_country_flag = open_sesame
 
@@ -3468,6 +3930,10 @@ remove_effect = {
 
 		visible = {
 
+		has_equipment = {
+    support_equipment_1 > 1999
+}
+
 				AND = {
     has_country_flag = open_sesame
 
@@ -3519,6 +3985,9 @@ remove_effect = {
 
 		visible = {
 
+has_equipment = {
+    support_equipment_1 > 3999
+}
 				AND = {
     has_country_flag = open_sesame
 
@@ -3569,6 +4038,10 @@ remove_effect = {
 			
 
 		visible = {
+
+		has_equipment = {
+    support_equipment_1 > 6499
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -3772,6 +4245,14 @@ priority = 952
 
 		visible = {
 
+
+			has_equipment = {
+    APC_equipment_0 > 149
+}
+
+
+	
+
 				AND = {
     has_country_flag = open_sesame
 
@@ -3823,6 +4304,11 @@ remove_effect = {
 
 		visible = {
 
+
+			has_equipment = {
+    APC_equipment_0 > 349
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = apc_sale
@@ -3870,6 +4356,11 @@ remove_effect = {
 			
 
 		visible = {
+
+
+			has_equipment = {
+    APC_equipment_0 > 599
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -3920,6 +4411,11 @@ priority = 950
 
 		visible = {
 
+
+			has_equipment = {
+    APC_equipment_0 > 899
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = apc_sale
@@ -3958,7 +4454,7 @@ remove_effect = {
  
 
 
-	sell_apc_2_rank_1 = {
+	sell_apc_2_rank_1 = {   
 
 	priority = 949
 
@@ -3971,6 +4467,11 @@ remove_effect = {
 			
 
 		visible = {
+
+
+			has_equipment = {
+    APC_equipment_1 > 149
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -4021,6 +4522,11 @@ remove_effect = {
 
 		visible = {
 
+
+			has_equipment = {
+    APC_equipment_1 > 349
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = apc_sale
@@ -4068,6 +4574,11 @@ remove_effect = {
 			
 
 		visible = {
+
+
+			has_equipment = {
+    APC_equipment_1 > 599
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -4118,6 +4629,11 @@ priority = 946
 
 		visible = {
 
+
+			has_equipment = {
+    APC_equipment_1 > 899
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = apc_sale
@@ -4155,7 +4671,7 @@ remove_effect = {
 	
 
 
-	sell_apc_3_rank_1 = {
+	sell_apc_3_rank_1 = { 
 
 	priority = 945
 
@@ -4169,6 +4685,11 @@ remove_effect = {
 			
 
 		visible = {
+
+
+			has_equipment = {
+    APC_equipment_2 > 149
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -4218,6 +4739,11 @@ remove_effect = {
 
 		visible = {
 
+
+			has_equipment = {
+    APC_equipment_2 > 349
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = apc_sale
@@ -4265,6 +4791,11 @@ remove_effect = {
 			
 
 		visible = {
+
+
+			has_equipment = {
+    APC_equipment_2 > 599
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -4314,6 +4845,11 @@ remove_effect = {
 
 		visible = {
 
+
+			has_equipment = {
+    APC_equipment_2 > 899
+}
+
 				AND = {
     has_country_flag = open_sesame
 
@@ -4357,7 +4893,7 @@ remove_effect = {
 #APC 3
 
 
-	sell_apc_4_rank_1 = {
+	sell_apc_4_rank_1 = {   
 
 	priority = 939
 
@@ -4371,6 +4907,10 @@ remove_effect = {
 			
 
 		visible = {
+
+		has_equipment = {
+    APC_equipment_3 > 149
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -4420,6 +4960,10 @@ remove_effect = {
 
 		visible = {
 
+		has_equipment = {
+    APC_equipment_3 > 349
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = apc_sale
@@ -4468,6 +5012,10 @@ remove_effect = {
 
 		visible = {
 
+		has_equipment = {
+    APC_equipment_3 > 599
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = apc_sale
@@ -4515,6 +5063,10 @@ remove_effect = {
 			
 
 		visible = {
+
+		has_equipment = {
+    APC_equipment_3 > 899
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -4703,6 +5255,11 @@ priority = 927
 
 		visible = {
 
+			has_equipment = {
+    artillery_equipment_2 > 349 
+}
+
+
 				AND = {
     has_country_flag = open_sesame
 
@@ -4754,6 +5311,10 @@ remove_effect = {
 
 		visible = {
 
+			has_equipment = {
+    artillery_equipment_2 > 799 
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = art_sale 
@@ -4801,6 +5362,10 @@ remove_effect = {
 			
 
 		visible = {
+
+			has_equipment = {
+    artillery_equipment_2 > 1499 
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -4850,6 +5415,10 @@ priority = 924
 			
 
 		visible = {
+
+			has_equipment = {
+    artillery_equipment_2 > 1999 
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -4903,6 +5472,10 @@ priority = 924
 
 		visible = {
 
+			has_equipment = {
+    artillery_equipment_3 > 349 
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = art_sale 
@@ -4952,6 +5525,10 @@ priority = 924
 
 		visible = {
 
+			has_equipment = {
+    artillery_equipment_3 > 799 
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = art_sale 
@@ -4999,6 +5576,10 @@ remove_effect = {
 			
 
 		visible = {
+
+			has_equipment = {
+    artillery_equipment_3 > 1499 
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -5049,6 +5630,10 @@ priority = 924
 
 		visible = {
 
+			has_equipment = {
+    artillery_equipment_3 > 1999 
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = art_sale 
@@ -5093,13 +5678,17 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    artillery_equipment_4 > 349
+    artillery_equipment_4 > 349 
 }
 
 }
 			
 
 		visible = {
+
+			has_equipment = {
+    artillery_equipment_4 > 349 
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -5149,6 +5738,10 @@ remove_effect = {
 
 		visible = {
 
+			has_equipment = {
+    artillery_equipment_4 > 799 
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = art_sale 
@@ -5197,6 +5790,10 @@ remove_effect = {
 
 		visible = {
 
+			has_equipment = {
+    artillery_equipment_4 > 1499 
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = art_sale 
@@ -5244,6 +5841,10 @@ remove_effect = {
 			
 
 		visible = {
+
+			has_equipment = {
+    artillery_equipment_4 > 1999 
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -5426,14 +6027,14 @@ priority = 922
 	#transport antiair
 
 
-	sell_transport_antiair_1_rank_1 = {
+	sell_transport_antiair_1_rank_1 = {  
 
 	priority = 920
 
 
 
 		available = {
-			has_equipment = {
+			has_equipment = { 
     anti_air_equipment_1 > 349
 }
 
@@ -5441,6 +6042,13 @@ priority = 922
 			
 
 		visible = {
+
+		has_equipment = {
+    anti_air_equipment_1 > 349
+}
+
+
+
 
 				AND = {
     has_country_flag = open_sesame
@@ -5491,7 +6099,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
+
+
+			has_equipment = {
+    anti_air_equipment_1 > 799
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -5539,7 +6152,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
+
+
+			has_equipment = {
+    anti_air_equipment_1 > 1499
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -5588,7 +6206,12 @@ priority = 920
 }
 			
 
-		visible = {
+			visible = {
+
+
+			has_equipment = {
+    anti_air_equipment_1 > 1999
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -5633,14 +6256,19 @@ remove_effect = {
 priority = 920
 
 		available = {
-			has_equipment = {
+			has_equipment = {  
     anti_air_equipment_2 > 349 
 }
 
 }
 			
 
-		visible = {
+			visible = {
+
+
+			has_equipment = {
+    anti_air_equipment_2 > 349
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -5689,7 +6317,12 @@ priority = 920
 }
 			
 
-		visible = {
+			visible = {
+
+
+			has_equipment = {
+    anti_air_equipment_12 > 799
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -5737,7 +6370,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
+
+
+			has_equipment = {
+    anti_air_equipment_12 > 1499
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -5786,7 +6424,12 @@ priority = 920
 }
 			
 
-		visible = {
+			visible = {
+
+
+			has_equipment = {
+    anti_air_equipment_12 > 1999
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -5825,7 +6468,7 @@ remove_effect = {
 
 
 
-	sell_transport_antiair_3_rank_1 = {
+	sell_transport_antiair_3_rank_1 = { 
 
 	priority = 920
 
@@ -5838,7 +6481,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
+
+
+			has_equipment = {
+    anti_air_equipment_3 > 349
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -5886,7 +6534,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
+
+
+			has_equipment = {
+    anti_air_equipment_3 > 799
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -5934,7 +6587,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
+
+
+			has_equipment = {
+    anti_air_equipment_3 > 1499
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -5982,7 +6640,12 @@ remove_effect = {
 }
 			
 
-		visible = {
+			visible = {
+
+
+			has_equipment = {
+    anti_air_equipment_3 > 1999
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -6210,6 +6873,10 @@ priority = 917
 
 		visible = {
 
+		has_equipment = {
+    helicopter_equipment_0 > 49
+}
+
 				AND = {
     has_country_flag = open_sesame
 
@@ -6261,6 +6928,10 @@ remove_effect = {
 
 		visible = {
 
+		has_equipment = {
+    helicopter_equipment_0 > 99
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = heli_sale 
@@ -6308,6 +6979,10 @@ remove_effect = {
 			
 
 		visible = {
+
+		has_equipment = {
+    helicopter_equipment_0 > 299
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -6357,6 +7032,10 @@ priority = 912
 			
 
 		visible = {
+
+		has_equipment = {
+    helicopter_equipment_0 > 799
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -6410,6 +7089,10 @@ priority = 912
 
 		visible = {
 
+		has_equipment = {
+    helicopter_equipment_1  > 49 
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = heli_sale 
@@ -6459,6 +7142,10 @@ priority = 912
 
 		visible = {
 
+		has_equipment = {
+    helicopter_equipment_1  > 99 
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = heli_sale 
@@ -6506,6 +7193,10 @@ remove_effect = {
 			
 
 		visible = {
+
+		has_equipment = {
+    helicopter_equipment_1  > 299 
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -6556,6 +7247,10 @@ priority = 912
 
 		visible = {
 
+		has_equipment = {
+    helicopter_equipment_1  > 799 
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = heli_sale 
@@ -6600,7 +7295,7 @@ remove_effect = {
 
 		available = {
 			has_equipment = {
-    transport_helicopter_equipment_1  > 49
+    transport_helicopter_equipment_1  > 49 
 }
 
 }
@@ -6608,6 +7303,9 @@ remove_effect = {
 
 		visible = {
 
+   has_equipment = {
+    transport_helicopter_equipment_1  > 49 
+}
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = heli_sale 
@@ -6655,6 +7353,10 @@ remove_effect = {
 			
 
 		visible = {
+
+		as_equipment = {
+    transport_helicopter_equipment_1  > 99 
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -6704,6 +7406,10 @@ remove_effect = {
 
 		visible = {
 
+		as_equipment = {
+    transport_helicopter_equipment_1  > 299 
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = heli_sale 
@@ -6751,6 +7457,10 @@ remove_effect = {
 			
 
 		visible = {
+
+		as_equipment = {
+    transport_helicopter_equipment_1  > 799 
+}
 
 				AND = {
     has_country_flag = open_sesame
