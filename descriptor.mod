@@ -7,5 +7,8 @@ dependencies={
 tags={
 	"Gameplay"
 }
+
+picture="thumbnail.png"
+
 name="tno-market-submod"
 supported_version="1.11.12"

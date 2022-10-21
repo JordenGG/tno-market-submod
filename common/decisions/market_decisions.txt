@@ -7354,7 +7354,9 @@ remove_effect = {
 
 		visible = {
 
-		as_equipment = {
+
+
+		has_equipment = {
     transport_helicopter_equipment_1  > 99 
 }
 
@@ -7406,7 +7408,7 @@ remove_effect = {
 
 		visible = {
 
-		as_equipment = {
+		has_equipment = {
     transport_helicopter_equipment_1  > 299 
 }
 
@@ -7458,7 +7460,7 @@ remove_effect = {
 
 		visible = {
 
-		as_equipment = {
+		has_equipment = {
     transport_helicopter_equipment_1  > 799 
 }
 
@@ -7520,6 +7522,10 @@ remove_effect = {
 
 		visible = {
 
+		has_equipment = {
+    transport_helicopter_equipment_2  > 49
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = heli_sale 
@@ -7567,6 +7573,10 @@ remove_effect = {
 			
 
 		visible = {
+
+		has_equipment = {
+    transport_helicopter_equipment_2  > 99
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -7616,6 +7626,10 @@ remove_effect = {
 
 		visible = {
 
+		has_equipment = {
+    transport_helicopter_equipment_2  > 299
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = heli_sale 
@@ -7663,6 +7677,10 @@ remove_effect = {
 			
 
 		visible = {
+
+		has_equipment = {
+    transport_helicopter_equipment_2  > 799
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -7722,6 +7740,10 @@ remove_effect = {
 
 		visible = {
 
+		has_equipment = {
+    attack_helicopter_equipment_1  > 49
+}
+
 				AND = {
     has_country_flag = open_sesame
 
@@ -7773,6 +7795,10 @@ remove_effect = {
 
 		visible = {
 
+		has_equipment = {
+    attack_helicopter_equipment_1  > 99
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = heli_sale 
@@ -7820,6 +7846,10 @@ remove_effect = {
 			
 
 		visible = {
+
+		has_equipment = {
+    attack_helicopter_equipment_1  > 299
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -7869,6 +7899,10 @@ priority = 912
 			
 
 		visible = {
+
+		has_equipment = {
+    attack_helicopter_equipment_1  > 799
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -7922,6 +7956,9 @@ priority = 912
 
 		visible = {
 
+		has_equipment = {
+    attack_helicopter_equipment_2  > 49 
+}
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = heli_sale 
@@ -7971,6 +8008,10 @@ priority = 912
 
 		visible = {
 
+		has_equipment = {
+    attack_helicopter_equipment_2  > 99 
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = heli_sale 
@@ -8018,6 +8059,10 @@ remove_effect = {
 			
 
 		visible = {
+
+		has_equipment = {
+    attack_helicopter_equipment_2  > 299 
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -8067,6 +8112,10 @@ priority = 912
 			
 
 		visible = {
+
+		has_equipment = {
+    attack_helicopter_equipment_2  > 799 
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -8124,6 +8173,10 @@ remove_effect = {
 
 		visible = {
 
+		has_equipment = {
+    scout_helicopter_equipment_1  > 49
+}
+
 				AND = {
     has_country_flag = open_sesame
 
@@ -8175,6 +8228,10 @@ remove_effect = {
 
 		visible = {
 
+		has_equipment = {
+    scout_helicopter_equipment_1  > 99
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = heli_sale 
@@ -8222,6 +8279,10 @@ remove_effect = {
 			
 
 		visible = {
+
+		has_equipment = {
+    scout_helicopter_equipment_1  > 299
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -8271,6 +8332,10 @@ priority = 912
 			
 
 		visible = {
+
+		has_equipment = {
+    scout_helicopter_equipment_1  > 799
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -8324,6 +8389,10 @@ priority = 912
 
 		visible = {
 
+has_equipment = {
+    scout_helicopter_equipment_2  > 49 
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = heli_sale 
@@ -8373,6 +8442,10 @@ priority = 912
 
 		visible = {
 
+		has_equipment = {
+    scout_helicopter_equipment_2  > 99 
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = heli_sale 
@@ -8420,6 +8493,11 @@ remove_effect = {
 			
 
 		visible = {
+
+
+		has_equipment = {
+    scout_helicopter_equipment_2  > 299 
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -8469,6 +8547,10 @@ priority = 912
 			
 
 		visible = {
+
+		has_equipment = {
+    scout_helicopter_equipment_2  > 799 
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -8545,6 +8627,10 @@ remove_effect = {
 
 		visible = {
 
+		has_equipment = {
+    asw_helicopter_equipment_1  > 49
+}
+
 				AND = {
     has_country_flag = open_sesame
 
@@ -8596,6 +8682,10 @@ remove_effect = {
 
 		visible = {
 
+		has_equipment = {
+    asw_helicopter_equipment_1  > 99
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = heli_sale 
@@ -8643,6 +8733,10 @@ remove_effect = {
 			
 
 		visible = {
+
+		has_equipment = {
+    asw_helicopter_equipment_1  > 299
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -8692,6 +8786,10 @@ priority = 912
 			
 
 		visible = {
+
+		has_equipment = {
+    asw_helicopter_equipment_1  > 799
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -8745,6 +8843,10 @@ priority = 912
 
 		visible = {
 
+			has_equipment = {
+    asw_helicopter_equipment_2  > 49 
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = heli_sale 
@@ -8794,6 +8896,10 @@ priority = 912
 
 		visible = {
 
+			has_equipment = {
+    asw_helicopter_equipment_2  > 99 
+}
+
 				AND = {
     has_country_flag = open_sesame
     	 has_country_flag = heli_sale 
@@ -8841,6 +8947,10 @@ remove_effect = {
 			
 
 		visible = {
+
+			has_equipment = {
+    asw_helicopter_equipment_2  > 299 
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -8890,6 +9000,10 @@ priority = 912
 			
 
 		visible = {
+
+			has_equipment = {
+    asw_helicopter_equipment_2  > 799 
+}
 
 				AND = {
     has_country_flag = open_sesame
@@ -8987,6 +9101,20 @@ priority = 884
 			
 
 		visible = {
+
+		NOT = { original_tag = AMR
+
+               original_tag = MAG
+    
+               original_tag = IKR 
+
+               original_tag = CHT 
+
+               original_tag = BRY
+
+
+               }
+		
 			 has_country_flag = open_sesame
 
 			 NOT = { has_country_flag = convoy_sale }
