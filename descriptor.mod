@@ -1,14 +1,11 @@
 version="1.11.12"
-
 dependencies={
 	"The New Order: Last Days of Europe"
 }
-
 tags={
 	"Gameplay"
 }
-
 picture="thumbnail.png"
-
-name="tno-market-submod"
-supported_version="1.11.12"
+name="The New order: Arms Trade & Market Decisions"
+supported_version="1.12.6"
+remote_file_id="2896426935"
