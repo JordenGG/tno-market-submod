@@ -224,14 +224,6 @@ technology_folders = {
 	electronics_folder = {
 		ledger = civilian
 	}
-
-	#economy submod
-
-	economy_folder = {
-		ledger = civilian
-	}
-
-
 	horse_folder = {
 		ledger = army
 		available = {
