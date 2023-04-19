@@ -1,4 +1,4 @@
-version="1.3.0d"
+version="1.2.9d"
 dependencies={
 	"The New Order: Last Days of Europe"
 }
