@@ -18,7 +18,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "possible_constructions"
 			position = { x = 400 y = 0 }
-			size = { width = 158 height = 850 }
+			size = { width = 158 height = 800 }
 			clipping = no
 
 			background = {
@@ -104,18 +104,18 @@ guiTypes = {
 
 			iconType = {
 				name = "constructions_bg3"
-				position = { x = 41 y = 610 }
+				position = { x = 41 y = 580 }
 				quadTextureSprite = "GFX_constructions_bg2"
 			}
 			iconType = {
 				name = "constructions_bg3_2"
-				position = { x = 41 y = 610 }
+				position = { x = 41 y = 625 }
 				quadTextureSprite = "GFX_constructions_bg2"
 			}
 
 			gridBoxType = {
 				name = "province_item_grid"
-				position = { x = 48 y = 660 }
+				position = { x = 48 y = 623 }
 				size = { width = 100% height = 100% }
 				slotsize = { width = 46 height = 44 }
 				max_slots_horizontal = 2
@@ -124,14 +124,14 @@ guiTypes = {
 
 			iconType = {
 				name = "province_constructions"
-				position = { x = 35 y = 590 }
+				position = { x = 35 y = 580 }
 				quadTextureSprite = "GFX_province_constructions"
 				alwaystransparent = yes
 			}
 
 			instantTextBoxType = {
 				name = "province_text"
-				position = { x = 82 y = 600 }
+				position = { x = 82 y = 590 }
 				font = "Bomb_16"
 				text = countryconstructionsview_province_text
 				alwaystransparent = yes
