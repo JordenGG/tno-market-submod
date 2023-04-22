@@ -28,10 +28,6 @@ buildings = {
 		value = 2
 		allied_build = yes
 		infrastructure_construction_effect = yes
-
-		state_GDP_growth_factor_modifier = 0.01
-
-		show_modifier = yes
 	}
 
 
