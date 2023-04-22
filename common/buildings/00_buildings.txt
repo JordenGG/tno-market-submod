@@ -17,23 +17,6 @@ buildings = {
 		allied_build = yes
 	}
 
-
-	############economic submod############
-
-	commercial_centers = {
-		show_on_map = 0
-		base_cost = 1
-		icon_frame = 24
-		max_level = 1
-		value = 2
-		allied_build = yes
-		infrastructure_construction_effect = yes
-	}
-
-
-	############END############
-
-
 	arms_factory = {
 		show_on_map = 6
 		base_cost = 7200
