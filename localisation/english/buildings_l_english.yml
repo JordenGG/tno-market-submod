@@ -3,21 +3,20 @@
   #Economic Submod
 
  commercial_centers:0 "Commercial Centers"
- commercial_centers_desc:1 "XXX"
+commercial_centers_desc:1 ""
 
  industries:0 "Industries"
- industries_desc:1 "XXX"
+ industries_desc:1 ""
 
 
  housing:0 "Housing"
- housing_desc:1  "XXX"
+ housing_desc:1  ""
 
  
 
  tourist_attractions:0 "Tourist Attractions"
- tourist_attractions_desc:1 "XXX"
-
-
+ tourist_attractions_desc:1 ""
+ 
 
 
 
