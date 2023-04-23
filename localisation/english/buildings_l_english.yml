@@ -3,21 +3,19 @@
   #Economic Submod
 
  commercial_centers:0 "Commercial Centers"
- commercial_centers_desc:1 "This building provides the state with improvement of infrastructure. It increases your supply power in strategic regions and increases your divisions' speed, as well as increasing your raw resource extraction."
-
+ commercial_centers_desc:1 "XXX"
 
  industries:0 "Industries"
- industries_desc:1 "This building provides the state with improvement of infrastructure. It increases your supply power in strategic regions and increases your divisions' speed, as well as increasing your raw resource extraction."
+ industries_desc:1 "XXX"
 
 
  housing:0 "Housing"
- housing_desc:1 "This building provides the state with improvement of infrastructure. It increases your supply power in strategic regions and increases your divisions' speed, as well as increasing your raw resource extraction."
+ housing_desc:1  "XXX"
 
+ 
 
  tourist_attractions:0 "Tourist Attractions"
- tourist_attractions_desc:1 "This building provides the state with improvement of infrastructure. It increases your supply power in strategic regions and increases your divisions' speed, as well as increasing your raw resource extraction."
-
-
+ tourist_attractions_desc:1 "XXX"
 
 
 
