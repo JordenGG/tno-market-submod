@@ -175,14 +175,14 @@ buildings = {
 
 	commercial_centers = {
 		show_on_map = 0
-		base_cost = 1
+		base_cost = 65000
 		icon_frame = 24
 		max_level = 1
 		value = 2
 		allied_build = yes
 		infrastructure_construction_effect = yes
 
-		state_GDP_growth_factor_modifier = 0.01
+		state_GDP_growth_factor_modifier = 0.0625
 
 		show_modifier = yes
 	}
@@ -190,14 +190,14 @@ buildings = {
 
 	industries = {
 		show_on_map = 0
-		base_cost = 1
+		base_cost = 65000
 		icon_frame = 26
 		max_level = 1
 		value = 2
 		allied_build = yes
 		infrastructure_construction_effect = yes
 
-		state_GDP_growth_factor_modifier = 0.01
+		state_GDP_growth_factor_modifier = 0.0625
 
 		show_modifier = yes
 	}
@@ -205,14 +205,14 @@ buildings = {
 
 	housing = {
 		show_on_map = 0
-		base_cost = 1
+		base_cost = 65000
 		icon_frame = 25
 		max_level = 1
 		value = 2
 		allied_build = yes
 		infrastructure_construction_effect = yes
 
-		state_GDP_growth_factor_modifier = 0.01
+		state_GDP_growth_factor_modifier = 0.0625
 
 		show_modifier = yes
 	}
@@ -220,14 +220,14 @@ buildings = {
 
 	tourist_attractions = {
 		show_on_map = 0
-		base_cost = 1
+		base_cost = 65000
 		icon_frame = 27
 		max_level = 1
 		value = 2
 		allied_build = yes
 		infrastructure_construction_effect = yes
 
-		state_GDP_growth_factor_modifier = 0.01
+		state_GDP_growth_factor_modifier = 0.0625
 
 		show_modifier = yes
 	}

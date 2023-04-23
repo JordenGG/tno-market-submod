@@ -1,7 +1,33 @@
 ﻿l_english:
+
+  #Economic Submod
+
+ commercial_centers:0 "Commercial Centers"
+ commercial_centers_desc:1 "This building provides the state with improvement of infrastructure. It increases your supply power in strategic regions and increases your divisions' speed, as well as increasing your raw resource extraction."
+
+
+ industries:0 "Industries"
+ industries_desc:1 "This building provides the state with improvement of infrastructure. It increases your supply power in strategic regions and increases your divisions' speed, as well as increasing your raw resource extraction."
+
+
+ housing:0 "Housing"
+ housing_desc:1 "This building provides the state with improvement of infrastructure. It increases your supply power in strategic regions and increases your divisions' speed, as well as increasing your raw resource extraction."
+
+
+ tourist_attractions:0 "Tourist Attractions"
+ tourist_attractions_desc:1 "This building provides the state with improvement of infrastructure. It increases your supply power in strategic regions and increases your divisions' speed, as well as increasing your raw resource extraction."
+
+
+
+
+
+
+
+
+
  infrastructure:0 "Infrastructure"
  infrastructure_plural:0 "Infrastructure"
- infrastructure_desc:1 "This building provides the state with improvement of infrastructure. It increases your supply power in strategic regions and increases your divisions' speed, as well as increasing your raw resource extraction."
+ infrastructure_desc:1 "This building provides the state with improvement of infrastructure. It increases your supply power in strategic regions and increases your divisions' speed and increaseas your raw resource extracted from the state it it build on, \n\nStates with high infrastructure will be able to build other buildings faster and High infrastructure also contributes to GDP growth"
  arms_factory:0 "Military Factory"
  arms_factory_plural:0 "Military Factories"
  arms_factory_desc:0 "This building provides the state with industry for production of new military equipment. Can be converted to civilian industry if needed.\n\nMonthly Operational Costs: §Y52 Million USD§!"
@@ -56,13 +82,13 @@
  schools_desc:0 "The construction of schools is only part of the project of creating an educated, well-informed base of citizens. Establishing transportation to get children to school, keeping them well-supplied, and scholarships to encourage entrance into higher education are all just as vital to the development of our nation's workbase and intelligentsia. Physical construction and the funding of educational institutions all are counted as educational expenditure, and the costs of these will increase as our ambitions do.\n\nGrid Power Consumption: §R-0.5§! £power_texticon."
  hospitals:0 "Hospital"
  hospitals_plural:0 "Hospitals"
- hospitals_desc:0 "A healthy people is a productive people, and one that is content. Whatever the policy on public health is, having funded and responsive emergency services is a must, and the state can intervene in the sphere of health in any number of ways. The more direct our hand in all of this is, the more expensive it's going to be to maintain and expand our services, whatever the benefits of it may be.\n\nGrid Power Consumption: §R-0.5§! £power_texticon."
+ hospitals_desc:0 "A healthy population is a productive population. Whatever the policy on public health is, having funded and responsive emergency services is a must, and the state can intervene in the sphere of health in any number of ways. The more direct our hand in all of this is, the more expensive it's going to be to maintain and expand our services, whatever the benefits of it may be.\n\nGrid Power Consumption: §R-0.5§! £power_texticon."
  barracks:0 "Military Base"
  barracks_plural:0 "Military Bases"
  barracks_desc:0 "Amateurs study tactics, professionals study logistics. That old maxim has some truth to it, after all, since the First World War, he who mobilizes first for a conflict has the upper hand. The expense of keeping ahead on the logistical front can be great, from the building and maintaining of forts and airbases to upgrading and maintaining military equipment, we will be all the more thankful for it when the time does come for our armed forces to take the field.\n\nGrid Power Consumption: §R-0.5§! £power_texticon."
  offices:0 "Administrative Office"
  offices_plural:0 "Administrative Offices"
- offices_desc:0 "Bureaucrats. Can't live with them, can't live without them. The very apparatus of the state is entirely dependent upon their performance at the end of the day. In order to keep the state moving smoothly and without corruption, we're going to need to keep our state departments well-funded and well-staffed. This can be expensive, and it will be all the more expensive as the state takes on additional responsibilities.\n\nGrid Power Consumption: §R-0.5§! £power_texticon."
+ offices_desc:0 "Bureaucrats, Can't live with them. The very apparatus of the state is entirely dependent upon their performance at the end of the day. In order to keep the state moving smoothly and without corruption, we're going to need to keep our state departments well-funded and well-staffed. This can be expensive, and it will be all the more expensive as the state takes on additional responsibilities.\n\nGrid Power Consumption: §R-0.5§! £power_texticon."
  prisons:0 "Prison"
  prisons_plural:0 "Prisons"
  prisons_desc:0 "Law and order are difficult to maintain in the modern day. The line against chaos is often thin and tenuous, drawn in the sand with only our police forces and their support networks to hold it. Funding of police forces only goes so far, however, with maintenance and expansion of prisons, the involvement of non-police assistance, and other methods of crimefighting and prevention, there are a great many thing to invest funding in that will ultimately help either prevent or stop crime in our country.\n\nGrid Power Consumption: §R-0.5§! £power_texticon."
