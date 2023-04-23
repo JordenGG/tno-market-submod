@@ -7,5 +7,5 @@ tags={
 }
 picture="thumbnail.png"
 name="The New order: Arms Trade & Market Decisions (dev version)"
-supported_version="1.12.*"
+supported_version="1.12.11"
 remote_file_id="2896426935"
