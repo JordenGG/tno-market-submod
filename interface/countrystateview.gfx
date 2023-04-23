@@ -184,19 +184,19 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_buildings_strip_crt"
 		textureFile = "gfx/interface/buildings/building_icon_strip_crt.dds"
-		noOfFrames = 24
+		noOfFrames = 27
 	}
 
 	spriteType = {
 		name = "GFX_buildings_strip_metal"
 		textureFile = "gfx/interface/buildings/building_icon_strip_metal.dds"
-		noOfFrames = 24
+		noOfFrames = 27
 	}
 
 	spriteType = {
 		name = "GFX_buildings_strip"
 		textureFile = "gfx/interface/buildings/building_icon_strip_metal.dds"
-		noOfFrames = 24
+		noOfFrames = 27
 	}
 
 	spriteType = {
