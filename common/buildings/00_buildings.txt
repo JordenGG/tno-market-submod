@@ -182,7 +182,7 @@ buildings = {
 		allied_build = yes
 		infrastructure_construction_effect = yes
 
-		state_GDP_growth_factor_modifier = 0.0625
+		state_GDP_growth_factor_modifier = 0.065
 
 		show_modifier = yes
 	}
@@ -197,7 +197,7 @@ buildings = {
 		allied_build = yes
 		infrastructure_construction_effect = yes
 
-		state_GDP_growth_factor_modifier = 0.0625
+		state_GDP_growth_factor_modifier = 0.065
 
 		show_modifier = yes
 	}
@@ -212,7 +212,7 @@ buildings = {
 		allied_build = yes
 		infrastructure_construction_effect = yes
 
-		state_GDP_growth_factor_modifier = 0.0625
+		state_GDP_growth_factor_modifier = 0.065
 
 		show_modifier = yes
 	}
@@ -227,7 +227,7 @@ buildings = {
 		allied_build = yes
 		infrastructure_construction_effect = yes
 
-		state_GDP_growth_factor_modifier = 0.0625
+		state_GDP_growth_factor_modifier = 0.065
 
 		show_modifier = yes
 	}

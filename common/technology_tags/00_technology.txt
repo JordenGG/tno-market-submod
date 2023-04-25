@@ -229,6 +229,10 @@ technology_folders = {
 
 	economy_folder = {
 		ledger = civilian
+
+		available = {
+			original_tag = zzz
+		}
 	}
 
 

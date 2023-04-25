@@ -4389,10 +4389,10 @@ guiTypes = {
 
 			buttonType = {
 				name = "economy_folder_tab"
-				position = { x = 1267 y = 0 }
-				quadTextureSprite = "GFX_infantry_folder_tab"
+				position = { x = 1190 y = 0 }
+				quadTextureSprite = "GFX_economy_folder_tab"
 				frame = 1
-				clicksound = ui_research_tab_infantry
+				clicksound = ui_research_tab_engineering
 			}
 
 			### ARMY ###
@@ -4498,7 +4498,7 @@ guiTypes = {
 			}
 
 			buttonType = {
-				position = { x = 1467 y = 0 }
+				position = { x = 1355 y = 0 }
 				name = "horse_folder_tab"
 				quadTextureSprite = "GFX_horse_folder_tab"
 				frame = 1
@@ -5917,36 +5917,39 @@ guiTypes = {
 
 	containerWindowType = {
     name = "techtree_economy_folder_item"
-    position = { x=0 y=47 }
-    size = { width = 100%% height = 100%% }
-    margin = { top = 13 left = 13 bottom = 24 right = 25}
-    drag_scroll = { left middle }
-    verticalScrollbar = "right_vertical_slider"
-    horizontalScrollbar = "bottom_horizontal_slider"
-    scroll_wheel_factor = 40
-    background = {
-        name = "Background"
-        quadTextureSprite ="GFX_tiled_window_2b_border"
-    }
-    iconType = {
-        name ="Icon"
-        spriteType = "GFX_my_techtree_bg"
-        position = { x=0 y=0 }
-    }
-    gridboxtype = {
-        name = "my_technology_1_tree"
-        position = { x = 150 y = 60}
-        size = { width = 100 height = 140 }
-        slotsize = { width = 70 height = 70 }
-        format = "LEFT"
-    }
-    gridboxtype = {
-        name = "my_technology_2_tree"
-        position = { x = 150 y = 360 }
-        size = { width = 100 height = 140 }
-        slotsize = { width = 70 height = 70 }
-        format = "LEFT"
-    }
+   name = "techtree_electronics_folder_item"
+		position = { x = -1 y = -1 }
+		size = { width = 204 height = 72 }
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_technology_unavailable_item_bg"
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x = 36 y = 36 }
+			spriteType = "GFX_technology_medium"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "bonus_icon"
+			position = { x = -2 y = -22 }
+			spriteType = "GFX_tech_bonus"
+		}
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = 3 y = -23 }
+			textureFile = ""
+			font = "aldrich_20_outline"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 65
+			maxHeight = 20
+			format = right
+		}
 }
 
 
