@@ -50,6 +50,8 @@ tax_cut_dynmod = {
 credit_rating_dynmod = {
 	stability_factor = stability_from_credit_rating
 	deficit_political_power_cost_modifier = pp_gain_from_credit_rating
+	trade_opinion_factor  = trade_opinion_gain_from_credit_rating
+
 }
 
 below_minimum_army_size_dynmod = {

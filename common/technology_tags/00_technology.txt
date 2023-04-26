@@ -231,7 +231,7 @@ technology_folders = {
 		ledger = civilian
 
 		available = {
-			original_tag = zzz
+			original_tag = far
 		}
 	}
 

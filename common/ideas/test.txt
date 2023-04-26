@@ -21,6 +21,7 @@ test_1 = {
 
 			modifier = {
 				deficit_political_power_cost_modifier = -0.85
+				trade_opinion_factor = 0.5
 
 			}
 		}

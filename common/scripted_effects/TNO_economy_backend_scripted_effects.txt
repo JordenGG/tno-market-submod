@@ -6157,6 +6157,7 @@ apply_credit_rating_effects = {
 			set_variable = { stability_from_credit_rating = -0.2 }
 			set_variable = { credit_rating_effect_on_debt_GDP_effect = -0.5 }
 			set_variable = { pp_gain_from_credit_rating = -0.9 }
+			set_variable = { trade_opinion_gain_from_credit_rating = -1 }
 
 			set_variable = { credit_rating_effect_applied = 1 }
 		}
@@ -6170,6 +6171,7 @@ apply_credit_rating_effects = {
 			set_variable = { stability_from_credit_rating = -0.1 }
 			set_variable = { credit_rating_effect_on_debt_GDP_effect = -0.4 }
 			set_variable = { pp_gain_from_credit_rating = -0.8 }
+			set_variable = { trade_opinion_gain_from_credit_rating = -0.75 }
 
 			set_variable = { credit_rating_effect_applied = 2 }
 		}
@@ -6183,6 +6185,7 @@ apply_credit_rating_effects = {
 			set_variable = { stability_from_credit_rating = -0.075 }
 			set_variable = { credit_rating_effect_on_debt_GDP_effect = -0.3 }
 			set_variable = { pp_gain_from_credit_rating = -0.7 }
+			set_variable = { trade_opinion_gain_from_credit_rating = -0.5 }
 			
 
 			set_variable = { credit_rating_effect_applied = 3 }
@@ -6197,6 +6200,7 @@ apply_credit_rating_effects = {
 			set_variable = { stability_from_credit_rating = -0.05 }
 			set_variable = { credit_rating_effect_on_debt_GDP_effect = -0.2 }
 			set_variable = { pp_gain_from_credit_rating = -0.6 }
+			set_variable = { trade_opinion_gain_from_credit_rating = -0.25 }
 			
 
 			set_variable = { credit_rating_effect_applied = 4 }
@@ -6211,6 +6215,7 @@ apply_credit_rating_effects = {
 			set_variable = { stability_from_credit_rating = 0 }
 			set_variable = { credit_rating_effect_on_debt_GDP_effect = -0.1 }
 			set_variable = { pp_gain_from_credit_rating = -0.4 }
+			set_variable = { trade_opinion_gain_from_credit_rating = -0.1 }
 			
 
 			set_variable = { credit_rating_effect_applied = 5 }
@@ -6225,6 +6230,7 @@ apply_credit_rating_effects = {
 			set_variable = { stability_from_credit_rating = 0.05 }
 			set_variable = { credit_rating_effect_on_debt_GDP_effect = 0 }
 			set_variable = { pp_gain_from_credit_rating = -0.2 }
+			set_variable = { trade_opinion_gain_from_credit_rating = 0 }
 			
 
 			set_variable = { credit_rating_effect_applied = 6 }
@@ -6239,6 +6245,7 @@ apply_credit_rating_effects = {
 			set_variable = { stability_from_credit_rating = 0.05 }
 			set_variable = { credit_rating_effect_on_debt_GDP_effect = 0.05 }
 			set_variable = { pp_gain_from_credit_rating = 0 }
+			set_variable = { trade_opinion_gain_from_credit_rating = 0.1 }
 			
 
 			set_variable = { credit_rating_effect_applied = 7 }
@@ -6253,6 +6260,7 @@ apply_credit_rating_effects = {
 			set_variable = { stability_from_credit_rating = 0.05 }
 			set_variable = { credit_rating_effect_on_debt_GDP_effect = 0.1 }
 			set_variable = { pp_gain_from_credit_rating = 0.05 }
+			set_variable = { trade_opinion_gain_from_credit_rating = 0.15 }
 			
 
 			set_variable = { credit_rating_effect_applied = 8 }
@@ -6267,6 +6275,7 @@ apply_credit_rating_effects = {
 			set_variable = { stability_from_credit_rating = 0.05 }
 			set_variable = { credit_rating_effect_on_debt_GDP_effect = 0.15 }
 			set_variable = { pp_gain_from_credit_rating = 0.1 }
+			set_variable = { trade_opinion_gain_from_credit_rating = 0.3 }
 			
 
 			set_variable = { credit_rating_effect_applied = 9 }
@@ -6281,6 +6290,7 @@ apply_credit_rating_effects = {
 			set_variable = { stability_from_credit_rating = 0.05 }
 			set_variable = { credit_rating_effect_on_debt_GDP_effect = 0.25 }
 			set_variable = { pp_gain_from_credit_rating = 0.15 }
+			set_variable = { trade_opinion_gain_from_credit_rating = 0.5 }
 			
 
 			set_variable = { credit_rating_effect_applied = 10 }

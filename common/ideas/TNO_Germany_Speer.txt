@@ -1105,7 +1105,7 @@ ideas = {
 			picture = GER_made_in_germany
 			
 			modifier = {
-				annual_gdp_growth_factor = 0.02
+				annual_gdp_growth_factor = 0.05
 				stability_factor = 0.1
 				trade_opinion_factor = 0.5
 				drift_defence_factor = -0.5
@@ -1124,7 +1124,7 @@ ideas = {
 			picture = GER_made_in_germany
 			
 			modifier = {
-				annual_gdp_growth_factor = 0.01
+				annual_gdp_growth_factor = 0.025
 				stability_factor = 0.2
 				trade_opinion_factor = 0.3
 				drift_defence_factor = -0.3
