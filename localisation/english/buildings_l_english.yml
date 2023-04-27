@@ -3,19 +3,19 @@
   #Economic Submod
 
  commercial_centers:0 "Commercial Centers"
-commercial_centers_desc:1 ""
+commercial_centers_desc:1 "The sharp rise of the middle class in the late 19th to early 20th century as a result of the industrial revolution shaped modern economics, as the population became wealthier and on average could spend more on non-essential utilities, and the shopping center takes advantage of those changes. A complex full of shops that offer food, items of all types, and services. Which goes without saying, is very useful for increasing GDP."
 
  industries:0 "Industries"
- industries_desc:1 ""
+ industries_desc:1 "The Factory has replaced the Farm as the Global indicator for wealth. Whereas in the past a Country's Wealth was measured by the amount of arable land within its borders, in the modern age it is measured by the country's industrial capabilities.\n\nindustries are an essential for countries of the modern world. Industries that will improve the country's industrial output, generate jobs that will pull many people out of poverty, and will overall strengthen GDP, and the health of an economy."
 
 
  housing:0 "Housing"
- housing_desc:1  ""
+ housing_desc:1  "You don’t need to be a genius to understand why Housing is important. Housing is necessity for any human on the planet. And it is a major problem for an economy when housing cannot be provided efficiently. As people become homeless, they will most likely turn more to crime, and will be a leech on social programs (if there are any) and overall won't contribute much or actively harm the National economy."
 
  
 
  tourist_attractions:0 "Tourist Attractions"
- tourist_attractions_desc:1 ""
+ tourist_attractions_desc:1 "When a person Thinks of the word "Tourist" what often comes to mind is the idea of a foreign citizen coming to enjoy another country's offerings, but a Tourist can also be as simple at a person from the same country, or even the same city visiting an attraction and more importantly, spending money.\n\nThe benefits of Tourist attractions are obvious, being a relatively low effort and low skilled job that provides opportunity for employment. it allows many more businesses to open up and overall strengthens the GDP of the Region it is built in, and by extension improving the country's economic Growth and health as well."
  
 
 
