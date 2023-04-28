@@ -6,6 +6,6 @@ tags={
 	"Gameplay"
 }
 picture="thumbnail.png"
-name="The New order: Arms Trade & Market Decisions (dev version)"
-supported_version="1.12.11"
+name="The New order: Arms Trade & Market Decisions"
+supported_version="1.12.12"
 remote_file_id="2896426935"
