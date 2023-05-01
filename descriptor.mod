@@ -5,7 +5,6 @@ dependencies={
 tags={
 	"Gameplay"
 }
-picture="thumbnail.png"
-name="The New order: Arms Trade & Market Decisions (dev version)"
+name="TNO: Arms Trade & Expanded economy (dev version)"
 supported_version="1.12.12"
 remote_file_id="2896426935"
