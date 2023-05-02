@@ -3259,7 +3259,7 @@ calculate_power_plant_nominal_gdp_effect = {
 		}
 	}
 	divide_variable = { total_state_power_plant_effect = num_owned_states }
-	multiply_variable = { total_state_power_plant_effect = 0.025 }
+	multiply_variable = { total_state_power_plant_effect = 0.075 }
 }
 
 calculate_total_inflation = {
@@ -6386,7 +6386,7 @@ apply_central_bank_policy = {
 	
 	#policy 3
 	set_variable = { central_bank_power = central_bank_effectiveness_3 }
-	multiply_variable = { central_bank_power = 0.15 }
+	multiply_variable = { central_bank_power = 0.25 } #changed it Blase
 	set_variable = { central_bank_power_display = central_bank_power }
 	multiply_variable = { central_bank_power = resource@power }
 	round_variable = central_bank_power
