@@ -68,3 +68,10 @@ navy_size_dynmod = {
 	party_popularity_stability_factor = navy_size_party_popularity_stability_factor_gain
 	war_support_factor = navy_size_war_support_factor_gain
 }
+
+central_bank_policy_dynmod = {
+	industrial_capacity_factory = central_bank_policy_fac_output
+	industrial_capacity_dockyard = central_bank_policy_fac_output
+	production_factory_max_efficiency_factor = central_bank_policy_fac_output 
+	production_factory_efficiency_gain_factor = central_bank_policy_fac_output
+}

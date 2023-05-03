@@ -6352,10 +6352,10 @@ apply_central_bank_policy = {
 	#Policy 3
 	if = { # add to poverty reduction and gdp reduction counter
 		limit = { check_variable = { selected_central_bank_id = 3 } } 
-		add_to_variable = { central_bank_effectiveness_3 = 0.1 }
+		add_to_variable = { central_bank_effectiveness_3 = 0.25 }
 	} 
 	else = { # subtracts to poverty reduction and gdp reduction counter
-		subtract_from_variable = { central_bank_effectiveness_3 = 0.1 }
+		subtract_from_variable = { central_bank_effectiveness_3 = 0.25 }
 	}
 	clamp_variable = { var = central_bank_effectiveness_3 min = 0 max = 1 }
 
@@ -6391,11 +6391,15 @@ apply_central_bank_policy = {
 	multiply_variable = { central_bank_power = resource@power }
 	round_variable = central_bank_power
 	
+	set_variable = { central_bank_policy_fac_output = central_bank_effectiveness_3 }
+	divide_variable = { central_bank_policy_fac_output = 10 }
+
 	set_variable = { central_bank_effectiveness_3_gdp_cost = central_bank_effectiveness_3 }
 	divide_variable = { central_bank_effectiveness_3_gdp_cost = 2 }
 	set_variable = { central_bank_effectiveness_3_gdp_cost_display = central_bank_effectiveness_3_gdp_cost }
 	#divide_variable = { central_bank_effectiveness_3_gdp_cost_display = 10 }
 	subtract_from_variable = { gdp_growth = central_bank_effectiveness_3_gdp_cost }
+	add_dynamic_modifier = { modifier = central_bank_policy_dynmod }
 }
 
 
