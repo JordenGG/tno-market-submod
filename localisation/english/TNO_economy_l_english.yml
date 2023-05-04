@@ -121,6 +121,10 @@ central_bank_rate_txt: "§kCent. Bank Rate:§!"
 central_bank_rate_txt_number: "§W[?central_bank_rates_display|2]%§!"
 central_bank_policy_title_txt: "Central Bank Policy"
 
+#econ expanded
+
+ central_bank_policy_dynmod: "Central bank policy effects"
+
 econ_mil_spending_txt: "§SMil. Spending:§!"
 econ_mil_spending_txt_number: "§W$[?military_expenditures|2]B§!"
 
@@ -1360,7 +1364,7 @@ econ_sphere_name_ZV: "Zollverein"
 econ_sphere_name_JAP: "Co-Prosperity Sphere"
 econ_sphere_name_ITA: "Italian Sphere"
 econ_sphere_name_IBR: "Iberian Sphere"
-econ_sphere_name_USA: "American Sphere"
+econ_sphere_name_USA: "Customs union of the OFN"
 econ_sphere_name_ARG: "Argentinian Sphere"
 econ_sphere_name_BRA: "Brazilian Sphere"
 econ_sphere_name_MEX: "Pact of Veracruz"
@@ -1377,7 +1381,7 @@ econ_sphere_name_long_ZV: "Zollverein"
 econ_sphere_name_long_JAP: "Co-Prosperity Sphere"
 econ_sphere_name_long_ITA: "Italian Sphere"
 econ_sphere_name_long_IBR: "Iberian Sphere"
-econ_sphere_name_long_USA: "American Sphere"
+econ_sphere_name_long_USA: "Customs union of the OFN"
 econ_sphere_name_long_ARG: "Argentinian Sphere"
 econ_sphere_name_long_BRA: "Brazilian Sphere"
 econ_sphere_name_long_MEX: "Caribbean Pact for Mutual Prosperity"
@@ -1777,7 +1781,7 @@ Central_Bank_Policy_1_tt: "§F§G20%§! reduction of Base Inflation Rate, up to 
 Central_Bank_Policy_2: "Fight Poverty" #consider rename
 Central_Bank_Policy_2_tt: "§F§G0.10%§! monthly reduction of the national Poverty Rate, at the cost of §R0.5%§! decrease on nominal GDP Growth.\n\nThis policy is at [?central_bank_effectiveness_2|%Y0] effectiveness, decreasing poverty by §G[?central_bank_poverty_monthly_rate|2]%§! per month, and costing §R[?central_bank_effectiveness_2_gdp_cost_display|2]%§! GDP growth. It will improve over time reaching its best effects §W10§! months after it was enacted.§!"
 Central_Bank_Policy_3: "Power Things Up"
-Central_Bank_Policy_3_tt: "§F§G15.0%§! increase of our total £tt_power §YGrid Power§!, at the cost of §R0.5%§! decrease on nominal GDP Growth.\n\nThis policy is at [?central_bank_effectiveness_3|%Y0] effectiveness, producing [?central_bank_power_display|%G0] extra £tt_power §YGrid Power§! (£tt_power §Y[?central_bank_power]§!), and costing §R[?central_bank_effectiveness_3_gdp_cost_display|2]%§! GDP growth. It will improve over time reaching its best effects §W10§! months after it was enacted.§!"
+Central_Bank_Policy_3_tt: "§F§G25.0%§! increase of our total £tt_power §YGrid Power§!, and a §G10%§! increase to our Production Output, Growth, and Cap. at the cost of §R1%§! decrease on nominal GDP Growth.\n\nThis policy is at [?central_bank_effectiveness_3|%Y0] effectiveness, producing [?central_bank_power_display|%G0] extra £tt_power §YGrid Power§! (£tt_power §Y[?central_bank_power]§!), and costing §R[?central_bank_effectiveness_3_gdp_cost_display|2]%§! GDP growth. It will improve over time reaching its best effects §W4§! months after it was enacted.§!"
 
 has_spare_money_tt: "We have enough reserves for this investment."
 no_spare_money_tt: "We do not have enough reserves for this investment."
