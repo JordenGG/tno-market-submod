@@ -85,7 +85,7 @@ inflation_rate_modifier = {
 
 inflation_rate_modifier_factor = {
 	color_type = good
-	value_type = number
+	value_type = percentage
 	precision = 3
 	category = country
 }
