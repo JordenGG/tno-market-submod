@@ -79,6 +79,21 @@ inflation_rate_modifier = {
 	category = country
 }
 
+
+
+#Econ submod: makes inflation trend less up
+
+inflation_rate_modifier_factor = {
+	color_type = good
+	value_type = number
+	precision = 3
+	category = country
+}
+
+
+
+
+
 interest_rate_modifier = { #additive
 	color_type = bad
 	value_type = percentage_in_hundred
