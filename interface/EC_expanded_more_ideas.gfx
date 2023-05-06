@@ -1,0 +1,12 @@
+spriteTypes = {
+ 
+
+
+#Economy submod
+
+ spriteType = {
+		name = "GFX_idea_monaco_benefits"
+		texturefile = "gfx/interface/ideas/national_spirits/idea_monaco_benefits.dds"
+	}
+	
+	}
