@@ -81,7 +81,7 @@ inflation_rate_modifier = {
 
 
 
-#Econ submod: makes inflation trend less up
+#Econ submod: makes inflation trend less up (100% doesnt mean inflation wont change)
 
 inflation_rate_modifier_factor = {
 	color_type = good
