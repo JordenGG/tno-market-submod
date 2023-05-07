@@ -17,7 +17,7 @@ add_ideas = {
 	MOC_rainier_reform
 	MOC_italian_oversight
 	TRI_Member_Client
-	sphere_hoster
+	#sphere_hoster
 
 	### Minister ###
 	MOC_Pierre_Voizard_hog

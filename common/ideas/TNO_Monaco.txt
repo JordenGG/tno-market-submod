@@ -44,7 +44,7 @@ ideas = {
 				always = yes
 			}
 			removal_cost = -1
-			picture = MOC_Rainiers_Reformism
+			picture = monaco_benefits
 			modifier = {
 				political_power_gain = 0.5
 			}
