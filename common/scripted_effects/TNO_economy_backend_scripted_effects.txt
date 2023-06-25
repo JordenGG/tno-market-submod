@@ -5857,20 +5857,19 @@ if = {
       limit = { 
         check_variable = { inflation_cycling_random_element > 0 }
       }
-      subtract_temp_variable = { inflation_growth_modifier = @inflation_rate_modifier_factor } 
+      subtract_from_variable = { inflation_growth_modifier = modifier@inflation_rate_modifier_factor } 
      multiply_temp_variable = { inflation_cycling_random_element = inflation_growth_modifier }
 
 }
 
-add_to_variable = { inflation_cycling_effect = inflation_cycling_random_element }
-
-
-
-
+multiply_temp_variable = { inflation_cycling_effect = inflation_cycling_random_element }
 
 
 
 }
+
+
+
 
 
 monthly_GDP_growth_state = {
