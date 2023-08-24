@@ -1551,10 +1551,7 @@ shared_focus = {
 		}
 		if = {
 			limit = { has_dlc = "La Resistance" }
-			create_intelligence_agency = {
-				name = "Reichsnachrichtendienst"
-				icon = "GFX_intelligence_agency_logo_rnd"
-			}
+			create_intelligence_agency = yes
 		}
 	}
 	ai_will_do = {
@@ -2545,7 +2542,6 @@ shared_focus = {
 		add_political_power = -25
 		TNO_improve_immigration_policy_effectiveness_low = yes
 		TNO_improve_trade_laws_policy_effectiveness_low = yes
-
 	}
 }
 
@@ -2746,7 +2742,7 @@ shared_focus = {
 			hidden_effect = {
 				remove_ideas = Pakt_Autonomous_Reichskommissariat
 			}
-			add_ideas = Pakt_Bundnispartner
+			add_ideas = Pakt_Mitstreiter
 		}
 		GER = { 
 			add_to_faction = NOR
@@ -2762,11 +2758,6 @@ shared_focus = {
 	id = GER_the_northern_question
 	icon = GFX_generic_norway_nazi
 	allow_branch = {
-		NOT = { has_country_flag = SGR_phase2 }
-		has_country_flag = SGR_NOR_tree2
-	}
-
-	bypass = {
 		NOT = { has_country_flag = SGR_phase2 }
 		has_country_flag = SGR_NOR_tree2
 	}
@@ -2940,37 +2931,11 @@ shared_focus = {
 
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus GER_back_into_the_pakt"
-		if = {
-			limit = { NOR = { has_government = despotism } }
-			add_to_faction = NOR
-		}
-		else_if = {
-			limit = { NOR = { has_government = fascism } }
-			NOR = { save_party_popularities = yes }
-			set_autonomy = {
-				target = NOR
-				autonomy_state = autonomy_collaborator_puppet_state
-			}
-			NOR = { apply_party_popularities = yes }
-		}
-		else_if = {
-			limit = { NOR = { has_government = national_socialism } }
-			NOR = { save_party_popularities = yes }
-			set_autonomy = {
-				target = NOR
-				autonomy_state = autonomy_collaborator_puppet_state
-			}
-			hidden_effect = {
-				NOR = {
-					apply_party_popularities = yes
-					set_politics = { ruling_party = national_socialism }
-				}
-			}
-		}
+		add_to_faction = NOR
 		NOR = {
 			join_zollverein = yes
 			remove_faction_status = yes
-			add_ideas = Pakt_Bundnispartner
+			add_ideas = Pakt_Mitstreiter
 		}
 	}
 }
@@ -4284,7 +4249,6 @@ shared_focus = {
 	id = GER_the_southern_war
 	icon = GFX_GER_the_southern_war
 	allow_branch = {
-		NOT = { has_country_flag = SGR_phase2 }
 		OR = {
 			has_global_flag = south_african_war
 			has_country_flag = SGR_SAF_debug
@@ -6441,6 +6405,16 @@ shared_focus = {
 	x = 80
 	y = 0
 
+	allow_branch = {
+		NOT = { has_global_flag = SGR_natsoc_collapse }
+		OR = {
+			has_country_flag = SGR_phase2
+			has_country_flag = SGR_Slave_Revolt_Concluded
+		}
+		NOT = {
+			has_country_flag = SGR_phase3
+		}
+	}
 	bypass = { always = no }
 
 	completion_reward = {
@@ -6869,6 +6843,7 @@ shared_focus = {
 		TNO_improve_admin_efficiency_high = yes
 		hidden_effect = {
 			every_country = {
+				limit = { is_ai = no }
 				news_event = { id = WORLD_REICH.206 }
 			}
 		}
@@ -7093,6 +7068,7 @@ shared_focus = {
 		TNO_improve_admin_efficiency_high = yes
 		hidden_effect = {
 			every_country = {
+				limit = { is_ai = no }
 				news_event = { id = WORLD_REICH.207 }
 			}
 		}
@@ -7975,14 +7951,12 @@ shared_focus = {
 		increase_reformist_leaning_small = yes
 		add_regime_stab_small = yes
 		add_political_power = 50
-
-
 		hidden_effect = {
 			every_country = {
-				news_event = {id = WORLD_REICH.222}
+				limit = { is_ai = no }
+				news_event = { id = WORLD_REICH.222 }
 			}
 		}
-
 	}
 }
 
@@ -8167,10 +8141,9 @@ shared_focus = {
 		TNO_change_tension = yes
 		hidden_effect = {
 			country_event = { id = SPEERUSA.28 days = 5 }
-
-
 			every_country = {
-				news_event = {id = WORLD_REICH.223}
+				limit = { is_ai = no }
+				news_event = { id = WORLD_REICH.223 }
 			}
 		}
 	}
@@ -8286,7 +8259,8 @@ shared_focus = {
 			set_country_flag = SGR_US_major_embargo_lifted
 
 			every_country = {
-				news_event = {id = WORLD_REICH.226}
+				limit = { is_ai = no }
+				news_event = { id = WORLD_REICH.226 }
 			}
 
 			USA = {
@@ -8668,9 +8642,9 @@ shared_focus = {
 			set_temp_variable = { temp_modifier = 100 }
 			USA = { add_to_trade_modifier_PREV = yes }
 			every_country = {
-				news_event = {id = WORLD_REICH.226}
+				limit = { is_ai = no }
+				news_event = { id = WORLD_REICH.226} 
 			}
-
 
 			USA = {
 				set_temp_variable = { gdp_growth_temp = 0.8 }
@@ -9321,7 +9295,8 @@ shared_focus = {
 
 		hidden_effect = {
 			every_country = {
-				news_event = {id = WORLD_REICH.231}
+				limit = { is_ai = no }
+				news_event = { id = WORLD_REICH.231 }
 			}
 		}
 	}
@@ -9441,11 +9416,10 @@ shared_focus = {
 		TNO_change_tension = yes
 		hidden_effect = {
 			every_country = {
-				news_event = {id = WORLD_REICH.225}
+				limit = { is_ai = no }
+				news_event = { id = WORLD_REICH.225 }
 			}
 		}
-
-
 	}
 }
 
@@ -9550,11 +9524,10 @@ shared_focus = {
 		increase_conservative_leaning_small = yes
 		add_regime_stab_small = yes
 
-
-
 		hidden_effect = {
 			every_country = {
-				news_event = {id = WORLD_REICH.226}
+				limit = { is_ai = no }
+				news_event = { id = WORLD_REICH.226 }
 			}
 		}
 	}
@@ -9610,11 +9583,10 @@ shared_focus = {
 		increase_reformist_leaning_small = yes
 		add_regime_stab_small = yes
 
-
-
 		hidden_effect = {
 			every_country = {
-				news_event = {id = WORLD_REICH.226}
+				limit = { is_ai = no }
+				news_event = { id = WORLD_REICH.226 }
 			}
 		}
 	}
@@ -9983,14 +9955,14 @@ shared_focus = {
 		}
 		hidden_effect = {
 			every_country = {
-				news_event = {id = WORLD_REICH.230}
+				limit = { is_ai = no }
+				news_event = { id = WORLD_REICH.230 }
 			}
 		}
 		add_to_variable = {
 			SGR_deficit_offset = 0.55
 		}
 	}
-
 }
 
 
@@ -10235,13 +10207,13 @@ shared_focus = {
 		}
 		hidden_effect = {
 			every_country = {
-				news_event = {id = WORLD_REICH.229}
+				limit = { is_ai = no }
+				news_event = { id = WORLD_REICH.229 }
 			}
 		}
 		add_to_variable = {
 			SGR_deficit_offset = 0.55
 		}
-
 	}
 }
 
@@ -10331,6 +10303,7 @@ shared_focus = {
 		increase_conservative_leaning_small = yes
 		hidden_effect = {
 			every_country = {
+				limit = { is_ai = no }
 				news_event = {
 					id = WORLD_REICH.233
 				}
@@ -10410,6 +10383,7 @@ shared_focus = {
 		TNO_worsen_trade_laws_policy_effectiveness_low = yes
 		hidden_effect = {
 			every_country = {
+				limit = { is_ai = no }
 				news_event = {
 					id = WORLD_REICH.234
 				}
@@ -13009,6 +12983,7 @@ shared_focus = {
 		add_ideas = GER_SGR_NetzRAM
 		hidden_effect = {
 			every_country = {
+				limit = { is_ai = no }
 				news_event = { id = WORLD_REICH.209 }
 			}
 		}

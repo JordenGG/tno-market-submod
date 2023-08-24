@@ -12,7 +12,7 @@ country_event = {
 	option = {
 		name = test.1.a
 		set_temp_variable = { temp_credit_rating = 10 }
-			set_temp_variable = { temp_credit_rating_min = 10 }
+			set_temp_variable = { temp_credit_rating_min = 1 }
 			set_temp_variable = { temp_credit_rating_max = 10 }
 			econ_initialize_credit_rating_system = yes
 					custom_effect_tooltip = SGR_credit_rating_rise

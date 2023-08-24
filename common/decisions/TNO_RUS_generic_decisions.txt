@@ -1494,7 +1494,7 @@ far_east_naval_category = {
 		}
 
 		remove_effect = {
-			set_temp_variable = { money_reserves_temp = 0.029 }
+			set_temp_variable = { money_reserves_temp = 0.05 }
 			econ_money_reserves_change_raw_money = yes
 		}
 	}
@@ -1512,6 +1512,15 @@ far_east_naval_category = {
 		days_re_enable = 30
 
 
+			available = {
+			has_equipment = {
+    convoy_1  > 49
+}
+
+}
+	
+
+
 
 		complete_effect = {
 			add_equipment_to_stockpile = {
@@ -1521,7 +1530,7 @@ far_east_naval_category = {
 		}
 
 		remove_effect = {
-			set_temp_variable = { money_reserves_temp = 0.163 }
+			set_temp_variable = { money_reserves_temp = 0.2 }
 			econ_money_reserves_change_raw_money = yes
 		}
 	}
@@ -1551,7 +1560,7 @@ far_east_naval_category = {
 		}
 
 		remove_effect = {
-			set_temp_variable = { money_reserves_temp = 0.326 }
+			set_temp_variable = { money_reserves_temp = 0.35 }
 			econ_money_reserves_change_raw_money = yes
 		}
 	}
