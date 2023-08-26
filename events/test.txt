@@ -21,3 +21,26 @@ country_event = {
 	}
 
 
+
+
+
+	country_event = { #fix speer
+	id = test.2
+	title = test.2.t
+	desc = test.2.d
+	picture = GFX_report_event_generic_rally
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = test.2.a
+		SGR_OC_economic_upgrade = yes
+SGR_OC_stab_decrease_factor = yes
+					custom_effect_tooltip = SGR_OC_improvement_condition_tt
+	}
+
+	}
+
+
+
