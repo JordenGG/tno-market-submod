@@ -1975,6 +1975,12 @@ Econ_Subtype_Colonial_Economy_Planned: "Centralized Colonial Economy"
 Econ_Subtype_Colonial_Economy_Planned_desc: "A colonial economy is a system propped up and constructed by a colonizing country to serve its interests. While the exact balance of civilian and military economic interests varies, the system's goal above all else is to sack and plunder the colony, to extract and export as many resources as possible to the colonizing nation.\n\nWhile some colonies may be more autonomous in their economic structure, this particular system is highly centralized. All economic decisions are determined either by a local colonial authority, or directly by the overlord nation themselves. In these systems, the economy is planned from top to bottom to ensure that as many resources as possible are exported as efficiently as possible."
 Econ_Subtype_Colonial_Economy_Planned_change_tt: "Our economy will change to the §YCentralized Colonial Economy§!."
 
+
+Econ_Subtype_Gelenkte_Wirtschaft: "Gelenkte Wirtschaft"
+Econ_Subtype_Gelenkte_Wirtschaft_desc: "Much like Italian Fascism, German National Socialism is organized around a system of corporations, on which German society bases itself. Finding its roots in the Volksgemeinschaft, or "people's community", it pairs workers and bosses alike into different corporations depending on their professional occupation, organized on a racial basis, and promotes class cooperation as the best way for a strong state."
+Econ_Subtype_Gelenkte_Wirtschaft_change_tt: "Our economy will change to §YGelenkte Wirtschaft§!."
+
+
 econ_help_x_t: "[GetEconHelpTitle]"
 econ_help_0_t: "£tt_prod_unit Production Units"
 econ_help_1_t: "Central Bank"
