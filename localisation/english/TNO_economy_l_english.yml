@@ -1,5 +1,58 @@
 ﻿l_english:
 
+
+#econ expanded changes
+
+
+
+TNO_GER_ladder_10: "§GKeine Besorgnis (10)§! with effects:\n  Debt Ceiling: §GUnlimited§!\n  Interest Rates: §Y[?1.5|=]%§!\n  Effect of debt on Interest Rates: [?-0.9|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0.25|%-=] \n  Effect of Deficit on PP gain: [?0.15|%-=] \n  §YTrade deal opinion factor§!: [?0.5|%+]"
+TNO_GER_ladder_9: "§GKeine Besorgnis (9)§! with effects:\n  Debt Ceiling: [?2.5|%+=]\n  Interest Rates: §Y[?1.7|=]%§!\n  Effect of debt on Interest Rates: [?-0.8|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0.15|%-=] \n  Effect of Deficit on PP gain: [?0.1|%-=] \n  §YTrade deal opinion factor§!: [?0.3|%+]"
+TNO_GER_ladder_8: "§GKeine Besorgnis (8)§! with effects:\n  Debt Ceiling: [?2|%+=]\n  Interest Rates: §Y[?2.3|=]%§!\n  Effect of debt on Interest Rates: [?-0.6|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0.1|%-=] \n  Effect of Deficit on PP gain: [?0.05|%-=] \n  §YTrade deal opinion factor§!: [?0.15|%+]"
+TNO_GER_ladder_7: "§YKeine Besorgnis (7)§! with effects:\n  Debt Ceiling: [?1.75|%+=]\n  Interest Rates: §Y[?3.3|=]%§!\n  Effect of debt on Interest Rates: [?-0.4|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0.05|%-=] \n  Effect of Deficit on PP gain: [?0|%-=] \n  §YTrade deal opinion factor§!: [?0.1|%+]"
+TNO_GER_ladder_6: "§YVorsicht (6)§! with effects:\n  Debt Ceiling: [?1.5|%+=]\n  Interest Rates: §Y[?4.7|=]%§!\n  Effect of debt on Interest Rates: [?-0.2|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0|%-=] \n  Effect of Deficit on PP gain: [?-0.2|%-=] \n  §YTrade deal opinion factor§!: [?0|%+]"
+TNO_GER_ladder_5: "§YVorsicht (5)§! with effects:\n  Debt Ceiling: [?1.4|%+=]\n  Interest Rates: §Y[?6.5|=]%§!\n  Effect of debt on Interest Rates: [?0|%-]\n  Stability: [?0|%+]\n  Effect of debt on GDP growth: [?-0.1|%-=] \n  Effect of Deficit on PP gain: [?-0.4|%-=] \n  §YTrade deal opinion factor§!: [?-0.1|%+]"
+TNO_GER_ladder_4: "§OGroße Vorsicht (4)§! with effects:\n  Debt Ceiling: [?1.3|%+=]\n  Interest Rates: §Y[?8.7|=]%§!\n  Effect of debt on Interest Rates: [?0.2|%-]\n  Stability: [?-0.05|%+]\n  Effect of debt on GDP growth: [?-0.2|%-=] \n  Effect of Deficit on PP gain: [?-0.6|%-=] \n  §YTrade deal opinion factor§!: [?-0.25|%+]"
+TNO_GER_ladder_3: "§OGefährdet (3)§! with effects:\n  Debt Ceiling: [?1.2|%+=]\n  Interest Rates: §Y[?11.3|=]%§!\n  Effect of debt on Interest Rates: [?0.35|%-]\n  Stability: [?-0.075|%+]\n  Effect of debt on GDP growth: [?-0.3|%-=] \n  Effect of Deficit on PP gain: [?-0.7|%-=] \n  §YTrade deal opinion factor§!: [?-0.5|%+]"
+TNO_GER_ladder_2: "§ODrohende Insolvenz (2)§! with effects:\n  Debt Ceiling: [?1.1|%+=]\n  Interest Rates: §Y[?14.3|=]%§!\n  Effect of debt on Interest Rates: [?0.5|%-]\n  Stability: [?-0.1|%+]\n  Effect of debt on GDP growth: [?-0.4|%-=] \n  Effect of Deficit on PP gain: [?-0.8|%-=] \n  §YTrade deal opinion factor§!: [?-0.75|%+]"
+TNO_GER_ladder_1: "§RInsolvenz (1) DEFAULT§! with effects:\n  Debt Ceiling: [?1|%+=]\n  Interest Rates: §Y[?25|=]%§!\n  Effect of debt on Interest Rates: [?1|%-]\n  Stability: [?-0.2|%+]\n  Effect of debt on GDP growth: [?-0.5|%-=] \n  Effect of Deficit on PP gain: [?-0.9|%-=] \n  §YTrade deal opinion factor§!: [?-1|%+]"
+
+TNO_JAP_sphere_credit_loc: "[GetJAPCreditRatingLoc]"
+TNO_JAP_ladder_10: "Credit rating §GSeijyo-saki S-1§! with effects:\n  Debt Ceiling: §GUnlimited§!\n  Interest Rates: §Y[?1.5|=]%§!\n  Effect of debt on Interest Rates: [?-0.9|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0.25|%-=] \n  Effect of Deficit on PP gain: [?0.15|%-=] \n  §YTrade deal opinion factor§!: [?0.5|%+]"
+TNO_JAP_ladder_9: "Credit rating §GSeijyo-saki S-2§! with effects:\n  Debt Ceiling: [?2.5|%+=]\n  Interest Rates: §Y[?1.7|=]%§!\n  Effect of debt on Interest Rates: [?-0.8|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0.15|%-=] \n  Effect of Deficit on PP gain: [?0.1|%-=] \n  §YTrade deal opinion factor§!: [?0.3|%+]"
+TNO_JAP_ladder_8: "Credit rating §GSeijyo-saki S-3§! with effects:\n  Debt Ceiling: [?2|%+=]\n  Interest Rates: §Y[?2.3|=]%§!\n  Effect of debt on Interest Rates: [?-0.6|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0.1|%-=] \n  Effect of Deficit on PP gain: [?0.05|%-=] \n  §YTrade deal opinion factor§!: [?0.15|%+]"
+TNO_JAP_ladder_7: "Credit rating §YSeijyo-saki S-4§! with effects:\n  Debt Ceiling: [?1.75|%+=]\n  Interest Rates: §Y[?3.3|=]%§!\n  Effect of debt on Interest Rates: [?-0.4|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0.05|%-=] \n  Effect of Deficit on PP gain: [?0|%-=] \n  §YTrade deal opinion factor§!: [?0.1|%+]"
+TNO_JAP_ladder_6: "Credit rating §YYo-Chui Saki YC-1§! with effects:\n  Debt Ceiling: [?1.5|%+=]\n  Interest Rates: §Y[?4.7|=]%§!\n  Effect of debt on Interest Rates: [?-0.2|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0|%-=] \n  Effect of Deficit on PP gain: [?-0.2|%-=] \n  §YTrade deal opinion factor§!: [?0|%+]"
+TNO_JAP_ladder_5: "Credit rating §YYo-Chui Saki YC-2§! with effects:\n  Debt Ceiling: [?1.4|%+=]\n  Interest Rates: §Y[?6.5|=]%§!\n  Effect of debt on Interest Rates: [?0|%-]\n  Stability: [?0|%+]\n  Effect of debt on GDP growth: [?-0.1|%-=] \n  Effect of Deficit on PP gain: [?-0.4|%-=] \n  §YTrade deal opinion factor§!: [?-0.1|%+]"
+TNO_JAP_ladder_4: "Credit rating §OYo-Kanri Saki YK§! with effects:\n  Debt Ceiling: [?1.3|%+=]\n  Interest Rates: §Y[?8.7|=]%§!\n  Effect of debt on Interest Rates: [?0.2|%-]\n  Stability: [?-0.05|%+]\n  Effect of debt on GDP growth: [?-0.2|%-=] \n  Effect of Deficit on PP gain: [?-0.6|%-=] \n  §YTrade deal opinion factor§!: [?-0.25|%+]"
+TNO_JAP_ladder_3: "Credit rating §OHatan Kenen Saki HK§! with effects:\n  Debt Ceiling: [?1.2|%+=]\n  Interest Rates: §Y[?11.3|=]%§!\n  Effect of debt on Interest Rates: [?0.35|%-]\n  Stability: [?-0.075|%+]\n  Effect of debt on GDP growth: [?-0.3|%-=]\n  Effect of Deficit on PP gain: [?-0.7|%-=] \n  §YTrade deal opinion factor§!: [?-0.5|%+]"
+TNO_JAP_ladder_2: "Credit rating §OJisshitsu-Hatan Saki JH§! with effects:\n  Debt Ceiling: [?1.1|%+=]\n  Interest Rates: §Y[?14.3|=]%§!\n  Effect of debt on Interest Rates: [?0.5|%-]\n  Stability: [?-0.1|%+]\n  Effect of debt on GDP growth: [?-0.4|%-=] \n  Effect of Deficit on PP gain: [?-0.8|%-=] \n  §YTrade deal opinion factor§!: [?-0.75|%+]"
+TNO_JAP_ladder_1: "Credit rating §RHatan-saki D (DEFAULT)§! with effects:\n  Debt Ceiling: [?1|%+=]\n  Interest Rates: §Y[?25|=]%§!\n  Effect of debt on Interest Rates: [?1|%-]\n  Stability: [?-0.2|%+]\n  Effect of debt on GDP growth: [?-0.5|%-=] \n  Effect of Deficit on PP gain: [?-0.9|%-=] \n  §YTrade deal opinion factor§!: [?-0.1|%+]"
+TNO_ITA_sphere_credit_loc: "[GetITACreditRatingLoc]"
+
+TNO_USA_sphere_credit_loc: "[GetUSACreditRatingLoc]"
+TNO_USA_ladder_10: "Credit rating §GAAA§! with effects:\n  Debt Ceiling: §GUnlimited§!\n  Interest Rates: §Y[?1.5|=]%§!\n  Effect of debt on Interest Rates: [?-0.9|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0.25|%-=] \n  Effect of Deficit on PP gain: [?0.15|%-=] \n  §YTrade deal opinion factor§!: [?0.5|%+]"
+TNO_USA_ladder_9: "Credit rating §GAA§! with effects:\n  Debt Ceiling: [?2.5|%+=]\n  Interest Rates: §Y[?1.7|=]%§!\n  Effect of debt on Interest Rates: [?-0.8|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0.15|%-=] \n  Effect of Deficit on PP gain: [?0.1|%-=] \n  §YTrade deal opinion factor§!: [?0.3|%+]"
+TNO_USA_ladder_8: "Credit rating §GA§! with effects:\n  Debt Ceiling: [?2|%+=]\n  Interest Rates: §Y[?2.2|=]%§!\n  Effect of debt on Interest Rates: [?-0.6|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0.1|%-=] \n  Effect of Deficit on PP gain: [?0.05|%-=] \n  §YTrade deal opinion factor§!: [?0.15|%+]"
+TNO_USA_ladder_7: "Credit rating §YBBB§! with effects:\n  Debt Ceiling: [?1.75|%+=]\n  Interest Rates: §Y[?3.0|=]%§!\n  Effect of debt on Interest Rates: [?-0.4|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0.05|%-=] \n  Effect of Deficit on PP gain: [?0|%-=] \n  §YTrade deal opinion factor§!: [?0.1|%+]"
+TNO_USA_ladder_6: "Credit rating §YBB§! with effects:\n  Debt Ceiling: [?1.5|%+=]\n  Interest Rates: §Y[?4.27|=]%§!\n  Effect of debt on Interest Rates: [?-0.2|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0|%-=] \n  Effect of Deficit on PP gain: [?-0.2|%-=] \n  §YTrade deal opinion factor§!: [?0|%+]"
+TNO_USA_ladder_5: "Credit rating §YB§! with effects:\n  Debt Ceiling: [?1.4|%+=]\n  Interest Rates: §Y[?5.8|=]%§!\n  Effect of debt on Interest Rates: [?0|%-]\n  Stability: [?0|%+]\n  Effect of debt on GDP growth: [?-0.1|%-=] \n  Effect of Deficit on PP gain: [?-0.4|%-=] \n  §YTrade deal opinion factor§!: [?-0.1|%+]"
+TNO_USA_ladder_4: "Credit rating §OCCC§! with effects:\n  Debt Ceiling: [?1.3|%+=]\n  Interest Rates: §Y[?7.6|=]%§!\n  Effect of debt on Interest Rates: [?0.2|%-]\n  Stability: [?-0.05|%+]\n  Effect of debt on GDP growth: [?-0.2|%-=] \n  Effect of Deficit on PP gain: [?-0.6|%-=] \n  §YTrade deal opinion factor§!: [?-0.25|%+]"
+TNO_USA_ladder_3: "Credit rating §OCC§! with effects:\n  Debt Ceiling: [?1.2|%+=]\n  Interest Rates: §Y[?9.8|=]%§!\n  Effect of debt on Interest Rates: [?0.35|%-]\n  Stability: [?-0.075|%+]\n  Effect of debt on GDP growth: [?-0.3|%-=]\n  Effect of Deficit on PP gain: [?-0.7|%-=] \n  §YTrade deal opinion factor§!: [?-0.5|%+]"
+TNO_USA_ladder_2: "Credit rating §OC§! with effects:\n  Debt Ceiling: [?1.1|%+=]\n  Interest Rates: §Y[?12.4|=]%§!\n  Effect of debt on Interest Rates: [?0.5|%-]\n  Stability: [?-0.1|%+]\n  Effect of debt on GDP growth: [?-0.4|%-=] \n  Effect of Deficit on PP gain: [?-0.8|%-=] \n  §YTrade deal opinion factor§!: [?-0.75|%+]"
+TNO_USA_ladder_1: "Credit rating §RD (DEFAULT)§! with effects:\n  Debt Ceiling: [?1|%+=]\n  Interest Rates: §Y[?20|=]%§!\n  Effect of debt on Interest Rates: [?1|%-]\n  Stability: [?-0.2|%+]\n  Effect of debt on GDP growth: [?-0.5|%-=] \n  Effect of Deficit on PP gain: [?-0.9|%-=] \n  §YTrade deal opinion factor§!: [?-1|%+]"
+
+
+Central_Bank_Policy_3: "Power Things Up"
+Central_Bank_Policy_3_tt: "§F§G25.0%§! increase of our total £tt_power §YGrid Power§!, and a §G10%§! increase to our Production Output, Growth, and Cap. at the cost of §R1%§! decrease on nominal GDP Growth.\n\nThis policy is at [?central_bank_effectiveness_3|%Y0] effectiveness, producing [?central_bank_power_display|%G0] extra £tt_power §YGrid Power§! (£tt_power §Y[?central_bank_power]§!), and costing §R[?central_bank_effectiveness_3_gdp_cost_display|2]%§! GDP growth. It will improve over time reaching its best effects §W4§! months after it was enacted.§!"
+
+
+
+
+
+#TNO file
+
+
+
 economy_multiplicative_modifiers_base: "Base values"
 
 ### NEW NEW GUI ###
@@ -72,7 +125,7 @@ TNO_inflation_dynamic_modifier: "£inflation_texticon §RInflation§! Effect"
 
 real_GDP_growth_txt: "§GReal GDP Growth:§!"
 real_GDP_growth_txt_number: "§W[?GDP_growth_real|3]%§!"
-real_GDP_growth_tt: "This month, we expect to experience [?GDP_growth_real_monthly|+]% growth."
+real_GDP_growth_tt: "This month, we expect to experience [?GDP_growth_real_monthly|3+]% growth. Our actual growth the previous month was [?GDP_growth_real_monthly_from_state|3+]%."
 
 econ_deficit_monetization_txt: "§JMoney Creation:§!"
 econ_deficit_monetization_txt_number: "§W[?econ_deficit_monetization_slider_pct|2]%§!"
@@ -124,7 +177,7 @@ central_bank_rate_txt: "§kCent. Bank Rate:§!"
 central_bank_rate_txt_number: "§W[?central_bank_rates_display|2]%§!"
 central_bank_policy_title_txt: "Central Bank Policy"
 
-#econ expanded
+
 
  central_bank_policy_dynmod: "Central bank policy effects"
 
@@ -524,42 +577,6 @@ TNO_credit_long_tt_3: "Countries with a §OPoor§! credit rating are considered 
 TNO_credit_long_tt_2: "Countries with a §OTerrible§! credit rating are one step above default and have severe difficulty finding buyers for their debt."
 TNO_credit_long_tt_1: "Countries with a §RJunk§! credit rating are in §RDEFAULT§! and must negotiate with their creditors, mend their finances, and control their spending before they can exit sovereign default."
 TNO_GER_sphere_credit_loc: "[GetGERCreditRatingLoc]"
-TNO_GER_ladder_10: "§GKeine Besorgnis (10)§! with effects:\n  Debt Ceiling: §GUnlimited§!\n  Interest Rates: §Y[?1.5|=]%§!\n  Effect of debt on Interest Rates: [?-0.9|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0.25|%-=] \n  Effect of Deficit on PP gain: [?0.15|%-=] \n  §YTrade deal opinion factor§!: [?0.5|%+]"
-TNO_GER_ladder_9: "§GKeine Besorgnis (9)§! with effects:\n  Debt Ceiling: [?2.5|%+=]\n  Interest Rates: §Y[?1.7|=]%§!\n  Effect of debt on Interest Rates: [?-0.8|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0.15|%-=] \n  Effect of Deficit on PP gain: [?0.1|%-=] \n  §YTrade deal opinion factor§!: [?0.3|%+]"
-TNO_GER_ladder_8: "§GKeine Besorgnis (8)§! with effects:\n  Debt Ceiling: [?2|%+=]\n  Interest Rates: §Y[?2.3|=]%§!\n  Effect of debt on Interest Rates: [?-0.6|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0.1|%-=] \n  Effect of Deficit on PP gain: [?0.05|%-=] \n  §YTrade deal opinion factor§!: [?0.15|%+]"
-TNO_GER_ladder_7: "§YKeine Besorgnis (7)§! with effects:\n  Debt Ceiling: [?1.75|%+=]\n  Interest Rates: §Y[?3.3|=]%§!\n  Effect of debt on Interest Rates: [?-0.4|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0.05|%-=] \n  Effect of Deficit on PP gain: [?0|%-=] \n  §YTrade deal opinion factor§!: [?0.1|%+]"
-TNO_GER_ladder_6: "§YVorsicht (6)§! with effects:\n  Debt Ceiling: [?1.5|%+=]\n  Interest Rates: §Y[?4.7|=]%§!\n  Effect of debt on Interest Rates: [?-0.2|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0|%-=] \n  Effect of Deficit on PP gain: [?-0.2|%-=] \n  §YTrade deal opinion factor§!: [?0|%+]"
-TNO_GER_ladder_5: "§YVorsicht (5)§! with effects:\n  Debt Ceiling: [?1.4|%+=]\n  Interest Rates: §Y[?6.5|=]%§!\n  Effect of debt on Interest Rates: [?0|%-]\n  Stability: [?0|%+]\n  Effect of debt on GDP growth: [?-0.1|%-=] \n  Effect of Deficit on PP gain: [?-0.4|%-=] \n  §YTrade deal opinion factor§!: [?-0.1|%+]"
-TNO_GER_ladder_4: "§OGroße Vorsicht (4)§! with effects:\n  Debt Ceiling: [?1.3|%+=]\n  Interest Rates: §Y[?8.7|=]%§!\n  Effect of debt on Interest Rates: [?0.2|%-]\n  Stability: [?-0.05|%+]\n  Effect of debt on GDP growth: [?-0.2|%-=] \n  Effect of Deficit on PP gain: [?-0.6|%-=] \n  §YTrade deal opinion factor§!: [?-0.25|%+]"
-TNO_GER_ladder_3: "§OGefährdet (3)§! with effects:\n  Debt Ceiling: [?1.2|%+=]\n  Interest Rates: §Y[?11.3|=]%§!\n  Effect of debt on Interest Rates: [?0.35|%-]\n  Stability: [?-0.075|%+]\n  Effect of debt on GDP growth: [?-0.3|%-=] \n  Effect of Deficit on PP gain: [?-0.7|%-=] \n  §YTrade deal opinion factor§!: [?-0.5|%+]"
-TNO_GER_ladder_2: "§ODrohende Insolvenz (2)§! with effects:\n  Debt Ceiling: [?1.1|%+=]\n  Interest Rates: §Y[?14.3|=]%§!\n  Effect of debt on Interest Rates: [?0.5|%-]\n  Stability: [?-0.1|%+]\n  Effect of debt on GDP growth: [?-0.4|%-=] \n  Effect of Deficit on PP gain: [?-0.8|%-=] \n  §YTrade deal opinion factor§!: [?-0.75|%+]"
-TNO_GER_ladder_1: "§RInsolvenz (1) DEFAULT§! with effects:\n  Debt Ceiling: [?1|%+=]\n  Interest Rates: §Y[?25|=]%§!\n  Effect of debt on Interest Rates: [?1|%-]\n  Stability: [?-0.2|%+]\n  Effect of debt on GDP growth: [?-0.5|%-=] \n  Effect of Deficit on PP gain: [?-0.9|%-=] \n  §YTrade deal opinion factor§!: [?-1|%+]"
-
-TNO_JAP_sphere_credit_loc: "[GetJAPCreditRatingLoc]"
-TNO_JAP_ladder_10: "Credit rating §GSeijyo-saki S-1§! with effects:\n  Debt Ceiling: §GUnlimited§!\n  Interest Rates: §Y[?1.5|=]%§!\n  Effect of debt on Interest Rates: [?-0.9|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0.25|%-=] \n  Effect of Deficit on PP gain: [?0.15|%-=] \n  §YTrade deal opinion factor§!: [?0.5|%+]"
-TNO_JAP_ladder_9: "Credit rating §GSeijyo-saki S-2§! with effects:\n  Debt Ceiling: [?2.5|%+=]\n  Interest Rates: §Y[?1.7|=]%§!\n  Effect of debt on Interest Rates: [?-0.8|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0.15|%-=] \n  Effect of Deficit on PP gain: [?0.1|%-=] \n  §YTrade deal opinion factor§!: [?0.3|%+]"
-TNO_JAP_ladder_8: "Credit rating §GSeijyo-saki S-3§! with effects:\n  Debt Ceiling: [?2|%+=]\n  Interest Rates: §Y[?2.3|=]%§!\n  Effect of debt on Interest Rates: [?-0.6|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0.1|%-=] \n  Effect of Deficit on PP gain: [?0.05|%-=] \n  §YTrade deal opinion factor§!: [?0.15|%+]"
-TNO_JAP_ladder_7: "Credit rating §YSeijyo-saki S-4§! with effects:\n  Debt Ceiling: [?1.75|%+=]\n  Interest Rates: §Y[?3.3|=]%§!\n  Effect of debt on Interest Rates: [?-0.4|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0.05|%-=] \n  Effect of Deficit on PP gain: [?0|%-=] \n  §YTrade deal opinion factor§!: [?0.1|%+]"
-TNO_JAP_ladder_6: "Credit rating §YYo-Chui Saki YC-1§! with effects:\n  Debt Ceiling: [?1.5|%+=]\n  Interest Rates: §Y[?4.7|=]%§!\n  Effect of debt on Interest Rates: [?-0.2|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0|%-=] \n  Effect of Deficit on PP gain: [?-0.2|%-=] \n  §YTrade deal opinion factor§!: [?0|%+]"
-TNO_JAP_ladder_5: "Credit rating §YYo-Chui Saki YC-2§! with effects:\n  Debt Ceiling: [?1.4|%+=]\n  Interest Rates: §Y[?6.5|=]%§!\n  Effect of debt on Interest Rates: [?0|%-]\n  Stability: [?0|%+]\n  Effect of debt on GDP growth: [?-0.1|%-=] \n  Effect of Deficit on PP gain: [?-0.4|%-=] \n  §YTrade deal opinion factor§!: [?-0.1|%+]"
-TNO_JAP_ladder_4: "Credit rating §OYo-Kanri Saki YK§! with effects:\n  Debt Ceiling: [?1.3|%+=]\n  Interest Rates: §Y[?8.7|=]%§!\n  Effect of debt on Interest Rates: [?0.2|%-]\n  Stability: [?-0.05|%+]\n  Effect of debt on GDP growth: [?-0.2|%-=] \n  Effect of Deficit on PP gain: [?-0.6|%-=] \n  §YTrade deal opinion factor§!: [?-0.25|%+]"
-TNO_JAP_ladder_3: "Credit rating §OHatan Kenen Saki HK§! with effects:\n  Debt Ceiling: [?1.2|%+=]\n  Interest Rates: §Y[?11.3|=]%§!\n  Effect of debt on Interest Rates: [?0.35|%-]\n  Stability: [?-0.075|%+]\n  Effect of debt on GDP growth: [?-0.3|%-=]\n  Effect of Deficit on PP gain: [?-0.7|%-=] \n  §YTrade deal opinion factor§!: [?-0.5|%+]"
-TNO_JAP_ladder_2: "Credit rating §OJisshitsu-Hatan Saki JH§! with effects:\n  Debt Ceiling: [?1.1|%+=]\n  Interest Rates: §Y[?14.3|=]%§!\n  Effect of debt on Interest Rates: [?0.5|%-]\n  Stability: [?-0.1|%+]\n  Effect of debt on GDP growth: [?-0.4|%-=] \n  Effect of Deficit on PP gain: [?-0.8|%-=] \n  §YTrade deal opinion factor§!: [?-0.75|%+]"
-TNO_JAP_ladder_1: "Credit rating §RHatan-saki D (DEFAULT)§! with effects:\n  Debt Ceiling: [?1|%+=]\n  Interest Rates: §Y[?25|=]%§!\n  Effect of debt on Interest Rates: [?1|%-]\n  Stability: [?-0.2|%+]\n  Effect of debt on GDP growth: [?-0.5|%-=] \n  Effect of Deficit on PP gain: [?-0.9|%-=] \n  §YTrade deal opinion factor§!: [?-0.1|%+]"
-TNO_ITA_sphere_credit_loc: "[GetITACreditRatingLoc]"
-
-TNO_USA_sphere_credit_loc: "[GetUSACreditRatingLoc]"
-TNO_USA_ladder_10: "Credit rating §GAAA§! with effects:\n  Debt Ceiling: §GUnlimited§!\n  Interest Rates: §Y[?1.5|=]%§!\n  Effect of debt on Interest Rates: [?-0.9|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0.25|%-=] \n  Effect of Deficit on PP gain: [?0.15|%-=] \n  §YTrade deal opinion factor§!: [?0.5|%+]"
-TNO_USA_ladder_9: "Credit rating §GAA§! with effects:\n  Debt Ceiling: [?2.5|%+=]\n  Interest Rates: §Y[?1.7|=]%§!\n  Effect of debt on Interest Rates: [?-0.8|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0.15|%-=] \n  Effect of Deficit on PP gain: [?0.1|%-=] \n  §YTrade deal opinion factor§!: [?0.3|%+]"
-TNO_USA_ladder_8: "Credit rating §GA§! with effects:\n  Debt Ceiling: [?2|%+=]\n  Interest Rates: §Y[?2.2|=]%§!\n  Effect of debt on Interest Rates: [?-0.6|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0.1|%-=] \n  Effect of Deficit on PP gain: [?0.05|%-=] \n  §YTrade deal opinion factor§!: [?0.15|%+]"
-TNO_USA_ladder_7: "Credit rating §YBBB§! with effects:\n  Debt Ceiling: [?1.75|%+=]\n  Interest Rates: §Y[?3.0|=]%§!\n  Effect of debt on Interest Rates: [?-0.4|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0.05|%-=] \n  Effect of Deficit on PP gain: [?0|%-=] \n  §YTrade deal opinion factor§!: [?0.1|%+]"
-TNO_USA_ladder_6: "Credit rating §YBB§! with effects:\n  Debt Ceiling: [?1.5|%+=]\n  Interest Rates: §Y[?4.27|=]%§!\n  Effect of debt on Interest Rates: [?-0.2|%-]\n  Stability: [?0.05|%+]\n  Effect of debt on GDP growth: [?0|%-=] \n  Effect of Deficit on PP gain: [?-0.2|%-=] \n  §YTrade deal opinion factor§!: [?0|%+]"
-TNO_USA_ladder_5: "Credit rating §YB§! with effects:\n  Debt Ceiling: [?1.4|%+=]\n  Interest Rates: §Y[?5.8|=]%§!\n  Effect of debt on Interest Rates: [?0|%-]\n  Stability: [?0|%+]\n  Effect of debt on GDP growth: [?-0.1|%-=] \n  Effect of Deficit on PP gain: [?-0.4|%-=] \n  §YTrade deal opinion factor§!: [?-0.1|%+]"
-TNO_USA_ladder_4: "Credit rating §OCCC§! with effects:\n  Debt Ceiling: [?1.3|%+=]\n  Interest Rates: §Y[?7.6|=]%§!\n  Effect of debt on Interest Rates: [?0.2|%-]\n  Stability: [?-0.05|%+]\n  Effect of debt on GDP growth: [?-0.2|%-=] \n  Effect of Deficit on PP gain: [?-0.6|%-=] \n  §YTrade deal opinion factor§!: [?-0.25|%+]"
-TNO_USA_ladder_3: "Credit rating §OCC§! with effects:\n  Debt Ceiling: [?1.2|%+=]\n  Interest Rates: §Y[?9.8|=]%§!\n  Effect of debt on Interest Rates: [?0.35|%-]\n  Stability: [?-0.075|%+]\n  Effect of debt on GDP growth: [?-0.3|%-=]\n  Effect of Deficit on PP gain: [?-0.7|%-=] \n  §YTrade deal opinion factor§!: [?-0.5|%+]"
-TNO_USA_ladder_2: "Credit rating §OC§! with effects:\n  Debt Ceiling: [?1.1|%+=]\n  Interest Rates: §Y[?12.4|=]%§!\n  Effect of debt on Interest Rates: [?0.5|%-]\n  Stability: [?-0.1|%+]\n  Effect of debt on GDP growth: [?-0.4|%-=] \n  Effect of Deficit on PP gain: [?-0.8|%-=] \n  §YTrade deal opinion factor§!: [?-0.75|%+]"
-TNO_USA_ladder_1: "Credit rating §RD (DEFAULT)§! with effects:\n  Debt Ceiling: [?1|%+=]\n  Interest Rates: §Y[?20|=]%§!\n  Effect of debt on Interest Rates: [?1|%-]\n  Stability: [?-0.2|%+]\n  Effect of debt on GDP growth: [?-0.5|%-=] \n  Effect of Deficit on PP gain: [?-0.9|%-=] \n  §YTrade deal opinion factor§!: [?-1|%+]"
-
 credit_rating_bracket_tt: "[GetCreditRatingLocked]"
 
 credit_rating_tt_long: "[GetCreditRatingLocked]"
@@ -1785,8 +1802,6 @@ Central_Bank_Policy_1: "Count Our Pennies"
 Central_Bank_Policy_1_tt: "§F§G20%§! reduction of Base Inflation Rate, up to a §W3%§! total reduction.\n\nThis policy is at [?central_bank_effectiveness_1|%Y0] effectiveness, reducing inflation by §G[?suppresed_inflation]%§!. It will improve over time reaching its best effects §W10§! months after it was enacted.§!"
 Central_Bank_Policy_2: "Fight Poverty" #consider rename
 Central_Bank_Policy_2_tt: "§F§G0.10%§! monthly reduction of the national Poverty Rate, at the cost of §R0.5%§! decrease on nominal GDP Growth.\n\nThis policy is at [?central_bank_effectiveness_2|%Y0] effectiveness, decreasing poverty by §G[?central_bank_poverty_monthly_rate|2]%§! per month, and costing §R[?central_bank_effectiveness_2_gdp_cost_display|2]%§! GDP growth. It will improve over time reaching its best effects §W10§! months after it was enacted.§!"
-Central_Bank_Policy_3: "Power Things Up"
-Central_Bank_Policy_3_tt: "§F§G25.0%§! increase of our total £tt_power §YGrid Power§!, and a §G10%§! increase to our Production Output, Growth, and Cap. at the cost of §R1%§! decrease on nominal GDP Growth.\n\nThis policy is at [?central_bank_effectiveness_3|%Y0] effectiveness, producing [?central_bank_power_display|%G0] extra £tt_power §YGrid Power§! (£tt_power §Y[?central_bank_power]§!), and costing §R[?central_bank_effectiveness_3_gdp_cost_display|2]%§! GDP growth. It will improve over time reaching its best effects §W4§! months after it was enacted.§!"
 
 has_spare_money_tt: "We have enough reserves for this investment."
 no_spare_money_tt: "We do not have enough reserves for this investment."
