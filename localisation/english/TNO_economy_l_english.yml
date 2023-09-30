@@ -1922,9 +1922,9 @@ Econ_Subtype_Anarchic: "Anarchic"
 Econ_Subtype_Anarchic_desc: "In an anarchic territory, the state either doesn't exist, or is mainly influenced by small, local communities or villages. Large-scale monetary transactions are sparse, and there is no central authority or formal central bank to speak of. Such states of anarchy are generally attained after large-scale catastrophes, like wars or natural disasters."
 Econ_Subtype_Anarchic_change_tt: "Our economy will change to §YAnarchic§!."
 
-Econ_Subtype_Nazi_Corporatocracy: "National Socialist Corporatism"
-Econ_Subtype_Nazi_Corporatocracy_desc: "Much like Italian Fascism, German National Socialism is organized around a system of corporations, on which German society bases itself. Finding its roots in the Volksgemeinschaft, or "people's community", it pairs workers and bosses alike into different corporations depending on their professional occupation, organized on a racial basis, and promotes class cooperation as the best way for a strong state."
-Econ_Subtype_Nazi_Corporatocracy_change_tt: "Our economy will change to §YNational Socialist Corporatism§!."
+Econ_Subtype_Gelenkte_Wirtschaft: "Gelenkte Wirtschaft"
+Econ_Subtype_Gelenkte_Wirtschaft_desc: "Much like Italian Fascism, German National Socialism is organized around a system of corporations, on which German society bases itself. Finding its roots in the Volksgemeinschaft, or "people's community", it pairs workers and bosses alike into different corporations depending on their professional occupation, organized on a racial basis, and promotes class cooperation as the best way for a strong state."
+Econ_Subtype_Gelenkte_Wirtschaft_change_tt: "Our economy will change to §YGelenkte Wirtschaft§!."
 
 Econ_Subtype_Military_Directed: "Military Directed"
 Econ_Subtype_Military_Directed_desc: "In a military directed economy, the military controls the economy directly, with most if not all of the economic output being geared toward their goals. Most popular in stratocracies and military dictatorships of all stripes, it however tends to neglect the wellbeing of its citizens for the benefit of the army, as regimes using this economic system are more often than not of a quite nationalistic if not ultranationalist nature."
@@ -1995,10 +1995,10 @@ Econ_Subtype_Colonial_Economy_Planned_desc: "A colonial economy is a system prop
 Econ_Subtype_Colonial_Economy_Planned_change_tt: "Our economy will change to the §YCentralized Colonial Economy§!."
 
 
-Econ_Subtype_Gelenkte_Wirtschaft: "Gelenkte Wirtschaft"
-Econ_Subtype_Gelenkte_Wirtschaft_desc: "Much like Italian Fascism, German National Socialism is organized around a system of corporations, on which German society bases itself. Finding its roots in the Volksgemeinschaft, or "people's community", it pairs workers and bosses alike into different corporations depending on their professional occupation, organized on a racial basis, and promotes class cooperation as the best way for a strong state."
-Econ_Subtype_Gelenkte_Wirtschaft_change_tt: "Our economy will change to §YGelenkte Wirtschaft§!."
 
+Econ_Subtype_Crown_Credit_Corporatism: "Crown Credit"
+Econ_Subtype_Crown_Credit_Corporatism_desc: "Crown Credit, on its surface, is little different from Social Credit as proposed by CH Douglas. However, under close examination, Crown Credit is a far more uniquely English institution than Social Credit. It shares Douglas' analysis regarding banking being the source of all social ills, but takes it a step further than that - explicitly blaming Jewish people for what they see as a decline in the English stock and the decline in the English countryside, urbanisation to them being driven by Jewish banking interests.\n\nIt seeks to build a thriving rural market economy made up of small businesses that do not have the size or ability to cause much damage to the land. This unfortunately puts it into direct conflict with the German megacorporations, who are not eager to leave the countryside at the government's say so. Therefore the new economic model seeks to dislodge them by force, and reverse the trend of rural migration to urban areas by giving preferential treatment to English business in the countryside. Leading to these businesses being able to compete with the megacorporations, greater economic growth in the countryside - and hopefully a widespread move back to the green fields of England by the people."
+Econ_Subtype_Crown_Credit_Corporatism_change_tt: "Our economy will change to §YCrown Credit§!"
 
 econ_help_x_t: "[GetEconHelpTitle]"
 econ_help_0_t: "£tt_prod_unit Production Units"
